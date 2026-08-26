@@ -256,9 +256,12 @@
       "gmailThreadId": "1907cd5ce0b841df",
       "delivery": "Facture acquittée le 09/07/2024",
       "location": "",
-      "photos": [],
+      "photos": [
+        "2024-tajan-127.jpg"
+      ],
       "confidence": "confirme",
-      "notice": "Une gogotte est une concrétion de grès : dans les sables de Fontainebleau, déposés à l'Oligocène il y a 33 à 28 millions d'années, des eaux chargées de silice ont cimenté le sable par endroits, en formes molles, ramifiées, sans arêtes — des sculptures que personne n'a sculptées. Louis XIV en fit garnir les grottes et bassins de Versailles, ce qui leur vaut d'être recherchées depuis le XVIIe siècle ; les plus belles pièces sont aujourd'hui traitées comme des œuvres d'art abstraites. Celle-ci pèse 48,5 kg et repose sur un socle proportionné. Adjugée 26 000 € le 3 juillet 2024 chez Tajan, 34 112 € frais compris — sur une estimation de 10 000 à 20 000 €."
+      "notice": "Une gogotte est une concrétion de grès : dans les sables de Fontainebleau, déposés à l'Oligocène il y a 33 à 28 millions d'années, des eaux chargées de silice ont cimenté le sable par endroits, en formes molles, ramifiées, sans arêtes — des sculptures que personne n'a sculptées. Louis XIV en fit garnir les grottes et bassins de Versailles, ce qui leur vaut d'être recherchées depuis le XVIIe siècle ; les plus belles pièces sont aujourd'hui traitées comme des œuvres d'art abstraites. Celle-ci pèse 48,5 kg et repose sur un socle proportionné. Adjugée 26 000 € le 3 juillet 2024 chez Tajan, 34 112 € frais compris — sur une estimation de 10 000 à 20 000 €.",
+      "photoSource": "Google Drive — dossier ARTS"
     },
     {
       "id": "2024-tajan-75",
@@ -277,9 +280,13 @@
       "invoiceFile": "2024-tajan-facture.pdf",
       "gmailThreadId": "1907cd5ce0b841df",
       "location": "",
-      "photos": [],
+      "photos": [
+        "2024-tajan-75.jpg",
+        "2024-tajan-75-signature.jpg"
+      ],
       "confidence": "confirme",
-      "notice": "Rosa Bonheur (1822-1899) est la peintre animalière la plus célèbre du XIXe siècle : Le Marché aux chevaux la rend mondialement connue, elle obtient l'autorisation préfectorale de porter le pantalon pour fréquenter abattoirs et foires, et devient la première femme décorée de la Légion d'honneur au titre de son art. Elle a pratiqué la sculpture toute sa vie, d'abord comme étude préparatoire à la peinture — ses bronzes de bovins et d'ovins, édités pour la plupart après sa mort, en gardent la précision anatomique. Ce taureau en bronze à patine brune nuancée est signé « ROSA BONHEUR » sur la terrasse ; il mesure 40 cm de haut, la terrasse 37 × 16 cm. Adjugé 1 800 € le 3 juillet 2024, 2 361,60 € frais compris."
+      "notice": "Rosa Bonheur (1822-1899) est la peintre animalière la plus célèbre du XIXe siècle : Le Marché aux chevaux la rend mondialement connue, elle obtient l'autorisation préfectorale de porter le pantalon pour fréquenter abattoirs et foires, et devient la première femme décorée de la Légion d'honneur au titre de son art. Elle a pratiqué la sculpture toute sa vie, d'abord comme étude préparatoire à la peinture — ses bronzes de bovins et d'ovins, édités pour la plupart après sa mort, en gardent la précision anatomique. Ce taureau en bronze à patine brune nuancée est signé « ROSA BONHEUR » sur la terrasse ; il mesure 40 cm de haut, la terrasse 37 × 16 cm. Adjugé 1 800 € le 3 juillet 2024, 2 361,60 € frais compris.",
+      "photoSource": "Google Drive — dossier ARTS (vue d'ensemble et détail de la signature)"
     },
     {
       "id": "2024-bonino-ammonite",
@@ -320,9 +327,12 @@
       "gmailThreadId": "18f04d0d5fd88e10",
       "delivery": "Magasinage Drouot puis livraison Millon avenue de Messine en mai 2024",
       "location": "",
-      "photos": [],
+      "photos": [
+        "2024-millon-52.jpg"
+      ],
       "confidence": "confirme",
-      "notice": "Le lapis-lazuli n'est pas un minéral mais une roche, où la lazurite bleue se mêle à la calcite blanche et aux paillettes dorées de la pyrite — les « étoiles » du ciel nocturne des miniatures persanes. La quasi-totalité du lapis de qualité provient depuis sept mille ans d'un seul gisement, celui de Sar-e-Sang dans le Badakhshan afghan ; broyé, il donnait l'outremer, le pigment le plus cher de la peinture occidentale, réservé au manteau de la Vierge. Cette pièce brute présentée soclée mesure 53 cm de haut sur 25 de large et 8 d'épaisseur, pour 27 kg. Adjugée 3 600 € le 19 avril 2024 chez Millon, dans la vente Histoire Naturelle ; le bordereau, réglé les 23 et 24 avril, totalise 14 610 € avec la lionne, les frais, le magasinage Drouot et la livraison."
+      "notice": "Le lapis-lazuli n'est pas un minéral mais une roche, où la lazurite bleue se mêle à la calcite blanche et aux paillettes dorées de la pyrite — les « étoiles » du ciel nocturne des miniatures persanes. La quasi-totalité du lapis de qualité provient depuis sept mille ans d'un seul gisement, celui de Sar-e-Sang dans le Badakhshan afghan ; broyé, il donnait l'outremer, le pigment le plus cher de la peinture occidentale, réservé au manteau de la Vierge. Cette pièce brute présentée soclée mesure 53 cm de haut sur 25 de large et 8 d'épaisseur, pour 27 kg. Adjugée 3 600 € le 19 avril 2024 chez Millon, dans la vente Histoire Naturelle ; le bordereau, réglé les 23 et 24 avril, totalise 14 610 € avec la lionne, les frais, le magasinage Drouot et la livraison.",
+      "photoSource": "Google Drive — dossier ARTS"
     },
     {
       "id": "2024-millon-267",
