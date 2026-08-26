@@ -16,7 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 KEYS = ["id", "title", "category", "origin", "house", "city", "sale", "saleDate", "lot",
         "price", "currency", "priceNote", "invoiceRef", "invoiceNote", "delivery",
-        "confidence", "todo", "lotUrl", "invoiceFile", "notice", "photoSource"]
+        "confidence", "todo", "lotUrl", "invoiceFile", "notice", "photoSource", "science", "reports"]
 PHOTO_MAX = 1200
 PHOTO_QUALITY = 78
 

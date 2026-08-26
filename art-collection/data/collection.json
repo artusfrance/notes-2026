@@ -199,7 +199,7 @@
       "id": "2024-zacke-27298-162",
       "title": "Très grande figure d'Amida Nyorai en bois laqué et doré, période Muromachi",
       "category": "Sculpture",
-      "origin": "Japon, XVIe siècle (Muromachi, 1336-1573)",
+      "origin": "Japon — vendue comme période de Muromachi, XVIe siècle ; la datation carbone 14 du bois situe l'abattage de l'arbre entre 1030 et 1164, soit l'époque de Heian. Bois laqué et doré, H. 76 cm",
       "house": "Galerie Zacke",
       "city": "Vienne",
       "sale": "Fine Japanese Art (JPN1224) — offre après-vente",
@@ -214,8 +214,13 @@
       "delivery": "DHL 2295153895, expédiée le 16/12/2024 — pièce démontable en trois parties : figure, socle, dossier de trône",
       "location": "",
       "photos": [],
-      "confidence": "confirme",
-      "notice": "La pièce maîtresse de la collection. Amida Nyorai, le bouddha de la Lumière infinie, assis sur son trône, en bois laqué et doré, Japon, XVIe siècle, période de Muromachi (1336-1573) — la facture Zacke la qualifie d'« impressionnante et très grande ». La technique est celle du yosegi-zukuri : des blocs de cyprès hinoki évidés puis assemblés, ce qui limite les fentes du bois en séchant et allège la statue ; d'où le démontage en trois éléments annoncé pour l'expédition — la figure, le socle et le dossier de trône. Sur ce bois vient l'urushi, la laque, puis la feuille d'or (kinpaku), qui donne à la chair du bouddha son éclat surnaturel. Muromachi est l'époque où le culte de la Terre pure s'enracine dans toutes les couches de la société japonaise, après les prédications itinérantes d'Ippen et l'essor des écoles Jōdo. Achetée de gré à gré après la vente du 6 décembre 2024 : 28 000 € plus 8 400 € de frais, soit 36 400 €, réglés le 12 décembre ; expédiée en caisse le 16 décembre par DHL, transport 1 240 € et assurance 2 %."
+      "confidence": "a_verifier",
+      "notice": "La pièce maîtresse de la collection. Amida Nyorai, le bouddha de la Lumière infinie, assis sur son trône, en bois laqué et doré, H. 76 cm. La technique est celle du yosegi-zukuri : des blocs de cyprès hinoki évidés puis assemblés, ce qui limite les fentes du bois en séchant et allège la statue — d'où le démontage en trois éléments pour l'expédition, la figure, le socle et le dossier de trône. Sur ce bois vient l'urushi, la laque, puis la feuille d'or, qui donne à la chair du bouddha son éclat surnaturel.\n\nLe rapport scientifique CIRAM 0125-OA-036J déplace l'objet de quatre siècles. Le carbone 14 par spectrométrie de masse, sur un prélèvement de bois pris au bas du dos, donne un âge conventionnel de 943 ± 28 BP, soit des dates calibrées à deux sigmas de 1030 à 1164 avec une probabilité de 95,4 % : l'arbre a été abattu à l'époque de Heian, et non sous Muromachi comme l'indiquait la facture de vente. Le laboratoire enregistre d'ailleurs l'objet sous l'attribution présumée « Japon, période Heian, 11e-12e siècle » et conclut que le bois et le revêtement sont compatibles avec cette époque. L'analyse MEB-EDX de la laque, prélevée au genou gauche, révèle six couches : une préparation blanche, deux laques noires, une dorure à l'alliage or-cuivre — la couche originelle —, une préparation noire, enfin une bronzine, peinture aux copeaux de laiton dont l'usage ne commence qu'à la seconde moitié du XVIIIe siècle : c'est une restauration ancienne, non un état d'origine.\n\nSi la datation vaut pour la sculpture et non pour un remploi de bois ancien, la statue appartiendrait à la grande période du culte d'Amida, celle où le Byōdō-in d'Uji est élevé (1053) et où Jōchō fixe le canon de l'Amida assis. L'écart avec la description de vente mérite d'être porté à la galerie et à votre assureur.\n\nAchetée de gré à gré après la vente du 6 décembre 2024 : 28 000 € plus 8 400 € de frais, soit 36 400 €, réglés le 12 décembre ; expédiée en caisse le 16 décembre par DHL, transport 1 240 € et assurance 2 %.",
+      "reports": [
+        "2024-zacke-27298-162-CIRAM-0125-OA-036J-C14-MEB.pdf"
+      ],
+      "science": "Rapport CIRAM 0125-OA-036J (Martillac) : C14 par AMS sur un prélèvement de bois au bas du dos — âge conventionnel 943 ± 28 BP, dates calibrées à 2 σ 1030-1164 (95,4 %) ; MEB-EDX sur un prélèvement de laque au genou gauche — six couches, dorure or-cuivre originelle et bronzine de restauration postérieure à la seconde moitié du XVIIIe siècle. Conclusion du laboratoire : bois et revêtement compatibles avec l'époque présumée — Heian, XIe-XIIe siècle.",
+      "todo": "Écart d'attribution à trancher : facture Zacke « Muromachi, XVIe siècle » contre datation C14 « 1030-1164 ». À confirmer avec la galerie et l'expert."
     },
     {
       "id": "2024-zacke-27310",

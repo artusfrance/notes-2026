@@ -174,6 +174,7 @@ function openPanel(id) {
     ['Note facture', i.invoiceNote],
     ['Description', i.origin],
     ['Livraison', i.delivery],
+    ['Analyse scientifique', i.science],
     ['À faire', i.todo],
   ];
   rows.forEach(([k, v]) => {
@@ -197,6 +198,7 @@ function openPanel(id) {
     links.appendChild(a);
   };
   if (i.invoiceFile) link(`invoices/${i.invoiceFile}`, 'Ouvrir la facture (PDF) →');
+  (i.reports || []).forEach(r => link(`reports/${r}`, 'Ouvrir le rapport scientifique (PDF) →'));
   if (i.lotUrl) link(i.lotUrl, 'Voir la fiche du lot chez la maison de vente →');
   if (i.gmailThreadId) link(GMAIL(i.gmailThreadId), 'Ouvrir le fil Gmail →');
   body.appendChild(links);

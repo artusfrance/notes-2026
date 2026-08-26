@@ -97,4 +97,5 @@ button:hover { border-color: var(--accent); color: var(--accent); }
   font-size: 15px;
   line-height: 1.6;
   margin: 14px 0 0;
+  white-space: pre-line;
 }
