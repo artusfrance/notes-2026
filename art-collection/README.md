@@ -69,6 +69,13 @@ documents déjà présents dans le Drive.
 `data/collection.json` porte pour chaque entrée `driveFolderId`, `driveFolderName`
 et `driveUrl`, plus `meta.driveRoot` pour la racine.
 
-Les PDF de factures et le rapport CIRAM restent hébergés ici : leur versement
-dans Drive depuis une session Claude passerait par un encodage base64 de ~11 Mo,
-ce qui n'est pas praticable. Les fiches Drive pointent vers eux par lien.
+Les 30 PDF de factures ont été déposés dans Drive et répartis dans les dossiers
+d'objets : original dans le dossier du premier lot, copie dans les autres quand
+une même facture couvre plusieurs lots (Tajan ET00095181, Millon 3067-46,
+Millon Belgique 20097-208, Artcurial 91483, Millon A-1193-77).
+
+Six objets n'ont pas de facture, faute de document existant : Templum lot 379
+(à recevoir), Zacke 27310 (accessible par lien dans le mail du 10/12/2024),
+Eve lot 486, Le Floc'h 2022, Catawiki 2018 et Artcurial 2009 lot 56.
+
+Le rapport CIRAM reste hébergé ici : les fiches Drive y renvoient par lien.
