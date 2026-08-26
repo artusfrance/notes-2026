@@ -345,13 +345,13 @@
     },
     {
       "id": "2024-bonino-ammonite",
-      "title": "Ammonite fossile, provenance Canada",
+      "title": "Ammonite iridescente (ammolite), Placenticeras sp.",
       "category": "Histoire naturelle",
-      "origin": "Canada",
+      "origin": "Canada — Bearpaw Formation, St. Mary River, sud de l'Alberta",
       "house": "Claudia Bonino, Casa di Vendite",
       "city": "Rome — enlèvement à Vicence",
-      "sale": "Vente de juin 2024",
-      "saleDate": "2024-06-01",
+      "sale": "Vente du 29 mai 2024",
+      "saleDate": "2024-05-29",
       "currency": "EUR",
       "gmailThreadId": "1901cdfb00c69935",
       "delivery": "Licence d'exportation italienne, ThePackengers #9706694 — reçue le 14/10/2024 ; devis de soclage demandé en novembre 2024",
@@ -359,13 +359,18 @@
       "photos": [
         "2024-bonino-ammonite.jpg"
       ],
-      "confidence": "a_verifier",
-      "todo": "Aucune facture Bonino dans la boîte mail : montant et date de vente à retrouver.",
+      "confidence": "confirme",
       "photoSource": "Google Drive — dossier « ammonite »",
-      "notice": "Les ammonites sont des céphalopodes à coquille enroulée, cousins des nautiles et des calmars, apparus au Dévonien et éteints avec les dinosaures à la fin du Crétacé, il y a 66 millions d'années. Leur coquille en spirale logarithmique, cloisonnée en loges successives reliées par un siphon, servait de flotteur : c'est cette géométrie qui en a fait, bien avant la paléontologie, des objets de curiosité — les Anglais y voyaient des serpents pétrifiés. Celle-ci vient du Canada. Achetée en juin 2024 à la Casa di Vendite Claudia Bonino (Rome), elle a demandé une licence d'exportation italienne, obtenue après plusieurs mois : reçue le 14 octobre 2024, et un devis de soclage demandé dans la foulée. Ni montant ni numéro de lot ne figurent dans la messagerie.",
+      "notice": "Ammonite iridescente Placenticeras sp., coquille fossile d'environ 83,5 millions d'années, 36 × 30 × 4,5 cm. Extraite de la Bearpaw Formation, dans le sud de l'Alberta, aux abords de la St. Mary River. La fiche de la maison de vente précise l'état de conservation : support et surface à 80 %, avec lacunes, parties recomposées, consolidation par résines spéciales et traitement UV. Provenance : marché italien.\n\nLes ammonites sont des céphalopodes à coquille enroulée, cousins des nautiles et des calmars, apparus au Dévonien et éteints avec les dinosaures à la fin du Crétacé, il y a 66 millions d'années. Leur coquille en spirale logarithmique, cloisonnée en loges successives reliées par un siphon, servait de flotteur : c'est cette géométrie qui en a fait, bien avant la paléontologie, des objets de curiosité — les Anglais y voyaient des serpents pétrifiés.\n\nCelle-ci appartient à une catégorie très particulière. Le fossile date du Crétacé supérieur, étage campanien. Sa minéralisation en aragonite iridescente tient aux nombreuses couches de cendre volcanique — la bentonite — que l'on ne trouve que dans la stratification de la Bearpaw Formation. En 1981, la World Jewellery Confederation (CIBJO) et le Gemmological Institute of America ont reconnu à ces ammonites minéralisées, dites ammolites, le statut de gemme : leur poids se mesure en carats, comme celui des diamants. Elles sont pourtant bien plus rares — une tonne de sédiment extrait livre en moyenne 0,6 carat d'ammolite contre 1,5 carat de diamant.\n\nLes couleurs viennent de la réfraction de la lumière sur les différents niveaux du test aragonitique : chaque couche renvoie une teinte, l'ensemble couvrant presque tout le spectre visible. La maison de vente signale la rareté de tels spécimens même en collection publique, et cite le Museo Mineralogico Campano, qui conserve un exemplaire exceptionnel à réfraction bleue.\n\nAdjugée 20 000 € le 29 mai 2024 à la Casa di Vendite Claudia Bonino, sur une estimation de 20 000 à 30 000 € ; 27 232,16 € commissions comprises. L'export a demandé une licence italienne, obtenue après plusieurs mois : pièce reçue le 14 octobre 2024, devis de soclage demandé dans la foulée.",
       "driveFolderId": "1CZi7TOlMn2sktjt6DH2DWOCw-6VmUy9J",
       "driveFolderName": "13 - 2024-06 Claudia Bonino, Casa di Vendite - Ammonite fossile Canada",
-      "driveUrl": "https://drive.google.com/drive/folders/1CZi7TOlMn2sktjt6DH2DWOCw-6VmUy9J"
+      "driveUrl": "https://drive.google.com/drive/folders/1CZi7TOlMn2sktjt6DH2DWOCw-6VmUy9J",
+      "lot": "12",
+      "price": 20000,
+      "priceNote": "Adjugée 20 000 € sur une estimation de 20 000 à 30 000 € ; commissions 7 232,16 € TVA comprise ; total 27 232,16 € réglés par virement (Banca Sella).",
+      "invoiceRef": "Fattura FOSS1 1 du 03/06/2024 — réf. photo 24.03.07_foss_tb_bg_42",
+      "invoiceNote": "Facture non parvenue par mail : retrouvée dans Google Drive, dossier de l'objet.",
+      "science": "Crétacé supérieur, étage campanien, env. 83,5 Ma. 36 × 30 × 4,5 cm. État de conservation annoncé : support 80 %, surface 80 % — lacunes, parties recomposées, consolidation par résines spéciales et traitement UV."
     },
     {
       "id": "2024-millon-52",
