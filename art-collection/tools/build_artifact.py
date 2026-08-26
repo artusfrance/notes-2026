@@ -36,6 +36,22 @@ def photo_data_uri(name):
     return "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode()
 
 
+def page_data_uri(name):
+    """Page de rapport rendue en image, embarquée dans la page publiée."""
+    path = ROOT / "reports" / "pages" / name
+    if not path.exists():
+        return ""
+    return "data:image/jpeg;base64," + base64.b64encode(path.read_bytes()).decode()
+
+
+def report_payload(name):
+    """PDF complet, embarqué pour que le visiteur puisse l'enregistrer."""
+    path = ROOT / "reports" / name
+    if not path.exists():
+        return None
+    return {"name": name, "b64": base64.b64encode(path.read_bytes()).decode()}
+
+
 def main():
     out = Path(sys.argv[1])
     data = json.loads((ROOT / "data" / "collection.json").read_text())
@@ -49,6 +65,11 @@ def main():
         item["notes"] = src.get("notes", "")
         photos = src.get("photos") or []
         item["photo"] = photo_data_uri(photos[0]) if photos else ""
+        pages = src.get("reportPages") or []
+        item["reportPages"] = [page_data_uri(p) for p in pages]
+        reports = src.get("reports") or []
+        if reports:
+            item["reportFile"] = report_payload(reports[0])
         items.append(item)
 
     state = {"version": 1, "updated": data["meta"]["generated"], "items": items}
