@@ -210,7 +210,16 @@ footer p { margin: 0 0 8px; }
   .detail dl { grid-template-columns: 1fr; gap: 2px 0; }
   .detail dt { margin-top: 8px; }
 }
-</style>
+
+    .docs-block { margin-top: 14px; }
+    .docs-block h4 { margin: 0 0 6px; font-size: 13px; letter-spacing: .04em; text-transform: uppercase; opacity: .7; }
+    .docs { display: flex; flex-wrap: wrap; gap: 6px; }
+    .doc { display: inline-block; padding: 5px 10px; border: 1px solid var(--line); border-radius: 999px;
+           font-size: 13px; text-decoration: none; max-width: 100%; overflow: hidden;
+           text-overflow: ellipsis; white-space: nowrap; }
+    .doc:hover { border-color: var(--ink); }
+    .doc.primary { border-color: var(--ink); font-weight: 600; }
+  </style>
 
 <div class="wrap" id="shell">
   <header class="masthead">
@@ -551,9 +560,7 @@ footer p { margin: 0 0 8px; }
      ["Note de facture", i.invoiceNote],
      ["Description", i.origin && i.origin !== "—" ? i.origin : null],
      ["Livraison", i.delivery],
-     ["Facture PDF", i.invoiceFile ? i.invoiceFile + " (dépôt : art-collection/invoices/)" : null],
      ["Analyse scientifique", i.science],
-     ["Rapport", i.reports ? i.reports.join(", ") + " (dépôt : art-collection/reports/)" : null],
      ["À faire", i.todo]
     ].forEach(function (pair) {
       if (!pair[1] || pair[1] === "—") return;
@@ -561,6 +568,23 @@ footer p { margin: 0 0 8px; }
       dl.appendChild(el("dd", null, pair[1]));
     });
     d.appendChild(dl);
+
+    if (i.driveUrl || (i.driveDocs && i.driveDocs.length)) {
+      var docsWrap = el("div", "docs-block");
+      docsWrap.appendChild(el("h4", null, "Documents"));
+      var docs = el("div", "docs");
+      function doc(href, text, cls) {
+        var a = el("a", "doc" + (cls ? " " + cls : ""), text);
+        a.href = href;
+        a.target = "_blank";
+        a.rel = "noopener";
+        docs.appendChild(a);
+      }
+      if (i.driveUrl) doc(i.driveUrl, "Dossier Drive de l'objet →", "primary");
+      (i.driveDocs || []).forEach(function (f) { doc(f.url, f.kind + " · " + f.label, null); });
+      docsWrap.appendChild(docs);
+      d.appendChild(docsWrap);
+    }
 
     var links = el("div");
     links.style.display = "grid";
@@ -576,7 +600,7 @@ footer p { margin: 0 0 8px; }
     if (i.thread) link("https://mail.google.com/mail/u/0/#all/" + i.thread, "Ouvrir le fil Gmail →");
     d.appendChild(links);
 
-    if ((i.reportPages && i.reportPages.length) || i.reportFile) {
+    if ((i.reportPages && i.reportPages.length) || i.reportUrl) {
       var annexe = el("div", "annexe");
       annexe.appendChild(el("h4", null, "Rapport scientifique — pages annexées"));
       if (i.reportPages && i.reportPages.length) {
@@ -591,12 +615,13 @@ footer p { margin: 0 0 8px; }
         });
         annexe.appendChild(pages);
       }
-      if (i.reportFile && i.reportFile.b64) {
-        var row = el("div", "photo-row");
-        var dl = el("button", "ghost", "Enregistrer le rapport complet (PDF)");
-        dl.type = "button";
-        dl.addEventListener("click", function () { saveReport(i.reportFile, dl); });
-        row.appendChild(dl);
+      if (i.reportUrl) {
+        var row = el("div", "docs");
+        var ra = el("a", "doc", "Rapport complet (PDF) →");
+        ra.href = i.reportUrl;
+        ra.target = "_blank";
+        ra.rel = "noopener";
+        row.appendChild(ra);
         annexe.appendChild(row);
       }
       d.appendChild(annexe);
@@ -659,27 +684,6 @@ footer p { margin: 0 0 8px; }
   }
 
   var downloadsApi = null;
-
-  function saveReport(report, button) {
-    if (!downloadsApi) {
-      setStatus("Enregistrement de fichier indisponible dans cette vue — le PDF est dans le dépôt, sous art-collection/reports/", true);
-      return;
-    }
-    var bin = atob(report.b64);
-    var bytes = new Uint8Array(bin.length);
-    for (var k = 0; k < bin.length; k++) bytes[k] = bin.charCodeAt(k);
-    button.disabled = true;
-    downloadsApi.save({ filename: report.name, data: bytes.buffer }).then(function () {
-      setStatus("Rapport enregistré");
-      button.disabled = false;
-    }, function (err) {
-      var code = err && err.code;
-      if (code === "declined") setStatus("Enregistrement annulé");
-      else if (code === "extension_not_enabled") setStatus("Les PDF ne sont pas autorisés au téléchargement dans cette vue : les pages ci-dessus restent consultables", true);
-      else setStatus("Échec de l'enregistrement du rapport", true);
-      button.disabled = false;
-    });
-  }
 
   function shrink(file, done) {
     var reader = new FileReader();

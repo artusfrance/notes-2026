@@ -60,22 +60,34 @@ Les emplacements et notes saisis dans l'application sont enregistrés dans le
 
 ## Miroir Google Drive
 
-Le dossier Drive **ARTS** porte un sous-dossier par objet, numéroté de 01 à 42
-dans l'ordre chronologique inverse (`NN - AAAA-MM Maison lot X - Désignation`).
-Chacun contient une fiche Google Doc (identité, prix, référence de facture,
-livraison, emplacement, lien vers le PDF de la facture ici) et les photos ou
-documents déjà présents dans le Drive.
+Le dossier Drive **ARTS** porte un sous-dossier par objet, numéroté dans l'ordre
+chronologique inverse (`NN - AAAA-MM Maison lot X - Désignation`). Chacun contient
+une fiche Google Doc, la ou les factures, et les photos.
 
-`data/collection.json` porte pour chaque entrée `driveFolderId`, `driveFolderName`
-et `driveUrl`, plus `meta.driveRoot` pour la racine.
+`data/collection.json` porte pour chaque entrée `driveFolderId`, `driveFolderName`,
+`driveUrl` et `driveDocs` (la liste des pièces, avec leur lien direct), plus
+`meta.driveRoot` pour la racine.
 
-Les 30 PDF de factures ont été déposés dans Drive et répartis dans les dossiers
-d'objets : original dans le dossier du premier lot, copie dans les autres quand
-une même facture couvre plusieurs lots (Tajan ET00095181, Millon 3067-46,
-Millon Belgique 20097-208, Artcurial 91483, Millon A-1193-77).
+Les numéros suivent l'ordre chronologique : une date corrigée ou un objet inséré
+oblige à renuméroter les dossiers concernés. Le nom canonique est recalculé par le
+script de construction à partir de `saleDate`, `house`, `lot` et de la désignation
+courte conservée dans `driveFolderName`.
 
-Six objets n'ont pas de facture, faute de document existant : Templum lot 379
-(à recevoir), Zacke 27310 (accessible par lien dans le mail du 10/12/2024),
-Eve lot 486, Le Floc'h 2022, Catawiki 2018 et Artcurial 2009 lot 56.
+## Poids de la page publiée
 
-Le rapport CIRAM reste hébergé ici : les fiches Drive y renvoient par lien.
+La plateforme refuse une page de plus de 16 Mo et le gabarit refuse de se
+réenregistrer au-delà de 12 Mo. `tools/build_artifact.py` vise nettement en
+dessous :
+
+- **rien n'est embarqué qui puisse être lié.** Factures, rapports et catalogues
+  vivent dans Drive ou dans ce dépôt ; la fiche porte des liens. Sortir le PDF du
+  rapport CIRAM a rendu 2,3 Mo à lui seul.
+- **les photos s'adaptent.** Le script essaie les paliers de `PRESETS`, du plus
+  généreux (1200 px, qualité 78) au plus économe (600 px, qualité 60), et retient
+  le premier dont le total tient dans `PHOTO_BUDGET` (6 Mo). La page rétrécit donc
+  d'elle-même à mesure que la collection grandit, sans intervention.
+- **la construction échoue** si la page dépasse `HARD_LIMIT` (11 Mo), et prévient
+  au-delà de `WARN_LIMIT` (8 Mo). Chaque construction annonce la marge restante
+  en nombre de photos.
+
+Au 26 août 2026 : 42 entrées, 3,6 Mo, 18 photos, 55 documents liés.
