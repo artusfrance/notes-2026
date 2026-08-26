@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Collection — inventaire</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div>
+    <h1>Collection</h1>
+    <p class="sub" id="summary">Chargement…</p>
+  </div>
+  <div class="actions">
+    <button id="export" type="button">Exporter emplacements (JSON)</button>
+  </div>
+</header>
+
+<section class="filters">
+  <input id="q" type="search" placeholder="Rechercher (titre, maison, vente, lot…)" autocomplete="off">
+  <select id="house"><option value="">Toutes les maisons</option></select>
+  <select id="category"><option value="">Toutes les catégories</option></select>
+  <select id="year"><option value="">Toutes les années</option></select>
+  <select id="room"><option value="">Tous les emplacements</option></select>
+</section>
+
+<main id="grid" class="grid"></main>
+
+<div id="empty" class="empty" hidden>Aucune œuvre ne correspond à ces filtres.</div>
+
+<aside id="panel" class="panel" hidden>
+  <button class="close" id="close" type="button" aria-label="Fermer">×</button>
+  <div id="panelBody"></div>
+</aside>
+<div id="scrim" class="scrim" hidden></div>
+
+<script src="app.js"></script>
+</body>
+</html>
