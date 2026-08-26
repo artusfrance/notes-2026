@@ -5,7 +5,12 @@
     "source": "Reconstitution à partir des e-mails Gmail : factures et bordereaux d'adjudication (PDF versés dans art-collection/invoices/), notifications d'adjudication et correspondance avec les transporteurs.",
     "caveat": "Les descriptions et les prix proviennent des factures elles-mêmes lorsque le PDF a pu être lu. Les entrées confidence=\"a_verifier\" restent incomplètes : facture sans détail de lot (Galerie Zacke facture en ligne) ou pièce jointe absente.",
     "defaultAddress": "20 avenue de Messine, 75008 Paris (3e étage)",
-    "photos": "Photos reprises du Google Drive de la collection (dossiers UMA, AMIDA NYORAI ZACKE, LOT 99, KIRIN, Garuda, grues, abie loy, ammonite) et versées dans photos/<id>.jpg. Les sites des maisons de vente restent inaccessibles depuis la session."
+    "photos": "Photos reprises du Google Drive de la collection (dossiers UMA, AMIDA NYORAI ZACKE, LOT 99, KIRIN, Garuda, grues, abie loy, ammonite) et versées dans photos/<id>.jpg. Les sites des maisons de vente restent inaccessibles depuis la session.",
+    "driveRoot": {
+      "name": "ARTS",
+      "id": "1krrkkFuFjZp9ZWjHlyFtyUF-O72BjQyv",
+      "url": "https://drive.google.com/drive/folders/1krrkkFuFjZp9ZWjHlyFtyUF-O72BjQyv"
+    }
   },
   "items": [
     {
@@ -28,7 +33,10 @@
       "confidence": "a_verifier",
       "todo": "Facture Templum à recevoir, puis vérifier le montant final et organiser le transport.",
       "notice": "Grande tête de Bouddha en bronze, Cambodge, XVIIe siècle, 45 × 18 × 20 cm, donnée pour provenir d'une collection privée de Barcelone constituée avant 1970 — une provenance ancienne qui compte particulièrement pour l'art khmer, la convention de l'UNESCO de 1970 servant de ligne de partage pour la licéité des objets en circulation. La photographie montre un visage aux paupières baissées et au sourire retenu, les cheveux en petites boucles serrées, l'ushnisha surmontée d'une flamme — le rasmi, symbole de l'illumination, propre aux bronzes d'Asie du Sud-Est après Angkor — et de longs lobes d'oreilles distendus, souvenir des lourdes boucles du prince Siddhartha avant son renoncement. La dorure ne subsiste que par plaques sur le front et les joues. Le XVIIe siècle cambodgien appartient à la période post-angkorienne : les grands chantiers de pierre ont cessé, les ateliers travaillent le bronze et le bois pour les monastères theravāda, dans un style plus doux, aux traits arrondis, hérité d'Ayutthaya autant que d'Angkor. Adjugée 6 000 € le 26 août 2026 chez Templum Fine Art Auction, via Drouot ; l'annonce est faite sous réserve de confirmation et la facture n'est pas encore arrivée.",
-      "photoSource": "Google Drive — dossier « tete de bouddha »"
+      "photoSource": "Google Drive — dossier « tete de bouddha »",
+      "driveFolderId": "1snyqRvIVU4SDxaOgt8YVwTfZ41X0AUfJ",
+      "driveFolderName": "01 - 2026-08 Templum Fine Art Auction lot 379 - Tete de Bouddha bronze dore",
+      "driveUrl": "https://drive.google.com/drive/folders/1snyqRvIVU4SDxaOgt8YVwTfZ41X0AUfJ"
     },
     {
       "id": "2026-zacke-35280-925",
@@ -53,7 +61,10 @@
       "confidence": "confirme",
       "priceNote": "Adjugée 10 000 € + 3 000 € de frais. La facture 35280 totalise 14 300 € pour les lots 925 et 1150, réglés le 23/07/2026.",
       "photoSource": "Google Drive — dossier de la collection",
-      "notice": "Amida Nyorai — Amitābha, le bouddha de la Lumière et de la Vie infinies — règne sur la Terre pure de l'Ouest, Sukhāvatī : à qui invoque son nom au moment de mourir, il promet d'y renaître. C'est le bouddha le plus représenté de la sculpture japonaise. Celui-ci date du XIIIe siècle, période de Kamakura, le grand moment de la statuaire japonaise : l'école Kei, autour d'Unkei et Kaikei, y impose un naturalisme neuf, servi par la technique du yosegi-zukuri — des blocs de bois évidés puis assemblés, qui empêchent les fentes au séchage et allègent la figure. C'est aussi le siècle où Hōnen et Shinran font du nembutsu, l'invocation d'Amida, une pratique accessible à tous, hors des monastères. Adjugée 10 000 € le 21 juillet 2026 dans la vente The Beauty of Japan ; livrée avenue de Messine le 25 août 2026."
+      "notice": "Amida Nyorai — Amitābha, le bouddha de la Lumière et de la Vie infinies — règne sur la Terre pure de l'Ouest, Sukhāvatī : à qui invoque son nom au moment de mourir, il promet d'y renaître. C'est le bouddha le plus représenté de la sculpture japonaise. Celui-ci date du XIIIe siècle, période de Kamakura, le grand moment de la statuaire japonaise : l'école Kei, autour d'Unkei et Kaikei, y impose un naturalisme neuf, servi par la technique du yosegi-zukuri — des blocs de bois évidés puis assemblés, qui empêchent les fentes au séchage et allègent la figure. C'est aussi le siècle où Hōnen et Shinran font du nembutsu, l'invocation d'Amida, une pratique accessible à tous, hors des monastères. Adjugée 10 000 € le 21 juillet 2026 dans la vente The Beauty of Japan ; livrée avenue de Messine le 25 août 2026.",
+      "driveFolderId": "12kbxk-nbDlrsAWUkSPzqYnpGSmYBxPbq",
+      "driveFolderName": "02 - 2026-07 Galerie Zacke lot 925 - Amida Nyorai bois Kamakura",
+      "driveUrl": "https://drive.google.com/drive/folders/12kbxk-nbDlrsAWUkSPzqYnpGSmYBxPbq"
     },
     {
       "id": "2026-zacke-35280-1150",
@@ -74,7 +85,10 @@
       "location": "",
       "photos": [],
       "confidence": "confirme",
-      "notice": "Peinture en rouleau (kakemono) à suspendre dans le tokonoma et à changer au fil des saisons — un intérieur japonais ne montre qu'une œuvre à la fois. Encre, aquarelle et gouache sur soie, fin de l'époque d'Edo à Meiji, XIXe siècle. Le sujet relève du kachōga, le genre « fleurs et oiseaux » venu de Chine : le magnolia, qui fleurit avant d'avoir ses feuilles, y annonce le printemps ; les martins apportent la note vivante et familière qu'affectionne ce répertoire. Adjugée 1 000 € le 21 juillet 2026, sur la même facture que l'Amida de Kamakura."
+      "notice": "Peinture en rouleau (kakemono) à suspendre dans le tokonoma et à changer au fil des saisons — un intérieur japonais ne montre qu'une œuvre à la fois. Encre, aquarelle et gouache sur soie, fin de l'époque d'Edo à Meiji, XIXe siècle. Le sujet relève du kachōga, le genre « fleurs et oiseaux » venu de Chine : le magnolia, qui fleurit avant d'avoir ses feuilles, y annonce le printemps ; les martins apportent la note vivante et familière qu'affectionne ce répertoire. Adjugée 1 000 € le 21 juillet 2026, sur la même facture que l'Amida de Kamakura.",
+      "driveFolderId": "1z7xg13AzsMcJiokiWhi1xMQXk73MH7Dk",
+      "driveFolderName": "03 - 2026-07 Galerie Zacke lot 1150 - Rouleau magnolia et martins",
+      "driveUrl": "https://drive.google.com/drive/folders/1z7xg13AzsMcJiokiWhi1xMQXk73MH7Dk"
     },
     {
       "id": "2026-zacke-35233-429",
@@ -98,7 +112,10 @@
       ],
       "confidence": "confirme",
       "photoSource": "Google Drive — dossier de la collection",
-      "notice": "Umā est le nom sanskrit de Pārvatī, l'épouse de Shiva ; l'art khmer lui donne une stabilité royale. Elle se tient ici debout, de face, sans hanchement (samabhanga) : le long sampot strié, noué sur le devant, forme une base en colonne dont le pli central s'achève en queue de poisson, tandis que la poitrine nue, la taille prise et les hanches larges disent la fécondité. Le sculpteur joue des horizontales — bandeaux du diadème, ligne du front, bord de la jupe — contre les verticales du nez, des plis et des pendeloques de ceinture. Le style du Bakheng est celui du règne de Yasovarman Ier (889-910), nommé d'après son temple d'État près d'Angkor : le premier style pleinement angkorien, entre les traditions préangkoriennes et le classicisme monumental qui suivra. H. 111 cm, 116 avec le socle. Provenance : collection privée de Marie Louise Alexienne Vanleew (1929-2024), Belgique, puis par descendance à son petit-fils. La galerie cite deux comparables de musée — Smithsonian, National Museum of Asian Art (S1987.909, 124,2 cm) et Asian Art Museum de San Francisco (B68S19, vers 890-925) — et deux résultats de vente très proches, Christie's New York 2011 (98 500 USD) et Christie's Amsterdam 2002 (71 700 €), tous deux pour des figures plus petites. Achetée de gré à gré après vente le 15 juillet 2026 pour 11 800 € frais compris."
+      "notice": "Umā est le nom sanskrit de Pārvatī, l'épouse de Shiva ; l'art khmer lui donne une stabilité royale. Elle se tient ici debout, de face, sans hanchement (samabhanga) : le long sampot strié, noué sur le devant, forme une base en colonne dont le pli central s'achève en queue de poisson, tandis que la poitrine nue, la taille prise et les hanches larges disent la fécondité. Le sculpteur joue des horizontales — bandeaux du diadème, ligne du front, bord de la jupe — contre les verticales du nez, des plis et des pendeloques de ceinture. Le style du Bakheng est celui du règne de Yasovarman Ier (889-910), nommé d'après son temple d'État près d'Angkor : le premier style pleinement angkorien, entre les traditions préangkoriennes et le classicisme monumental qui suivra. H. 111 cm, 116 avec le socle. Provenance : collection privée de Marie Louise Alexienne Vanleew (1929-2024), Belgique, puis par descendance à son petit-fils. La galerie cite deux comparables de musée — Smithsonian, National Museum of Asian Art (S1987.909, 124,2 cm) et Asian Art Museum de San Francisco (B68S19, vers 890-925) — et deux résultats de vente très proches, Christie's New York 2011 (98 500 USD) et Christie's Amsterdam 2002 (71 700 €), tous deux pour des figures plus petites. Achetée de gré à gré après vente le 15 juillet 2026 pour 11 800 € frais compris.",
+      "driveFolderId": "1058KtNNiZSKP5eCAMqHJz075l6CrmyYc",
+      "driveFolderName": "04 - 2026-07 Galerie Zacke lot 429 - Uma en gres Angkor",
+      "driveUrl": "https://drive.google.com/drive/folders/1058KtNNiZSKP5eCAMqHJz075l6CrmyYc"
     },
     {
       "id": "2026-elstob-560",
@@ -121,7 +138,10 @@
       ],
       "confidence": "confirme",
       "photoSource": "Google Drive — dossier de la collection",
-      "notice": "La grue (tsuru) est, avec la tortue, l'emblème japonais de la longévité : on lui prête mille ans de vie, d'où le senbazuru, les mille grues de papier qui valent un vœu. Le thème, hérité des grands paravents de l'école Rinpa, se prête à la composition foisonnante — une nuée d'oiseaux au-dessus d'un paysage de rivière, chacun dans une attitude différente. La peinture est signée et porte un cachet rouge ; elle est encadrée sous verre, 151 × 67 cm, époque d'Edo. Adjugée 300 £ le 15 juillet 2026 à Ripon, dans le Yorkshire — 395,40 £ frais compris."
+      "notice": "La grue (tsuru) est, avec la tortue, l'emblème japonais de la longévité : on lui prête mille ans de vie, d'où le senbazuru, les mille grues de papier qui valent un vœu. Le thème, hérité des grands paravents de l'école Rinpa, se prête à la composition foisonnante — une nuée d'oiseaux au-dessus d'un paysage de rivière, chacun dans une attitude différente. La peinture est signée et porte un cachet rouge ; elle est encadrée sous verre, 151 × 67 cm, époque d'Edo. Adjugée 300 £ le 15 juillet 2026 à Ripon, dans le Yorkshire — 395,40 £ frais compris.",
+      "driveFolderId": "1S4JHa6l1tPyQgalneW5Z2WqgA_3ih1Xx",
+      "driveFolderName": "05 - 2026-07 Elstob Auctioneers lot 560 - Peinture aux mille grues",
+      "driveUrl": "https://drive.google.com/drive/folders/1S4JHa6l1tPyQgalneW5Z2WqgA_3ih1Xx"
     },
     {
       "id": "2026-nagel-157",
@@ -146,7 +166,10 @@
       ],
       "confidence": "confirme",
       "photoSource": "Google Drive — dossier de la collection",
-      "notice": "Le kirin est la version japonaise du qilin chinois, créature composite — corps de cervidé couvert d'écailles, sabots, queue de bœuf, une ou deux cornes — que la tradition dit si douce qu'elle marche sans écraser un brin d'herbe. Son apparition annonce le règne d'un souverain vertueux ou la naissance d'un sage : d'où sa place, par paires affrontées, à l'entrée des demeures et des temples. Il s'agit ici d'une paire de grands kirin en porcelaine à émail brun clair tirant vers le beige, japonais ; la facture Nagel ne précise pas l'époque, que la notice du catalogue permettra de rétablir. Adjugés 2 400 € le 13 juillet 2026 à Stuttgart, dans la vente Beaux-arts asiatiques I."
+      "notice": "Le kirin est la version japonaise du qilin chinois, créature composite — corps de cervidé couvert d'écailles, sabots, queue de bœuf, une ou deux cornes — que la tradition dit si douce qu'elle marche sans écraser un brin d'herbe. Son apparition annonce le règne d'un souverain vertueux ou la naissance d'un sage : d'où sa place, par paires affrontées, à l'entrée des demeures et des temples. Il s'agit ici d'une paire de grands kirin en porcelaine à émail brun clair tirant vers le beige, japonais ; la facture Nagel ne précise pas l'époque, que la notice du catalogue permettra de rétablir. Adjugés 2 400 € le 13 juillet 2026 à Stuttgart, dans la vente Beaux-arts asiatiques I.",
+      "driveFolderId": "1tLdYEhuB1xIgY08UaVFIDy7J3oqjSpVz",
+      "driveFolderName": "06 - 2026-07 Nagel Auktionen lot 157 - Paire de kirin en porcelaine",
+      "driveUrl": "https://drive.google.com/drive/folders/1tLdYEhuB1xIgY08UaVFIDy7J3oqjSpVz"
     },
     {
       "id": "2026-hardt-332",
@@ -169,7 +192,10 @@
       ],
       "confidence": "confirme",
       "photoSource": "Google Drive — dossier de la collection",
-      "notice": "Garuda, l'homme-oiseau, est la monture (vāhana) de Vishnou et l'ennemi héréditaire des nāga, les serpents. Au Népal, où le vishnouisme est ancien, on le représente agenouillé, les mains jointes en añjali, tourné vers le sanctuaire de Vishnou-Narayan qu'il fait face : la statue de Changu Narayan, la plus célèbre, donne le modèle du type. Le bronze népalais est coulé à la cire perdue par les artisans newar de la vallée de Katmandou, dont la réputation s'étendait jusqu'au Tibet. La description de Hardt indique un Garuda à genoux du XVIIIe siècle, haut de 35,5 cm sur 26 de large. Adjugé 700 € le 11 juillet 2026."
+      "notice": "Garuda, l'homme-oiseau, est la monture (vāhana) de Vishnou et l'ennemi héréditaire des nāga, les serpents. Au Népal, où le vishnouisme est ancien, on le représente agenouillé, les mains jointes en añjali, tourné vers le sanctuaire de Vishnou-Narayan qu'il fait face : la statue de Changu Narayan, la plus célèbre, donne le modèle du type. Le bronze népalais est coulé à la cire perdue par les artisans newar de la vallée de Katmandou, dont la réputation s'étendait jusqu'au Tibet. La description de Hardt indique un Garuda à genoux du XVIIIe siècle, haut de 35,5 cm sur 26 de large. Adjugé 700 € le 11 juillet 2026.",
+      "driveFolderId": "1qar8S1kVQ5XpQcI8j0lkRf2K-IeEb6om",
+      "driveFolderName": "07 - 2026-07 Hardt Auctions lot 332 - Garuda en bronze Nepal",
+      "driveUrl": "https://drive.google.com/drive/folders/1qar8S1kVQ5XpQcI8j0lkRf2K-IeEb6om"
     },
     {
       "id": "2026-zacke-34668-99",
@@ -193,7 +219,10 @@
       ],
       "confidence": "confirme",
       "photoSource": "Google Drive — dossier de la collection",
-      "notice": "Une peinture bouddhique du début de l'époque d'Edo, XVIIe-XVIIIe siècle : un buste colossal et doré d'Amida Nyorai émergeant de nuages tourbillonnants, encre, aquarelle, gouache et or sur papier, monté sur brocart de soie. Le visage serein aux yeux mi-clos, l'urna au front, l'ushnisha bombée aux boucles bleues d'où jaillit un ratna, le halo rayonnant : toute l'iconographie canonique est là. À droite, l'inscription 無量寿如来尊像 — Muryōju Nyorai sonzō, « image vénérable du Bouddha de Vie infinie ». L'image relève du type dit « Amida franchissant les montagnes » (Yamagoshi Amida), où le bouddha se hâte vers le mourant, surgissant d'une crête ou, comme ici, d'un banc de nuages ; le motif remonte à l'époque de Kamakura. Provenance : collection du Dr Helmut Ploog (1940-2024), Munich, graphologue réputé et collectionneur d'art asiatique, qui légua plusieurs sculptures khmères au Weltmuseum de Vienne ; par descendance. Comparables au musée national de Nara (réf. 1523-0, Muromachi) et au Penn Museum (29-198-4, Edo, XVIIIe). Image 66 × 46,3 cm, 104 × 64,5 cm avec le cadre. Adjugée 3 200 € le 12 juin 2026 sur une estimation de 4 000 €."
+      "notice": "Une peinture bouddhique du début de l'époque d'Edo, XVIIe-XVIIIe siècle : un buste colossal et doré d'Amida Nyorai émergeant de nuages tourbillonnants, encre, aquarelle, gouache et or sur papier, monté sur brocart de soie. Le visage serein aux yeux mi-clos, l'urna au front, l'ushnisha bombée aux boucles bleues d'où jaillit un ratna, le halo rayonnant : toute l'iconographie canonique est là. À droite, l'inscription 無量寿如来尊像 — Muryōju Nyorai sonzō, « image vénérable du Bouddha de Vie infinie ». L'image relève du type dit « Amida franchissant les montagnes » (Yamagoshi Amida), où le bouddha se hâte vers le mourant, surgissant d'une crête ou, comme ici, d'un banc de nuages ; le motif remonte à l'époque de Kamakura. Provenance : collection du Dr Helmut Ploog (1940-2024), Munich, graphologue réputé et collectionneur d'art asiatique, qui légua plusieurs sculptures khmères au Weltmuseum de Vienne ; par descendance. Comparables au musée national de Nara (réf. 1523-0, Muromachi) et au Penn Museum (29-198-4, Edo, XVIIIe). Image 66 × 46,3 cm, 104 × 64,5 cm avec le cadre. Adjugée 3 200 € le 12 juin 2026 sur une estimation de 4 000 €.",
+      "driveFolderId": "1IjMpR-YMUeOKWmt79PS-9NSZIeUQO2h7",
+      "driveFolderName": "08 - 2026-06 Galerie Zacke lot 99 - Amida Nyorai parmi les nuages",
+      "driveUrl": "https://drive.google.com/drive/folders/1IjMpR-YMUeOKWmt79PS-9NSZIeUQO2h7"
     },
     {
       "id": "2024-zacke-27298-162",
@@ -229,7 +258,10 @@
         "ciram-0125-OA-036J-p4.jpg",
         "ciram-0125-OA-036J-p6.jpg",
         "ciram-0125-OA-036J-p8.jpg"
-      ]
+      ],
+      "driveFolderId": "1LD5vVsEj_EY-e1OEwGCtAmeIHp1cFcvo",
+      "driveFolderName": "09 - 2024-12 Galerie Zacke lot 162 - Grand Amida Nyorai bois laque",
+      "driveUrl": "https://drive.google.com/drive/folders/1LD5vVsEj_EY-e1OEwGCtAmeIHp1cFcvo"
     },
     {
       "id": "2024-zacke-27310",
@@ -249,7 +281,10 @@
       "photos": [],
       "confidence": "a_verifier",
       "todo": "Facture Zacke accessible uniquement par lien : ouvrir le mail du 10/12/2024.",
-      "notice": "Facture 27310 : 1 968 € réglés le 12 décembre 2024, en même temps que le grand Amida de Muromachi, pour un ou plusieurs lots de la vente Fine Japanese Art du 6 décembre 2024. La Galerie Zacke facture par lien vers son extranet plutôt qu'en pièce jointe : c'est la seule facture Zacke dont le détail manque encore, les autres ayant été retrouvées sur le Drive de la collection."
+      "notice": "Facture 27310 : 1 968 € réglés le 12 décembre 2024, en même temps que le grand Amida de Muromachi, pour un ou plusieurs lots de la vente Fine Japanese Art du 6 décembre 2024. La Galerie Zacke facture par lien vers son extranet plutôt qu'en pièce jointe : c'est la seule facture Zacke dont le détail manque encore, les autres ayant été retrouvées sur le Drive de la collection.",
+      "driveFolderId": "1YxAIBw8pb04CBDiP3nWmUZIqLLP7qaal",
+      "driveFolderName": "10 - 2024-12 Galerie Zacke - Lot complementaire Zacke",
+      "driveUrl": "https://drive.google.com/drive/folders/1YxAIBw8pb04CBDiP3nWmUZIqLLP7qaal"
     },
     {
       "id": "2024-tajan-127",
@@ -275,7 +310,10 @@
       ],
       "confidence": "confirme",
       "notice": "Une gogotte est une concrétion de grès : dans les sables de Fontainebleau, déposés à l'Oligocène il y a 33 à 28 millions d'années, des eaux chargées de silice ont cimenté le sable par endroits, en formes molles, ramifiées, sans arêtes — des sculptures que personne n'a sculptées. Louis XIV en fit garnir les grottes et bassins de Versailles, ce qui leur vaut d'être recherchées depuis le XVIIe siècle ; les plus belles pièces sont aujourd'hui traitées comme des œuvres d'art abstraites. Celle-ci pèse 48,5 kg et repose sur un socle proportionné. Adjugée 26 000 € le 3 juillet 2024 chez Tajan, 34 112 € frais compris — sur une estimation de 10 000 à 20 000 €.",
-      "photoSource": "Google Drive — dossier ARTS"
+      "photoSource": "Google Drive — dossier ARTS",
+      "driveFolderId": "1utYHS5lf93SFWzuAwIGmgKcGnMUTeTEc",
+      "driveFolderName": "11 - 2024-07 Tajan lot 127 - Gogotte de Fontainebleau",
+      "driveUrl": "https://drive.google.com/drive/folders/1utYHS5lf93SFWzuAwIGmgKcGnMUTeTEc"
     },
     {
       "id": "2024-tajan-75",
@@ -300,7 +338,10 @@
       ],
       "confidence": "confirme",
       "notice": "Rosa Bonheur (1822-1899) est la peintre animalière la plus célèbre du XIXe siècle : Le Marché aux chevaux la rend mondialement connue, elle obtient l'autorisation préfectorale de porter le pantalon pour fréquenter abattoirs et foires, et devient la première femme décorée de la Légion d'honneur au titre de son art. Elle a pratiqué la sculpture toute sa vie, d'abord comme étude préparatoire à la peinture — ses bronzes de bovins et d'ovins, édités pour la plupart après sa mort, en gardent la précision anatomique. Ce taureau en bronze à patine brune nuancée est signé « ROSA BONHEUR » sur la terrasse ; il mesure 40 cm de haut, la terrasse 37 × 16 cm. Adjugé 1 800 € le 3 juillet 2024, 2 361,60 € frais compris.",
-      "photoSource": "Google Drive — dossier ARTS (vue d'ensemble et détail de la signature)"
+      "photoSource": "Google Drive — dossier ARTS (vue d'ensemble et détail de la signature)",
+      "driveFolderId": "1w7id59XTlHH06L1FPKdg6RDcs_uGQ0eA",
+      "driveFolderName": "12 - 2024-07 Tajan lot 75 - Rosa Bonheur - Taureau",
+      "driveUrl": "https://drive.google.com/drive/folders/1w7id59XTlHH06L1FPKdg6RDcs_uGQ0eA"
     },
     {
       "id": "2024-bonino-ammonite",
@@ -321,7 +362,10 @@
       "confidence": "a_verifier",
       "todo": "Aucune facture Bonino dans la boîte mail : montant et date de vente à retrouver.",
       "photoSource": "Google Drive — dossier « ammonite »",
-      "notice": "Les ammonites sont des céphalopodes à coquille enroulée, cousins des nautiles et des calmars, apparus au Dévonien et éteints avec les dinosaures à la fin du Crétacé, il y a 66 millions d'années. Leur coquille en spirale logarithmique, cloisonnée en loges successives reliées par un siphon, servait de flotteur : c'est cette géométrie qui en a fait, bien avant la paléontologie, des objets de curiosité — les Anglais y voyaient des serpents pétrifiés. Celle-ci vient du Canada. Achetée en juin 2024 à la Casa di Vendite Claudia Bonino (Rome), elle a demandé une licence d'exportation italienne, obtenue après plusieurs mois : reçue le 14 octobre 2024, et un devis de soclage demandé dans la foulée. Ni montant ni numéro de lot ne figurent dans la messagerie."
+      "notice": "Les ammonites sont des céphalopodes à coquille enroulée, cousins des nautiles et des calmars, apparus au Dévonien et éteints avec les dinosaures à la fin du Crétacé, il y a 66 millions d'années. Leur coquille en spirale logarithmique, cloisonnée en loges successives reliées par un siphon, servait de flotteur : c'est cette géométrie qui en a fait, bien avant la paléontologie, des objets de curiosité — les Anglais y voyaient des serpents pétrifiés. Celle-ci vient du Canada. Achetée en juin 2024 à la Casa di Vendite Claudia Bonino (Rome), elle a demandé une licence d'exportation italienne, obtenue après plusieurs mois : reçue le 14 octobre 2024, et un devis de soclage demandé dans la foulée. Ni montant ni numéro de lot ne figurent dans la messagerie.",
+      "driveFolderId": "1CZi7TOlMn2sktjt6DH2DWOCw-6VmUy9J",
+      "driveFolderName": "13 - 2024-06 Claudia Bonino, Casa di Vendite - Ammonite fossile Canada",
+      "driveUrl": "https://drive.google.com/drive/folders/1CZi7TOlMn2sktjt6DH2DWOCw-6VmUy9J"
     },
     {
       "id": "2024-millon-52",
@@ -346,7 +390,10 @@
       ],
       "confidence": "confirme",
       "notice": "Le lapis-lazuli n'est pas un minéral mais une roche, où la lazurite bleue se mêle à la calcite blanche et aux paillettes dorées de la pyrite — les « étoiles » du ciel nocturne des miniatures persanes. La quasi-totalité du lapis de qualité provient depuis sept mille ans d'un seul gisement, celui de Sar-e-Sang dans le Badakhshan afghan ; broyé, il donnait l'outremer, le pigment le plus cher de la peinture occidentale, réservé au manteau de la Vierge. Cette pièce brute présentée soclée mesure 53 cm de haut sur 25 de large et 8 d'épaisseur, pour 27 kg. Adjugée 3 600 € le 19 avril 2024 chez Millon, dans la vente Histoire Naturelle ; le bordereau, réglé les 23 et 24 avril, totalise 14 610 € avec la lionne, les frais, le magasinage Drouot et la livraison.",
-      "photoSource": "Google Drive — dossier ARTS"
+      "photoSource": "Google Drive — dossier ARTS",
+      "driveFolderId": "1VSEeWOYeHyN3xGQP0WiEZ0ecLHbU14JP",
+      "driveFolderName": "14 - 2024-04 Millon lot 52 - Lapis-lazuli socle",
+      "driveUrl": "https://drive.google.com/drive/folders/1VSEeWOYeHyN3xGQP0WiEZ0ecLHbU14JP"
     },
     {
       "id": "2024-millon-267",
@@ -372,7 +419,10 @@
       ],
       "confidence": "confirme",
       "notice": "Lionne (Panthera leo) naturalisée en position assise, 1,03 m de haut pour 1 m de long, par Damien Barbary — atelier familial de La Marolle-en-Sologne, trois générations de taxidermistes spécialisés dans la faune africaine. La taxidermie moderne ne conserve de l'animal que la peau, tendue sur un mannequin sculpté d'après des mesures anatomiques : la qualité d'une pièce tient au modelé du corps et à la vérité du regard. Le lion est inscrit à l'annexe II de la CITES (II/B au règlement européen) : le lot est vendu avec son certificat d'importation, document à conserver avec la pièce — il conditionne toute revente ou sortie du territoire. Adjugée 7 200 € le 19 avril 2024. La photographie du catalogue Millon montre l'animal assis bien droit, l'arrière-train posé, les antérieurs tendus, la queue ramenée le long du flanc et terminée par son pinceau noir ; la gueule est entrouverte sur la denture, les yeux de verre ambrés, les oreilles dressées. La robe est fauve uni, sans crinière — c'est bien une femelle — et le montage joue la posture d'attention plutôt que le rugissement de convention, ce qui date le travail d'un atelier contemporain plutôt que d'une taxidermie ancienne.",
-      "photoSource": "Google Drive — dossier ARTS (« lionne »)"
+      "photoSource": "Google Drive — dossier ARTS (« lionne »)",
+      "driveFolderId": "1vUVSHC3FhXphJY6BaBZvokP5RvmWVRlz",
+      "driveFolderName": "15 - 2024-04 Millon lot 267 - Lionne naturalisee",
+      "driveUrl": "https://drive.google.com/drive/folders/1vUVSHC3FhXphJY6BaBZvokP5RvmWVRlz"
     },
     {
       "id": "2024-eve-486",
@@ -392,7 +442,10 @@
       "location": "",
       "photos": [],
       "confidence": "confirme",
-      "notice": "Molaire de mammouth laineux (Mammuthus primigenius, ancien Elephas primigenius), Quaternaire supérieur, environ 20 000 ans, 27 cm de long. La dent est un objet d'ingénierie : des lamelles d'émail parallèles, cimentées entre elles, forment une râpe qui s'use plus lentement que la dentine environnante et reste toujours coupante — l'adaptation qui a permis aux mammouths de brouter les graminées dures de la steppe froide. Chaque animal n'utilisait que quatre molaires à la fois, remplacées six fois au cours de la vie, la dernière devant durer jusqu'à la fin. Il s'agit ici de la troisième molaire supérieure gauche. Enchère de 500 € le 18 mars 2024 chez Eve, à Drouot, paiement confirmé le lendemain."
+      "notice": "Molaire de mammouth laineux (Mammuthus primigenius, ancien Elephas primigenius), Quaternaire supérieur, environ 20 000 ans, 27 cm de long. La dent est un objet d'ingénierie : des lamelles d'émail parallèles, cimentées entre elles, forment une râpe qui s'use plus lentement que la dentine environnante et reste toujours coupante — l'adaptation qui a permis aux mammouths de brouter les graminées dures de la steppe froide. Chaque animal n'utilisait que quatre molaires à la fois, remplacées six fois au cours de la vie, la dernière devant durer jusqu'à la fin. Il s'agit ici de la troisième molaire supérieure gauche. Enchère de 500 € le 18 mars 2024 chez Eve, à Drouot, paiement confirmé le lendemain.",
+      "driveFolderId": "10GvMEkaZ8mZS9R9CXGQJk4px7zoKe2PM",
+      "driveFolderName": "16 - 2024-03 Eve lot 486 - Molaire de mammouth",
+      "driveUrl": "https://drive.google.com/drive/folders/10GvMEkaZ8mZS9R9CXGQJk4px7zoKe2PM"
     },
     {
       "id": "2023-millon-202",
@@ -414,7 +467,10 @@
       "location": "",
       "photos": [],
       "confidence": "confirme",
-      "notice": "Le bois fossile est un bois silicifié : enfouies à l'abri de l'oxygène, les cellules du tronc ont été remplacées molécule à molécule par de la silice apportée par les eaux souterraines, souvent d'origine volcanique. Le processus est assez fin pour conserver la structure du bois — cernes de croissance, nœuds, parfois l'écorce — tout en la transformant en une pierre dure que les oxydes métalliques colorent en rouge, jaune ou brun. Une tranche polie donne à lire d'un coup l'âge de l'arbre et les saisons qu'il a traversées. Belle tranche présentée sur un socle à deux gradins, 62 cm de haut au total, 38 de large. Adjugée 700 € le 16 mai 2023 chez Millon, 922,60 € frais compris ; stockée au magasinage de Drouot puis rapatriée par ThePackengers."
+      "notice": "Le bois fossile est un bois silicifié : enfouies à l'abri de l'oxygène, les cellules du tronc ont été remplacées molécule à molécule par de la silice apportée par les eaux souterraines, souvent d'origine volcanique. Le processus est assez fin pour conserver la structure du bois — cernes de croissance, nœuds, parfois l'écorce — tout en la transformant en une pierre dure que les oxydes métalliques colorent en rouge, jaune ou brun. Une tranche polie donne à lire d'un coup l'âge de l'arbre et les saisons qu'il a traversées. Belle tranche présentée sur un socle à deux gradins, 62 cm de haut au total, 38 de large. Adjugée 700 € le 16 mai 2023 chez Millon, 922,60 € frais compris ; stockée au magasinage de Drouot puis rapatriée par ThePackengers.",
+      "driveFolderId": "169_vlCEAJAl6RWmmRLxyBmsKrZay18-H",
+      "driveFolderName": "17 - 2023-05 Millon lot 202 - Bois fossile",
+      "driveUrl": "https://drive.google.com/drive/folders/169_vlCEAJAl6RWmmRLxyBmsKrZay18-H"
     },
     {
       "id": "2023-millon-138",
@@ -440,7 +496,10 @@
       ],
       "confidence": "confirme",
       "photoSource": "Google Drive — dossier de la collection",
-      "notice": "Abie Loy Kemarre est née en 1972 à Utopia, à 275 km au nord-est d'Alice Springs, dans le groupe anmatyerre. Elle commence à peindre en 1994 sous la conduite de sa grand-mère Kathleen Petyarre, l'une des grandes figures du désert central ; Gloria Petyarre, sa grand-tante, est celle qui a fixé le motif des Bush Medicine Leaves. Le sujet renvoie aux feuilles de kurrajong dont les femmes tirent un onguent médicinal : les peindre, c'est rendre hommage à l'esprit de la plante et favoriser sa régénération, donc la santé du groupe. Le motif — feuilles menues répétées, tourbillonnantes, prises dans un mouvement de vent — se lit aussi comme une vue aérienne du pays. Acrylique sur toile, 99 × 88 cm, 2007. Adjugée 2 200 € le 18 mars 2023, 2 873,20 € frais compris."
+      "notice": "Abie Loy Kemarre est née en 1972 à Utopia, à 275 km au nord-est d'Alice Springs, dans le groupe anmatyerre. Elle commence à peindre en 1994 sous la conduite de sa grand-mère Kathleen Petyarre, l'une des grandes figures du désert central ; Gloria Petyarre, sa grand-tante, est celle qui a fixé le motif des Bush Medicine Leaves. Le sujet renvoie aux feuilles de kurrajong dont les femmes tirent un onguent médicinal : les peindre, c'est rendre hommage à l'esprit de la plante et favoriser sa régénération, donc la santé du groupe. Le motif — feuilles menues répétées, tourbillonnantes, prises dans un mouvement de vent — se lit aussi comme une vue aérienne du pays. Acrylique sur toile, 99 × 88 cm, 2007. Adjugée 2 200 € le 18 mars 2023, 2 873,20 € frais compris.",
+      "driveFolderId": "1N_dUbr-AXlW4SZvx4tCzF04RMz3I0fRW",
+      "driveFolderName": "18 - 2023-03 Millon lot 138 - Abie Loy Kemarre - Bush Medicine Leaves",
+      "driveUrl": "https://drive.google.com/drive/folders/1N_dUbr-AXlW4SZvx4tCzF04RMz3I0fRW"
     },
     {
       "id": "2022-artcurial-150",
@@ -462,7 +521,10 @@
       "location": "",
       "photos": [],
       "confidence": "confirme",
-      "notice": "Rolex Cosmograph Daytona référence 116520, acier, vers 2010, cadran noir. C'est la référence qui a fait entrer la Daytona dans l'ère moderne : produite de 2000 à 2016, elle inaugure le calibre 4130, premier chronographe entièrement conçu et fabriqué par Rolex, à roue à colonnes et embrayage vertical, avec une réserve de marche portée à 72 heures. Lunette gravée d'une échelle tachymétrique « 400 units per hour », poussoirs et couronne vissés, trois compteurs — 12 heures, 30 minutes, secondes. Née en 1963 pour les pilotes de course et baptisée d'après le circuit de Floride, la Daytona est restée si demandée que la 116520 se négociait couramment au-dessus de son prix public. Adjugée 23 000 € le 18 juillet 2022 à Monte-Carlo, Hôtel Hermitage, 30 176 € frais compris ; retirée à Paris le 27 juillet."
+      "notice": "Rolex Cosmograph Daytona référence 116520, acier, vers 2010, cadran noir. C'est la référence qui a fait entrer la Daytona dans l'ère moderne : produite de 2000 à 2016, elle inaugure le calibre 4130, premier chronographe entièrement conçu et fabriqué par Rolex, à roue à colonnes et embrayage vertical, avec une réserve de marche portée à 72 heures. Lunette gravée d'une échelle tachymétrique « 400 units per hour », poussoirs et couronne vissés, trois compteurs — 12 heures, 30 minutes, secondes. Née en 1963 pour les pilotes de course et baptisée d'après le circuit de Floride, la Daytona est restée si demandée que la 116520 se négociait couramment au-dessus de son prix public. Adjugée 23 000 € le 18 juillet 2022 à Monte-Carlo, Hôtel Hermitage, 30 176 € frais compris ; retirée à Paris le 27 juillet.",
+      "driveFolderId": "1iMevp3EvSdL0-rtWLeWp3lkH-Qmz8-nD",
+      "driveFolderName": "19 - 2022-07 Artcurial lot 150 - Rolex Daytona 116520",
+      "driveUrl": "https://drive.google.com/drive/folders/1iMevp3EvSdL0-rtWLeWp3lkH-Qmz8-nD"
     },
     {
       "id": "2022-lefloch",
@@ -482,7 +544,10 @@
       "photos": [],
       "confidence": "a_verifier",
       "todo": "Le bordereau n'a pas été envoyé par mail : le demander à l'étude ou le retrouver sur drouot.com.",
-      "notice": "Paiement de 375 € confirmé le 2 juin 2022 pour une vente de l'étude Le Floc'h, à Drouot. Le bordereau n'a jamais été envoyé par courriel : ni le lot, ni la vente, ni l'objet ne sont documentés. À demander à l'étude, ou à retrouver dans l'espace client Drouot."
+      "notice": "Paiement de 375 € confirmé le 2 juin 2022 pour une vente de l'étude Le Floc'h, à Drouot. Le bordereau n'a jamais été envoyé par courriel : ni le lot, ni la vente, ni l'objet ne sont documentés. À demander à l'étude, ou à retrouver dans l'espace client Drouot.",
+      "driveFolderId": "120QduDQKuHlCTwu9tv7PohQoPt5F96A6",
+      "driveFolderName": "20 - 2022-06 Le Floc'h - Lot Le Floc h",
+      "driveUrl": "https://drive.google.com/drive/folders/120QduDQKuHlCTwu9tv7PohQoPt5F96A6"
     },
     {
       "id": "2018-tajan-69",
@@ -503,7 +568,10 @@
       "location": "",
       "photos": [],
       "confidence": "confirme",
-      "notice": "Charles Artus (Étretat, 1897 - Le Havre, 1978) est un sculpteur animalier formé auprès d'Édouard Navellier puis de François Pompon dans les années 1920 — d'où cette manière de ramasser l'animal en volumes lisses, débarrassés du détail. Il expose au Salon des artistes français dès 1920, y obtient une mention en 1922, une médaille de bronze en 1926, et se consacre surtout aux animaux de son pays de Caux, canards, lièvres, chiens. Ce crabe en bronze poli or patiné est un objet de bureau autant qu'une sculpture : le couvercle mobile découvre un corps évidé formant boîte, 7,8 cm de haut pour 31,5 de long et 22 de profondeur. Attribué à Artus par l'étude, sans signature mentionnée au bordereau. Adjugé 300 € le 23 novembre 2018 dans la vente Intérieur XXe, 375,60 € frais compris."
+      "notice": "Charles Artus (Étretat, 1897 - Le Havre, 1978) est un sculpteur animalier formé auprès d'Édouard Navellier puis de François Pompon dans les années 1920 — d'où cette manière de ramasser l'animal en volumes lisses, débarrassés du détail. Il expose au Salon des artistes français dès 1920, y obtient une mention en 1922, une médaille de bronze en 1926, et se consacre surtout aux animaux de son pays de Caux, canards, lièvres, chiens. Ce crabe en bronze poli or patiné est un objet de bureau autant qu'une sculpture : le couvercle mobile découvre un corps évidé formant boîte, 7,8 cm de haut pour 31,5 de long et 22 de profondeur. Attribué à Artus par l'étude, sans signature mentionnée au bordereau. Adjugé 300 € le 23 novembre 2018 dans la vente Intérieur XXe, 375,60 € frais compris.",
+      "driveFolderId": "1G8cf_8KrCKEaSZqElcj6MQ3LMSDd9Ypp",
+      "driveFolderName": "21 - 2018-11 Tajan lot 69 - Charles Artus - Crabe en bronze",
+      "driveUrl": "https://drive.google.com/drive/folders/1G8cf_8KrCKEaSZqElcj6MQ3LMSDd9Ypp"
     },
     {
       "id": "2018-catawiki",
@@ -521,7 +589,10 @@
       "photos": [],
       "confidence": "a_verifier",
       "todo": "Le mail de Catawiki ne nomme pas l'objet : le retrouver dans l'historique du compte Catawiki.",
-      "notice": "Paiement confirmé par Catawiki le 21 février 2018, le vendeur ayant été invité à expédier. Le courriel ne nomme pas l'objet et aucune facture n'a suivi dans la messagerie : l'historique du compte Catawiki est le seul moyen de retrouver ce qui a été acheté."
+      "notice": "Paiement confirmé par Catawiki le 21 février 2018, le vendeur ayant été invité à expédier. Le courriel ne nomme pas l'objet et aucune facture n'a suivi dans la messagerie : l'historique du compte Catawiki est le seul moyen de retrouver ce qui a été acheté.",
+      "driveFolderId": "1as53RuM_yREbRZdxWMMqFgzhkGYcvcm8",
+      "driveFolderName": "22 - 2018-02 Catawiki - Achat Catawiki",
+      "driveUrl": "https://drive.google.com/drive/folders/1as53RuM_yREbRZdxWMMqFgzhkGYcvcm8"
     },
     {
       "id": "2017-christies-179",
@@ -542,7 +613,10 @@
       "location": "",
       "photos": [],
       "confidence": "confirme",
-      "notice": "Judith Leiber (1921-2018), née à Budapest, seule femme admise avant guerre à la guilde hongroise des maroquiniers, fonde sa maison à New York en 1963. Elle y invente la minaudière moderne : un boîtier de métal doré entièrement pavé de cristaux, en forme d'animal, de fruit ou d'objet, qui tient dans la main et se transmet comme un bijou — les Premières dames américaines en ont fait un accessoire d'investiture. Ce sac du soir en forme de grenouille, cristal vert, date de 1979, l'une des premières années des formes animalières. Christie's le décrit en état 2. Adjugé 1 100 € le 12 décembre 2017 dans la vente Sacs et accessoires, 1 430 € frais compris."
+      "notice": "Judith Leiber (1921-2018), née à Budapest, seule femme admise avant guerre à la guilde hongroise des maroquiniers, fonde sa maison à New York en 1963. Elle y invente la minaudière moderne : un boîtier de métal doré entièrement pavé de cristaux, en forme d'animal, de fruit ou d'objet, qui tient dans la main et se transmet comme un bijou — les Premières dames américaines en ont fait un accessoire d'investiture. Ce sac du soir en forme de grenouille, cristal vert, date de 1979, l'une des premières années des formes animalières. Christie's le décrit en état 2. Adjugé 1 100 € le 12 décembre 2017 dans la vente Sacs et accessoires, 1 430 € frais compris.",
+      "driveFolderId": "1T8Vmf85IOjjwuwl5tVwSZmuQCKP9uGtO",
+      "driveFolderName": "23 - 2017-12 Christie's lot 179 - Judith Leiber - Sac grenouille",
+      "driveUrl": "https://drive.google.com/drive/folders/1T8Vmf85IOjjwuwl5tVwSZmuQCKP9uGtO"
     },
     {
       "id": "2017-artcurial-338",
@@ -567,7 +641,10 @@
       ],
       "confidence": "confirme",
       "notice": "La « dent » de narval (Monodon monoceros) est en réalité une canine gauche, qui perce la lèvre supérieure du mâle et croît en spirale sénestre jusqu'à trois mètres ; sa surface est criblée de terminaisons nerveuses, ce qui en fait aussi un organe sensoriel. Rapportées d'Islande et du Groenland par les marchands scandinaves, ces défenses ont nourri pendant tout le Moyen Âge la légende de la licorne : vendues au prix de plusieurs fois leur poids d'or, réputées déceler le poison, elles figuraient parmi les pièces les plus précieuses des cabinets de curiosités princiers — le trône du Danemark en est fait. Celle-ci mesure 193 cm et repose sur un socle en métal patiné noir. Le narval est inscrit à l'annexe II de la CITES : la facture précise que le spécimen est autorisé à la vente dans l'Union européenne par le ministère de l'Environnement. Adjugée 5 500 € le 20 mars 2017 chez Artcurial, vente Minéraux, Fossiles, Histoire Naturelle, Pêche, 7 018 € frais compris ; livrée avenue de Messine par les Corsaires pour 140 €.",
-      "photoSource": "Google Drive — dossier ARTS (« narval »)"
+      "photoSource": "Google Drive — dossier ARTS (« narval »)",
+      "driveFolderId": "1kKXfavMXm1oorNdqqL3FgsVD5_dVg6aU",
+      "driveFolderName": "24 - 2017-03 Artcurial lot 338 - Dent de narval",
+      "driveUrl": "https://drive.google.com/drive/folders/1kKXfavMXm1oorNdqqL3FgsVD5_dVg6aU"
     },
     {
       "id": "2017-millon-belgique-112",
@@ -588,7 +665,10 @@
       "location": "",
       "photos": [],
       "confidence": "confirme",
-      "notice": "Sections d'ammonites Cleoniceras, soclées, 21 cm de haut sur 23 de large, provenance Madagascar. Les Cleoniceras sont des ammonites de l'Albien, vers 110 millions d'années ; les gisements de la région de Mahajanga, sur la côte ouest malgache, en livrent des spécimens dont la coquille s'est remplie de calcite. Sciées et polies, elles révèlent le dédale des cloisons — les septa aux bords plissés qui compartimentaient la coquille en loges de flottaison — et la chambre d'habitation où logeait l'animal. Achetées 320 € le 26 mars 2017 chez Millon Belgique, vente Chambre des Merveilles III."
+      "notice": "Sections d'ammonites Cleoniceras, soclées, 21 cm de haut sur 23 de large, provenance Madagascar. Les Cleoniceras sont des ammonites de l'Albien, vers 110 millions d'années ; les gisements de la région de Mahajanga, sur la côte ouest malgache, en livrent des spécimens dont la coquille s'est remplie de calcite. Sciées et polies, elles révèlent le dédale des cloisons — les septa aux bords plissés qui compartimentaient la coquille en loges de flottaison — et la chambre d'habitation où logeait l'animal. Achetées 320 € le 26 mars 2017 chez Millon Belgique, vente Chambre des Merveilles III.",
+      "driveFolderId": "1XfhHxabGAm8M8O-aRz4DBNisZ37H3LkL",
+      "driveFolderName": "25 - 2017-03 Millon Belgique lot 112 - Ammonites Cleoniceras",
+      "driveUrl": "https://drive.google.com/drive/folders/1XfhHxabGAm8M8O-aRz4DBNisZ37H3LkL"
     },
     {
       "id": "2017-millon-belgique-127",
@@ -608,7 +688,10 @@
       "location": "",
       "photos": [],
       "confidence": "confirme",
-      "notice": "Ammonite Acanthoceras de 42 × 34 × 19 cm laissant apparaître deux ammonites Acanthoceras sp. — une composition naturelle, ce que les collectionneurs appellent une plaque à individus multiples. Les Acanthoceras, du Cénomanien (environ 95 millions d'années), se reconnaissent à leurs côtes fortes ornées de tubercules épineux, d'où leur nom. Provenance : Ambatolataca, Madagascar. Achetée 700 € le 26 mars 2017 dans la même vente."
+      "notice": "Ammonite Acanthoceras de 42 × 34 × 19 cm laissant apparaître deux ammonites Acanthoceras sp. — une composition naturelle, ce que les collectionneurs appellent une plaque à individus multiples. Les Acanthoceras, du Cénomanien (environ 95 millions d'années), se reconnaissent à leurs côtes fortes ornées de tubercules épineux, d'où leur nom. Provenance : Ambatolataca, Madagascar. Achetée 700 € le 26 mars 2017 dans la même vente.",
+      "driveFolderId": "1fj4ecq6BhN3Ek4nntnG-z7SsQK-S3Fiy",
+      "driveFolderName": "26 - 2017-03 Millon Belgique lot 127 - Ammonite Acanthoceras",
+      "driveUrl": "https://drive.google.com/drive/folders/1fj4ecq6BhN3Ek4nntnG-z7SsQK-S3Fiy"
     },
     {
       "id": "2017-millon-belgique-132",
@@ -629,7 +712,10 @@
       "location": "",
       "photos": [],
       "confidence": "confirme",
-      "notice": "Le lot le plus important de la vente Chambre des Merveilles III : une défense de mammouth laineux (Elephas primigenius), 170 cm, Quaternaire supérieur, 35 000 ans, provenance Yakoutie sibérienne. C'est le permafrost qui rend ces pièces possibles : le sol gelé en permanence conserve l'ivoire dans un état que ne connaît aucun autre gisement, et le dégel estival des berges de la Léna en libère chaque année. L'ivoire de mammouth, matière fossile d'une espèce éteinte, échappe aux interdictions qui frappent l'ivoire d'éléphant — ce qui en fait, depuis le XIXe siècle, un objet de commerce légal. La courbure et la patine naturelle sont ici décrites comme remarquables. Achetée 7 500 € le 26 mars 2017 ; le relevé d'achat totalise 12 470 € d'adjudications pour sept lots, 15 601,50 € frais compris."
+      "notice": "Le lot le plus important de la vente Chambre des Merveilles III : une défense de mammouth laineux (Elephas primigenius), 170 cm, Quaternaire supérieur, 35 000 ans, provenance Yakoutie sibérienne. C'est le permafrost qui rend ces pièces possibles : le sol gelé en permanence conserve l'ivoire dans un état que ne connaît aucun autre gisement, et le dégel estival des berges de la Léna en libère chaque année. L'ivoire de mammouth, matière fossile d'une espèce éteinte, échappe aux interdictions qui frappent l'ivoire d'éléphant — ce qui en fait, depuis le XIXe siècle, un objet de commerce légal. La courbure et la patine naturelle sont ici décrites comme remarquables. Achetée 7 500 € le 26 mars 2017 ; le relevé d'achat totalise 12 470 € d'adjudications pour sept lots, 15 601,50 € frais compris.",
+      "driveFolderId": "1rQr13hC8QSIvpsC0KmLoj-a92H7Q1VvW",
+      "driveFolderName": "27 - 2017-03 Millon Belgique lot 132 - Defense de mammouth",
+      "driveUrl": "https://drive.google.com/drive/folders/1rQr13hC8QSIvpsC0KmLoj-a92H7Q1VvW"
     },
     {
       "id": "2017-millon-belgique-143",
@@ -649,7 +735,10 @@
       "location": "",
       "photos": [],
       "confidence": "confirme",
-      "notice": "Composition de papillons sous globe, à dominante bleue et blanche, 50 cm de haut. L'entomologie décorative sous globe est un genre du XIXe siècle, hérité des cabinets de curiosités et remis à la mode par les intérieurs contemporains : les insectes sont détendus, étalés puis montés en envolée sur des tiges invisibles, le globe de verre les protégeant de la poussière et de la lumière. La dominante bleue suggère des morphos, dont la couleur ne vient d'aucun pigment mais de la diffraction de la lumière sur les écailles de leurs ailes. Achetée 550 € le 26 mars 2017."
+      "notice": "Composition de papillons sous globe, à dominante bleue et blanche, 50 cm de haut. L'entomologie décorative sous globe est un genre du XIXe siècle, hérité des cabinets de curiosités et remis à la mode par les intérieurs contemporains : les insectes sont détendus, étalés puis montés en envolée sur des tiges invisibles, le globe de verre les protégeant de la poussière et de la lumière. La dominante bleue suggère des morphos, dont la couleur ne vient d'aucun pigment mais de la diffraction de la lumière sur les écailles de leurs ailes. Achetée 550 € le 26 mars 2017.",
+      "driveFolderId": "11jN1cjI3KyZ2AdUkDzi_tDQiLvMR8l54",
+      "driveFolderName": "28 - 2017-03 Millon Belgique lot 143 - Envolee de papillons sous globe",
+      "driveUrl": "https://drive.google.com/drive/folders/11jN1cjI3KyZ2AdUkDzi_tDQiLvMR8l54"
     },
     {
       "id": "2017-millon-belgique-171",
@@ -669,7 +758,10 @@
       "location": "",
       "photos": [],
       "confidence": "confirme",
-      "notice": "Cacatoès à huppe rouge (Cacatua moluccensis) naturalisé sur branche et socle. L'espèce est endémique de Seram, dans les Moluques, et son commerce est parmi les plus étroitement encadrés qui soient : inscrite à l'annexe I de la CITES (I/A au règlement européen), elle ne peut circuler qu'avec un certificat intracommunautaire. Le bordereau précise que le spécimen est né et élevé en captivité, bagué, et couvert par un CIC délivré par la DRIEE Île-de-France le 10 juillet 2014 — document indispensable, à garder avec l'oiseau. Acheté 3 000 € le 26 mars 2017."
+      "notice": "Cacatoès à huppe rouge (Cacatua moluccensis) naturalisé sur branche et socle. L'espèce est endémique de Seram, dans les Moluques, et son commerce est parmi les plus étroitement encadrés qui soient : inscrite à l'annexe I de la CITES (I/A au règlement européen), elle ne peut circuler qu'avec un certificat intracommunautaire. Le bordereau précise que le spécimen est né et élevé en captivité, bagué, et couvert par un CIC délivré par la DRIEE Île-de-France le 10 juillet 2014 — document indispensable, à garder avec l'oiseau. Acheté 3 000 € le 26 mars 2017.",
+      "driveFolderId": "1sgw83fUD6qXJfxmEtTcbBmsmnWJkfM4a",
+      "driveFolderName": "29 - 2017-03 Millon Belgique lot 171 - Cacatoes a huppe rouge",
+      "driveUrl": "https://drive.google.com/drive/folders/1sgw83fUD6qXJfxmEtTcbBmsmnWJkfM4a"
     },
     {
       "id": "2017-millon-belgique-194",
@@ -689,7 +781,10 @@
       "location": "",
       "photos": [],
       "confidence": "confirme",
-      "notice": "Morpho rhetenor, tirage Kroma sur plaque d'aluminium, numéroté 4/30, 50 × 50 cm. Le procédé Kroma imprime l'image sous une couche de résine sur aluminium, qui lui donne une profondeur et un éclat adaptés à ce sujet : le bleu du morpho n'est pas une couleur mais une structure, des lamelles microscopiques qui interfèrent avec la lumière et renvoient un bleu métallique que nul pigment ne reproduit. Acheté 200 € le 26 mars 2017."
+      "notice": "Morpho rhetenor, tirage Kroma sur plaque d'aluminium, numéroté 4/30, 50 × 50 cm. Le procédé Kroma imprime l'image sous une couche de résine sur aluminium, qui lui donne une profondeur et un éclat adaptés à ce sujet : le bleu du morpho n'est pas une couleur mais une structure, des lamelles microscopiques qui interfèrent avec la lumière et renvoient un bleu métallique que nul pigment ne reproduit. Acheté 200 € le 26 mars 2017.",
+      "driveFolderId": "19deJC1Z08NXO9oXxJezVWwYKiIRkjrjx",
+      "driveFolderName": "30 - 2017-03 Millon Belgique lot 194 - Morpho Rhetenor",
+      "driveUrl": "https://drive.google.com/drive/folders/19deJC1Z08NXO9oXxJezVWwYKiIRkjrjx"
     },
     {
       "id": "2017-millon-belgique-218",
@@ -709,7 +804,10 @@
       "location": "",
       "photos": [],
       "confidence": "confirme",
-      "notice": "Morpho cypris, tirage Kroma sur plaque d'aluminium, numéroté 3/30, 50 × 50 cm — pendant du Morpho rhetenor acheté dans la même vente. Le cypris, d'Amérique centrale et de Colombie, porte une large bande blanche en travers de l'aile bleue. Acheté 200 € le 26 mars 2017."
+      "notice": "Morpho cypris, tirage Kroma sur plaque d'aluminium, numéroté 3/30, 50 × 50 cm — pendant du Morpho rhetenor acheté dans la même vente. Le cypris, d'Amérique centrale et de Colombie, porte une large bande blanche en travers de l'aile bleue. Acheté 200 € le 26 mars 2017.",
+      "driveFolderId": "1g1KaIce1tRWxOUDWsHo95u7YOD-YCWfO",
+      "driveFolderName": "31 - 2017-03 Millon Belgique lot 218 - Morpho Cypris",
+      "driveUrl": "https://drive.google.com/drive/folders/1g1KaIce1tRWxOUDWsHo95u7YOD-YCWfO"
     },
     {
       "id": "2016-christies-113",
@@ -734,7 +832,10 @@
       ],
       "confidence": "confirme",
       "notice": "Georges-Lucien Guyot (1885-1973) passait ses journées à dessiner les fauves du Jardin des Plantes et de la ménagerie du cirque : c'est de cette observation directe que vient la justesse de ses félins, dont il disait qu'il fallait les saisir au moment où ils cessent de poser. Proche de Pompon et de Jouve, il occupe avec eux le premier rang de la sculpture animalière Art déco ; ses bronzes ont surtout été édités par Susse Frères. La « Panthère humant » — tête levée, naseaux ouverts, l'animal prend un vent — est l'un de ses modèles les plus recherchés, créé vers 1930. Christie's date cette épreuve d'avant 1953. Adjugée 18 000 € le 22 novembre 2016 dans la vente Design du soir, 24 120 € frais compris, droit de suite inclus ; retirée chez Monin en décembre. La photographie montre l'épreuve de profil : la panthère marche, l'échine basse et souple, la tête relevée vers l'arrière-droite, gueule entrouverte — le mouvement du fauve qui prend un vent, et non une pose. La patine brune est nuancée de vert, la terrasse ovale est martelée et porte la signature au revers du bord.",
-      "photoSource": "Google Drive — dossier ARTS (« guyot panthère », cinq vues disponibles)"
+      "photoSource": "Google Drive — dossier ARTS (« guyot panthère », cinq vues disponibles)",
+      "driveFolderId": "1qcb-oXONidEkRMSCFwDBdPrGFrpvvSZL",
+      "driveFolderName": "32 - 2016-11 Christie's lot 113 - Georges Guyot - Panthere humant",
+      "driveUrl": "https://drive.google.com/drive/folders/1qcb-oXONidEkRMSCFwDBdPrGFrpvvSZL"
     },
     {
       "id": "2016-tajan-74",
@@ -755,7 +856,10 @@
       "location": "",
       "photos": [],
       "confidence": "confirme",
-      "notice": "La Tank Basculante naît en 1932 sous le nom de Tank Réversible : un boîtier monté sur un berceau, que l'on tire puis fait pivoter pour présenter un dos plein de métal — la montre protège son cadran, invention destinée aux joueurs de polo et aux sportifs des années trente, avant que Jaeger-LeCoultre n'impose la Reverso sur le même principe. Cartier a relancé le modèle par séries limitées dans les années 1990 et 2000. Celle-ci appartient à la série de 2001 : boîtier acier, cadran blanc à chiffres romains peints, chemin de fer, aiguilles glaive en acier bleui, mouvement à quartz, bracelet cuir à boucle déployante Cartier, 35 × 23 mm, signée et numérotée 75167PB2405 — la terminaison 2405 est la référence des Basculante acier à quartz. Adjugée 1 400 € le 21 juin 2016 chez Tajan, 1 820 € frais compris."
+      "notice": "La Tank Basculante naît en 1932 sous le nom de Tank Réversible : un boîtier monté sur un berceau, que l'on tire puis fait pivoter pour présenter un dos plein de métal — la montre protège son cadran, invention destinée aux joueurs de polo et aux sportifs des années trente, avant que Jaeger-LeCoultre n'impose la Reverso sur le même principe. Cartier a relancé le modèle par séries limitées dans les années 1990 et 2000. Celle-ci appartient à la série de 2001 : boîtier acier, cadran blanc à chiffres romains peints, chemin de fer, aiguilles glaive en acier bleui, mouvement à quartz, bracelet cuir à boucle déployante Cartier, 35 × 23 mm, signée et numérotée 75167PB2405 — la terminaison 2405 est la référence des Basculante acier à quartz. Adjugée 1 400 € le 21 juin 2016 chez Tajan, 1 820 € frais compris.",
+      "driveFolderId": "1YsF-v2c-eauk0q-JFG8rOv37SbD7Ql4M",
+      "driveFolderName": "33 - 2016-06 Tajan lot 74 - Cartier Tank Basculante",
+      "driveUrl": "https://drive.google.com/drive/folders/1YsF-v2c-eauk0q-JFG8rOv37SbD7Ql4M"
     },
     {
       "id": "2015-artcurial-293",
@@ -776,7 +880,10 @@
       "location": "",
       "photos": [],
       "confidence": "confirme",
-      "notice": "Le maillon Chaîne d'Ancre est le motif fondateur du bijou Hermès : Robert Dumas, gendre d'Émile Hermès, le dessine en 1938 d'après les chaînes d'ancre des bateaux amarrés à Deauville — un anneau étranglé en son milieu par une barre, forme de marine devenue signature de la maison. Le bracelet décliné en argent massif reste l'un des classiques absolus de la joaillerie du XXe siècle. Celui-ci compte douze maillons, pèse 71,24 g et porte la signature « Hermès Paris ». Adjugé 380 € le 3 novembre 2015 dans la vente Hermès Vintage d'Artcurial ; la facture 91483 totalise 980 € d'adjudications pour les deux bracelets, 1 274 € frais compris."
+      "notice": "Le maillon Chaîne d'Ancre est le motif fondateur du bijou Hermès : Robert Dumas, gendre d'Émile Hermès, le dessine en 1938 d'après les chaînes d'ancre des bateaux amarrés à Deauville — un anneau étranglé en son milieu par une barre, forme de marine devenue signature de la maison. Le bracelet décliné en argent massif reste l'un des classiques absolus de la joaillerie du XXe siècle. Celui-ci compte douze maillons, pèse 71,24 g et porte la signature « Hermès Paris ». Adjugé 380 € le 3 novembre 2015 dans la vente Hermès Vintage d'Artcurial ; la facture 91483 totalise 980 € d'adjudications pour les deux bracelets, 1 274 € frais compris.",
+      "driveFolderId": "1Z7tbgHnjcy0mwnPgbEuCpGg0Hq1DKHd5",
+      "driveFolderName": "34 - 2015-11 Artcurial lot 293 - Hermes - Bracelet Chaine d Ancre",
+      "driveUrl": "https://drive.google.com/drive/folders/1Z7tbgHnjcy0mwnPgbEuCpGg0Hq1DKHd5"
     },
     {
       "id": "2015-artcurial-299",
@@ -796,7 +903,10 @@
       "location": "",
       "photos": [],
       "confidence": "confirme",
-      "notice": "Le bracelet Lancelot, articulé, décline en argent un vocabulaire médiéval — dix-huit clous et anneaux alternés, comme les rivets d'une armure — dans la lignée des bijoux d'argent qu'Hermès développe à partir des années 1950 aux côtés de la Chaîne d'Ancre. Signé « Hermès », d'un poids voisin de 70 g. Adjugé 600 € le 3 novembre 2015, dans la même vente et sur la même facture que le bracelet Chaîne d'Ancre."
+      "notice": "Le bracelet Lancelot, articulé, décline en argent un vocabulaire médiéval — dix-huit clous et anneaux alternés, comme les rivets d'une armure — dans la lignée des bijoux d'argent qu'Hermès développe à partir des années 1950 aux côtés de la Chaîne d'Ancre. Signé « Hermès », d'un poids voisin de 70 g. Adjugé 600 € le 3 novembre 2015, dans la même vente et sur la même facture que le bracelet Chaîne d'Ancre.",
+      "driveFolderId": "1iWgicWJ-mLIxcu5liIbpAMgj8b-B7r6-",
+      "driveFolderName": "35 - 2015-11 Artcurial lot 299 - Hermes - Bracelet Lancelot",
+      "driveUrl": "https://drive.google.com/drive/folders/1iWgicWJ-mLIxcu5liIbpAMgj8b-B7r6-"
     },
     {
       "id": "2014-artcurial-253",
@@ -817,7 +927,10 @@
       "location": "",
       "photos": [],
       "confidence": "confirme",
-      "notice": "Le Clic H, jonc en métal argenté palladié fermé par un H de laque, est né de la rencontre entre la ferronnerie du harnais et l'émail : le H y sert à la fois de logo et de fermoir, c'est lui qui « clique ». Ce modèle fin est en émail orange — la couleur des boîtes de la maison, adoptée par nécessité pendant la guerre, faute de carton d'une autre teinte. Diamètre 6 cm. Adjugé 300 € le 16 décembre 2014 dans la vente Hermès Vintage d'Artcurial, 390 € frais compris."
+      "notice": "Le Clic H, jonc en métal argenté palladié fermé par un H de laque, est né de la rencontre entre la ferronnerie du harnais et l'émail : le H y sert à la fois de logo et de fermoir, c'est lui qui « clique ». Ce modèle fin est en émail orange — la couleur des boîtes de la maison, adoptée par nécessité pendant la guerre, faute de carton d'une autre teinte. Diamètre 6 cm. Adjugé 300 € le 16 décembre 2014 dans la vente Hermès Vintage d'Artcurial, 390 € frais compris.",
+      "driveFolderId": "15ThvsYLSEmyQw1ANZsmF8u6-06yTq07d",
+      "driveFolderName": "36 - 2014-12 Artcurial lot 253 - Hermes - Bracelet Clic H",
+      "driveUrl": "https://drive.google.com/drive/folders/15ThvsYLSEmyQw1ANZsmF8u6-06yTq07d"
     },
     {
       "id": "2014-artcurial-arttribal-2",
@@ -838,7 +951,10 @@
       "location": "",
       "photos": [],
       "confidence": "confirme",
-      "notice": "Les armes de main maories ne sont pas seulement des armes : ce sont des taonga, des trésors chargés du mana de ceux qui les ont portées, transmis de génération en génération et parfois nommés individuellement. La famille comprend le patu et le mere, courts et plats, tenus pour frapper d'estoc au menton ou à la tempe, taillés dans le bois, l'os de baleine ou le jade néphrite (pounamu) ; le wahaika à échancrure ; le taiaha, long bâton à lame et à visage sculpté, arme de duel et de harangue. La facture Artcurial dit seulement « bâton de combat, Maori, Nouvelle-Zélande », sans matériau ni type : c'est le premier point à préciser, en photographiant la pièce et sa patine d'usage. Adjugé 4 000 € le 17 juin 2014 à l'Hôtel Marcel Dassault, vente Art Tribal, 5 200 € frais compris."
+      "notice": "Les armes de main maories ne sont pas seulement des armes : ce sont des taonga, des trésors chargés du mana de ceux qui les ont portées, transmis de génération en génération et parfois nommés individuellement. La famille comprend le patu et le mere, courts et plats, tenus pour frapper d'estoc au menton ou à la tempe, taillés dans le bois, l'os de baleine ou le jade néphrite (pounamu) ; le wahaika à échancrure ; le taiaha, long bâton à lame et à visage sculpté, arme de duel et de harangue. La facture Artcurial dit seulement « bâton de combat, Maori, Nouvelle-Zélande », sans matériau ni type : c'est le premier point à préciser, en photographiant la pièce et sa patine d'usage. Adjugé 4 000 € le 17 juin 2014 à l'Hôtel Marcel Dassault, vente Art Tribal, 5 200 € frais compris.",
+      "driveFolderId": "1ObqBycnNAKRifpD8OuvMdkBHi8Q1xgQx",
+      "driveFolderName": "37 - 2014-06 Artcurial lot 2 - Baton de combat Maori",
+      "driveUrl": "https://drive.google.com/drive/folders/1ObqBycnNAKRifpD8OuvMdkBHi8Q1xgQx"
     },
     {
       "id": "2014-aguttes-38",
@@ -860,7 +976,10 @@
       "location": "",
       "photos": [],
       "confidence": "confirme",
-      "notice": "André-Vincent Becquerel (1893-1981), formé à l'École nationale supérieure des beaux-arts, appartient à la génération animalière de l'entre-deux-guerres qui fait tenir ensemble l'exactitude anatomique et l'élégance décorative. Les félins forment le cœur de son œuvre — panthère à l'affût, panthère se frottant à un arbre, panthère se léchant la patte — traités en épreuves de bronze aux patines soignées, souvent éditées vers 1930. Celle-ci, en bronze à patine brune, signée « A. Becquerel », est une fonte d'édition ancienne des années 1930 : 33,5 cm de haut, 68 de long, 17 de profondeur. Adjugée 12 000 € le 21 novembre 2014 chez Aguttes, vente Art Déco, 15 300 € frais compris, virement du 28 novembre ; retirée au magasinage de Drouot."
+      "notice": "André-Vincent Becquerel (1893-1981), formé à l'École nationale supérieure des beaux-arts, appartient à la génération animalière de l'entre-deux-guerres qui fait tenir ensemble l'exactitude anatomique et l'élégance décorative. Les félins forment le cœur de son œuvre — panthère à l'affût, panthère se frottant à un arbre, panthère se léchant la patte — traités en épreuves de bronze aux patines soignées, souvent éditées vers 1930. Celle-ci, en bronze à patine brune, signée « A. Becquerel », est une fonte d'édition ancienne des années 1930 : 33,5 cm de haut, 68 de long, 17 de profondeur. Adjugée 12 000 € le 21 novembre 2014 chez Aguttes, vente Art Déco, 15 300 € frais compris, virement du 28 novembre ; retirée au magasinage de Drouot.",
+      "driveFolderId": "1ci5Ofpa9cSoc4qc6FOCZMY5PRE6V5UW9",
+      "driveFolderName": "38 - 2014-11 Aguttes lot 38 - Becquerel - Panthere se lechant",
+      "driveUrl": "https://drive.google.com/drive/folders/1ci5Ofpa9cSoc4qc6FOCZMY5PRE6V5UW9"
     },
     {
       "id": "2013-millon-610",
@@ -881,7 +1000,10 @@
       "location": "",
       "photos": [],
       "confidence": "confirme",
-      "notice": "Okimono en ivoire marin, Japon, époque Meiji (1868-1912) : un pêcheur debout portant un panier rempli de coquillages, 32 cm, petits manques. L'okimono est la sculpture d'ornement née de la reconversion des maîtres netsuke, quand l'occidentalisation du costume prive le netsuke de son usage ; ces pièces, souvent vouées à l'exportation, montrent des types populaires — pêcheurs, marchands, artisans — traités avec un réalisme minutieux hérité de l'école Kanō pour les visages et les drapés. « Ivoire marin » désigne l'ivoire de morse ou de cétacé, distinct de l'ivoire d'éléphant, ce qui commande un régime réglementaire différent lors d'une revente. Adjugé 600 € le 4 décembre 2013 chez Millon, vente Extrême-Orient et Céramiques, 766,86 € frais compris."
+      "notice": "Okimono en ivoire marin, Japon, époque Meiji (1868-1912) : un pêcheur debout portant un panier rempli de coquillages, 32 cm, petits manques. L'okimono est la sculpture d'ornement née de la reconversion des maîtres netsuke, quand l'occidentalisation du costume prive le netsuke de son usage ; ces pièces, souvent vouées à l'exportation, montrent des types populaires — pêcheurs, marchands, artisans — traités avec un réalisme minutieux hérité de l'école Kanō pour les visages et les drapés. « Ivoire marin » désigne l'ivoire de morse ou de cétacé, distinct de l'ivoire d'éléphant, ce qui commande un régime réglementaire différent lors d'une revente. Adjugé 600 € le 4 décembre 2013 chez Millon, vente Extrême-Orient et Céramiques, 766,86 € frais compris.",
+      "driveFolderId": "10jN9dxBpn9GaSCkrdGks5muJb_ByhNeh",
+      "driveFolderName": "39 - 2013-12 Millon & Associés lot 610 - Okimono pecheur au panier",
+      "driveUrl": "https://drive.google.com/drive/folders/10jN9dxBpn9GaSCkrdGks5muJb_ByhNeh"
     },
     {
       "id": "2013-millon-613",
@@ -902,7 +1024,10 @@
       "location": "",
       "photos": [],
       "confidence": "confirme",
-      "notice": "Pendant du précédent, acheté dans la même vente : okimono en ivoire marin, Japon, époque Meiji, un joueur de samisen debout portant une boîte sur laquelle est posé un masque d'Okame, 32 cm, manques. Le samisen, luth à trois cordes venu d'Okinawa au XVIe siècle, accompagne le théâtre et les quartiers de plaisir ; Okame — dit aussi Otafuku — est le masque de la femme joufflue et souriante du théâtre kyōgen, figure de bonne fortune et de fécondité. Adjugé 500 € le 4 décembre 2013, 639,05 € frais compris."
+      "notice": "Pendant du précédent, acheté dans la même vente : okimono en ivoire marin, Japon, époque Meiji, un joueur de samisen debout portant une boîte sur laquelle est posé un masque d'Okame, 32 cm, manques. Le samisen, luth à trois cordes venu d'Okinawa au XVIe siècle, accompagne le théâtre et les quartiers de plaisir ; Okame — dit aussi Otafuku — est le masque de la femme joufflue et souriante du théâtre kyōgen, figure de bonne fortune et de fécondité. Adjugé 500 € le 4 décembre 2013, 639,05 € frais compris.",
+      "driveFolderId": "1YVLtCAalt9qbcLAFg3RwUpNU4gBSx9VA",
+      "driveFolderName": "40 - 2013-12 Millon & Associés lot 613 - Okimono joueur de samisen",
+      "driveUrl": "https://drive.google.com/drive/folders/1YVLtCAalt9qbcLAFg3RwUpNU4gBSx9VA"
     },
     {
       "id": "2013-aguttes-141",
@@ -923,7 +1048,10 @@
       "location": "",
       "photos": [],
       "confidence": "confirme",
-      "notice": "Paul Jouve est le maître de l'animalier Art déco — le bordereau Aguttes le dit né en 1880, il l'est en réalité en 1878, à Marlotte, et meurt à Paris en 1973. Formé au Jardin des Plantes, marqué par un séjour en Algérie puis par l'Indochine, il impose une panthère devenue emblématique : silhouette découpée, noir profond, aucun effet de fourrure inutile. La lithographie occupe une place à part dans son œuvre, où le noir d'encre rend le lustre du pelage mieux que la peinture. Il s'agit ici d'une rare lithographie originale, tirage à l'encre noire sur papier crème, signée en bas à droite « P. Jouve — épreuve d'artiste » et frappée du cachet à sec à la tête de panthère, vers 1930, 97 × 64 cm à vue. Une épreuve d'artiste est un tirage hors commerce réservé à l'artiste, généralement plus rare que le tirage numéroté. Adjugée 13 000 € le 13 février 2013 chez Aguttes, vente Art Déco, 16 575 € frais compris."
+      "notice": "Paul Jouve est le maître de l'animalier Art déco — le bordereau Aguttes le dit né en 1880, il l'est en réalité en 1878, à Marlotte, et meurt à Paris en 1973. Formé au Jardin des Plantes, marqué par un séjour en Algérie puis par l'Indochine, il impose une panthère devenue emblématique : silhouette découpée, noir profond, aucun effet de fourrure inutile. La lithographie occupe une place à part dans son œuvre, où le noir d'encre rend le lustre du pelage mieux que la peinture. Il s'agit ici d'une rare lithographie originale, tirage à l'encre noire sur papier crème, signée en bas à droite « P. Jouve — épreuve d'artiste » et frappée du cachet à sec à la tête de panthère, vers 1930, 97 × 64 cm à vue. Une épreuve d'artiste est un tirage hors commerce réservé à l'artiste, généralement plus rare que le tirage numéroté. Adjugée 13 000 € le 13 février 2013 chez Aguttes, vente Art Déco, 16 575 € frais compris.",
+      "driveFolderId": "12fRwGvNYWb3chkBHHgDD349Wik1Pi5Qn",
+      "driveFolderName": "41 - 2013-02 Aguttes lot 141 - Paul Jouve - Panthere marchant",
+      "driveUrl": "https://drive.google.com/drive/folders/12fRwGvNYWb3chkBHHgDD349Wik1Pi5Qn"
     },
     {
       "id": "2009-artcurial-56",
@@ -942,7 +1070,10 @@
       "photos": [],
       "confidence": "a_verifier",
       "todo": "La facture n'a pas été envoyée par mail (échange sur l'adresse professionnelle de l'époque).",
-      "notice": "Lot 56 d'une vente Artcurial du 7 avril 2009, acquis après la vente (procès-verbal d'after sale). L'échange s'est fait sur l'adresse professionnelle de l'époque et rien ne subsiste dans cette messagerie : ni la spécialité de la vente, ni la description du lot, ni le montant. La plus ancienne entrée de l'inventaire, et la plus incomplète."
+      "notice": "Lot 56 d'une vente Artcurial du 7 avril 2009, acquis après la vente (procès-verbal d'after sale). L'échange s'est fait sur l'adresse professionnelle de l'époque et rien ne subsiste dans cette messagerie : ni la spécialité de la vente, ni la description du lot, ni le montant. La plus ancienne entrée de l'inventaire, et la plus incomplète.",
+      "driveFolderId": "1H0VHHxXYWN0f991ePxR4e_0oEt_b1cWJ",
+      "driveFolderName": "42 - 2009-04 Artcurial lot 56 - Artcurial 2009 lot 56",
+      "driveUrl": "https://drive.google.com/drive/folders/1H0VHHxXYWN0f991ePxR4e_0oEt_b1cWJ"
     }
   ],
   "aVerifier": [

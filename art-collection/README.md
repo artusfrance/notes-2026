@@ -57,3 +57,18 @@ Les emplacements et notes saisis dans l'application sont enregistrés dans le
   à gré) ne sont pas exhaustifs.
 - Les frais de transport et d'assurance ne sont pas comptés comme des œuvres ; ils sont
   mentionnés dans le champ `delivery` ou listés dans `aVerifier`.
+
+## Miroir Google Drive
+
+Le dossier Drive **ARTS** porte un sous-dossier par objet, numéroté de 01 à 42
+dans l'ordre chronologique inverse (`NN - AAAA-MM Maison lot X - Désignation`).
+Chacun contient une fiche Google Doc (identité, prix, référence de facture,
+livraison, emplacement, lien vers le PDF de la facture ici) et les photos ou
+documents déjà présents dans le Drive.
+
+`data/collection.json` porte pour chaque entrée `driveFolderId`, `driveFolderName`
+et `driveUrl`, plus `meta.driveRoot` pour la racine.
+
+Les PDF de factures et le rapport CIRAM restent hébergés ici : leur versement
+dans Drive depuis une session Claude passerait par un encodage base64 de ~11 Mo,
+ce qui n'est pas praticable. Les fiches Drive pointent vers eux par lien.
