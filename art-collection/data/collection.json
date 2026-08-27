@@ -51,7 +51,8 @@
           "kind": "Notice",
           "url": "https://drive.google.com/file/d/1ynRNQqAD99hsGX-dQ-VCCn3VSsEdnqDA/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2026-zacke-35280-1150",
@@ -82,7 +83,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1PSfO8wMP4KAqW__PE2kkyJVWWyE9zCf0/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2026-zacke-35233-429",
@@ -126,7 +128,8 @@
           "kind": "Notice",
           "url": "https://drive.google.com/file/d/1j6YcSqMGfsE9nUr6FE7Wfss5quJqg3wa/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2026-elstob-560",
@@ -159,7 +162,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1WCEsWKi711LLXjgPJHptCftWouWfaVnW/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2026-nagel-157",
@@ -199,7 +203,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1i7car6bCM4dJ7Y0zJK-3WEkUTV7p8lvH/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2026-hardt-332",
@@ -232,7 +237,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/19Fq6Jttsk--q-9ANNyGrw1PrGrriARoU/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2026-zacke-34668-99",
@@ -271,7 +277,8 @@
           "kind": "Notice",
           "url": "https://drive.google.com/file/d/1Kkb48fG1cOQNzuwf0I9xt6ES2iIQS33p/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2025-nosmontres-daytona-116519ln",
@@ -320,7 +327,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1qh10aPsWywBxRpO-dugBSZ-RW2x1V8_N/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2024-zacke-27298-162",
@@ -367,7 +375,8 @@
           "url": "https://drive.google.com/file/d/1F0eOxLj_wfg4SUZc5WK_-Lie3S8wKAl1/view"
         }
       ],
-      "reportUrl": "https://github.com/artusfrance/notes-2026/blob/claude/art-purchases-inventory-g8eaz3/art-collection/reports/2024-zacke-27298-162-CIRAM-0125-OA-036J-C14-MEB.pdf"
+      "reportUrl": "https://github.com/artusfrance/notes-2026/blob/claude/art-purchases-inventory-g8eaz3/art-collection/reports/2024-zacke-27298-162-CIRAM-0125-OA-036J-C14-MEB.pdf",
+      "acquisition": "achat"
     },
     {
       "id": "2024-tajan-127",
@@ -413,7 +422,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1CYDInpce94FCsodFkmUWBqhKpCtPyrsV/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2024-tajan-75",
@@ -448,7 +458,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1HK8A_fg16lPILiO8bVF2vnm8Nv7ONA7Q/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2024-bonino-ammonite",
@@ -489,7 +500,8 @@
           "kind": "Notice",
           "url": "https://drive.google.com/file/d/1Qo_pkIAoLHfTW10fzRFR40C1vX9xhmbm/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2024-templum-379",
@@ -522,7 +534,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1enOhvjea6LyqjWUFbiD6JoD1Jr40Ifgc/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2024-millon-52",
@@ -562,7 +575,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1R2ixL-o0m0DuwcYGZYma1Lvui2z4d_O-/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2024-millon-267",
@@ -598,7 +612,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1t9ERJs7PsUTmv5mW-8YM8wmtiTFeq0g-/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2024-eve-486",
@@ -621,7 +636,8 @@
       "notice": "Molaire de mammouth laineux (Mammuthus primigenius, ancien Elephas primigenius), Quaternaire supérieur, environ 20 000 ans, 27 cm de long. La dent est un objet d'ingénierie : des lamelles d'émail parallèles, cimentées entre elles, forment une râpe qui s'use plus lentement que la dentine environnante et reste toujours coupante — l'adaptation qui a permis aux mammouths de brouter les graminées dures de la steppe froide. Chaque animal n'utilisait que quatre molaires à la fois, remplacées six fois au cours de la vie, la dernière devant durer jusqu'à la fin. Il s'agit ici de la troisième molaire supérieure gauche. Enchère de 500 € le 18 mars 2024 chez Eve, à Drouot, paiement confirmé le lendemain.",
       "driveFolderId": "10GvMEkaZ8mZS9R9CXGQJk4px7zoKe2PM",
       "driveFolderName": "16 - 2024-03 Eve lot 486 - Molaire de mammouth",
-      "driveUrl": "https://drive.google.com/drive/folders/10GvMEkaZ8mZS9R9CXGQJk4px7zoKe2PM"
+      "driveUrl": "https://drive.google.com/drive/folders/10GvMEkaZ8mZS9R9CXGQJk4px7zoKe2PM",
+      "acquisition": "achat"
     },
     {
       "id": "2023-millon-202",
@@ -653,7 +669,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1loaDOnFBvXOEM6ESlz-g5F5Tkoya5dad/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2023-millon-138",
@@ -694,7 +711,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1ZwuwVKOY_c-Q2SzMrByNVlHntPAPYcUK/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2022-lefloch",
@@ -717,7 +735,8 @@
       "notice": "Paiement de 375 € confirmé le 2 juin 2022 pour une vente de l'étude Le Floc'h, à Drouot. Le bordereau n'a jamais été envoyé par courriel : ni le lot, ni la vente, ni l'objet ne sont documentés. À demander à l'étude, ou à retrouver dans l'espace client Drouot.",
       "driveFolderId": "120QduDQKuHlCTwu9tv7PohQoPt5F96A6",
       "driveFolderName": "19 - 2022-06 Le Floc'h - Lot Le Floc h",
-      "driveUrl": "https://drive.google.com/drive/folders/120QduDQKuHlCTwu9tv7PohQoPt5F96A6"
+      "driveUrl": "https://drive.google.com/drive/folders/120QduDQKuHlCTwu9tv7PohQoPt5F96A6",
+      "acquisition": "achat"
     },
     {
       "id": "2018-tajan-69",
@@ -748,7 +767,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1fRc63_mPQWEVcjtI99QdKswoSVMaf2MN/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2018-catawiki",
@@ -769,7 +789,8 @@
       "notice": "Paiement confirmé par Catawiki le 21 février 2018, le vendeur ayant été invité à expédier. Le courriel ne nomme pas l'objet et aucune facture n'a suivi dans la messagerie : l'historique du compte Catawiki est le seul moyen de retrouver ce qui a été acheté.",
       "driveFolderId": "1as53RuM_yREbRZdxWMMqFgzhkGYcvcm8",
       "driveFolderName": "21 - 2018-02 Catawiki - Achat Catawiki",
-      "driveUrl": "https://drive.google.com/drive/folders/1as53RuM_yREbRZdxWMMqFgzhkGYcvcm8"
+      "driveUrl": "https://drive.google.com/drive/folders/1as53RuM_yREbRZdxWMMqFgzhkGYcvcm8",
+      "acquisition": "achat"
     },
     {
       "id": "2017-christies-179",
@@ -800,7 +821,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1LwNnyoTK3g1p0b4UsJrNQTPo3RkQ8WSH/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2017-millon-belgique-112",
@@ -831,7 +853,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1kmX8TggWihHs3QonXENRo7fHB77Gw3ip/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2017-millon-belgique-127",
@@ -861,7 +884,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1NoqbjCPdevirWEi8jSC-kMEpFB9Hf_b0/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2017-millon-belgique-132",
@@ -895,7 +919,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1nTXlYbtp4lxOwuVZ-pCbw5Y8cbAringr/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2017-millon-belgique-143",
@@ -925,7 +950,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1Pdj3fImS8ZTjh3-qr8Dhfz_wjmBKLdqi/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2017-millon-belgique-171",
@@ -955,7 +981,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1XznuqFtKNtNjPC5KCU47_BfVarCwmqgb/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2017-artcurial-338",
@@ -990,7 +1017,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1CiwDqijYJ6GSeOurjtSrJXKaw8aTELC3/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2016-christies-113",
@@ -1040,7 +1068,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1UT4ZGGWsoPr5jVO5iB3cko5O55rS1R3B/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2014-aguttes-38",
@@ -1072,7 +1101,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1ZFnUbRUdNnFL9Q0958TZUEAPlninNfov/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2014-artcurial-arttribal-2",
@@ -1108,7 +1138,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1YNhPRZouWhYR_886YEpssix9A7eyXeVs/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2013-millon-610",
@@ -1139,7 +1170,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1nvJErQl9247Cd5zg-7hCDzbQXGkDeJcH/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2013-millon-613",
@@ -1170,7 +1202,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1fESKpk9JEoil0XuRMudNy3xyWtzL7oBx/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2013-aguttes-141",
@@ -1201,7 +1234,8 @@
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1oguDbB1RGMmMpSRkXJFpxCiuFaB7NGxg/view"
         }
-      ]
+      ],
+      "acquisition": "achat"
     },
     {
       "id": "2009-artcurial-56",
@@ -1223,7 +1257,8 @@
       "notice": "Lot 56 d'une vente Artcurial du 7 avril 2009, acquis après la vente (procès-verbal d'after sale). L'échange s'est fait sur l'adresse professionnelle de l'époque et rien ne subsiste dans cette messagerie : ni la spécialité de la vente, ni la description du lot, ni le montant. La plus ancienne entrée de l'inventaire, et la plus incomplète.",
       "driveFolderId": "1H0VHHxXYWN0f991ePxR4e_0oEt_b1cWJ",
       "driveFolderName": "35 - 2009-04 Artcurial lot 56 - Artcurial 2009 lot 56",
-      "driveUrl": "https://drive.google.com/drive/folders/1H0VHHxXYWN0f991ePxR4e_0oEt_b1cWJ"
+      "driveUrl": "https://drive.google.com/drive/folders/1H0VHHxXYWN0f991ePxR4e_0oEt_b1cWJ",
+      "acquisition": "achat"
     }
   ],
   "aVerifier": [

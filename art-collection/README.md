@@ -95,3 +95,19 @@ Au 27 août 2026 : 35 entrées, 3,6 Mo, 18 photos, 48 documents liés.
 Les objets sortis de la collection — offerts, revendus, acquis pour un tiers —
 ne sont pas détruits : leur dossier Drive est déplacé sous « ZZ - Hors collection »,
 leurs factures restant des justificatifs d'achat.
+
+## Valeur actuelle et mode d'acquisition
+
+Chaque entrée porte `acquisition` : `achat`, `heritage` ou `don`. Les objets reçus
+en héritage ou en don n'ont pas de prix d'adjudication ; ils se saisissent sans
+`price`, avec au minimum `title`, `category`, `acquisition` et, si elle est connue,
+une valeur.
+
+La valeur actuelle est saisie dans la page, fiche par fiche : montant, source de
+l'estimation et date. Ces trois champs sont persistés comme `location` et `notes`,
+par la capacité « artifact ».
+
+Le tableau récapitulatif retient, pour chaque objet, l'estimation saisie ; à défaut,
+le prix payé ; à défaut, rien. Les totaux ne somment que les euros — un achat en
+livres sterling est signalé et exclu. Un objet sans prix ni estimation ne fausse
+donc pas le total, il est simplement absent.

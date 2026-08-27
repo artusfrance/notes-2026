@@ -211,6 +211,29 @@ footer p { margin: 0 0 8px; }
   .detail dt { margin-top: 8px; }
 }
 
+    .chip.acq { border-style: dashed; }
+    .chip.acq-heritage { border-color: #8a6d3b; color: #8a6d3b; }
+    .chip.acq-don { border-color: #4a7c59; color: #4a7c59; }
+    .price small.estim { display: block; opacity: .75; font-style: italic; }
+    .fields.valuation { grid-template-columns: repeat(3, 1fr); }
+    .hint { margin: 6px 0 0; font-size: 12px; opacity: .65; }
+    .table-wrap { overflow-x: auto; margin-top: 8px; }
+    table.recap { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 940px; }
+    table.recap td:first-child { min-width: 260px; }
+    table.recap td:nth-child(3) { min-width: 150px; }
+    table.recap th, table.recap td { padding: 7px 10px; text-align: left;
+      border-bottom: 1px solid var(--line); vertical-align: top; }
+    table.recap th { font-size: 11px; letter-spacing: .05em; text-transform: uppercase;
+      opacity: .7; font-weight: 600; white-space: nowrap; }
+    table.recap td.num, table.recap th.num { text-align: right; white-space: nowrap;
+      font-variant-numeric: tabular-nums; }
+    table.recap td.estim { font-weight: 600; }
+    table.recap td.src { font-size: 12px; opacity: .75; }
+    table.recap tfoot td { border-top: 2px solid var(--ink); border-bottom: none;
+      font-weight: 600; padding-top: 10px; }
+    .linklike { background: none; border: 0; padding: 0; font: inherit; color: inherit;
+      text-align: left; text-decoration: underline; text-underline-offset: 2px; cursor: pointer; }
+    @media (max-width: 720px) { .fields.valuation { grid-template-columns: 1fr; } }
     .docs-block { margin-top: 14px; }
     .docs-block h4 { margin: 0 0 6px; font-size: 13px; letter-spacing: .04em; text-transform: uppercase; opacity: .7; }
     .docs { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -227,10 +250,10 @@ footer p { margin: 0 0 8px; }
       <p class="eyebrow">Inventaire · 20 avenue de Messine</p>
       <h1>Collection de Messine</h1>
       <p class="standfirst">
-        Les lots achetés en vente publique, relevés sur les factures et bordereaux d'adjudication
-        reçus par e-mail — de la vente Artcurial d'avril 2009 aux sculptures livrées par la
-        Galerie Zacke le 25 août 2026. Trente factures ont été versées au dossier ; les
-        descriptions ci-dessous en sont tirées mot pour mot.
+        Les pièces de la collection, achetées en vente publique, reçues en héritage ou en don —
+        de la vente Artcurial d'avril 2009 aux sculptures livrées par la Galerie Zacke le
+        25 août 2026. Les descriptions sont tirées mot pour mot des factures et bordereaux ;
+        chaque fiche porte sa valeur actuelle et la source de cette valeur.
       </p>
     </div>
     <span class="mode" id="mode"><span class="dot"></span><span id="modeText">Chargement…</span></span>
@@ -243,6 +266,16 @@ footer p { margin: 0 0 8px; }
     <select id="house"><option value="">Toutes les maisons</option></select>
     <select id="category"><option value="">Toutes les catégories</option></select>
     <select id="year"><option value="">Toutes les années</option></select>
+    <select id="acq">
+      <option value="">Toutes origines</option>
+      <option value="achat">Achat</option>
+      <option value="heritage">Héritage</option>
+      <option value="don">Don</option>
+    </select>
+    <select id="viewMode">
+      <option value="cards">Vue en fiches</option>
+      <option value="table">Tableau récapitulatif</option>
+    </select>
     <select id="groupBy">
       <option value="year">Grouper par année</option>
       <option value="room">Grouper par emplacement</option>
@@ -255,14 +288,17 @@ footer p { margin: 0 0 8px; }
   <p class="empty" id="empty" hidden>Aucune pièce ne correspond à cette recherche.</p>
 
   <footer>
-    <p><strong>Ce qui est sûr et ce qui ne l'est pas.</strong> Les fiches sans mention « à compléter »
-    reprennent le libellé de la facture. Les six autres restent ouvertes : la Galerie Zacke facture
-    par lien plutôt que par pièce jointe, et Catawiki, Le Floc'h et Bonino n'ont rien envoyé de
-    détaillé. Chaque fiche renvoie au fil Gmail d'origine.</p>
-    <p><strong>Photos.</strong> Aucune image de catalogue n'a pu être récupérée : le réseau de la
-    session bloque zacke.at, millon.com, tajan.com, auction.de et artcurial.com. Les photos que vous
-    ajoutez ici sont enregistrées dans la page elle-même.</p>
-    <p>Les factures en PDF et le jeu de données sont dans le dépôt, sous <code>art-collection/</code>.</p>
+    <p><strong>Ce qui est sûr et ce qui ne l'est pas.</strong> Les fiches sans mention
+    « à compléter » reprennent le libellé de la facture. Les autres restent ouvertes, faute de
+    document : Catawiki, Le Floc'h et la vente Artcurial de 2009 n'ont rien envoyé de détaillé.
+    Chaque fiche renvoie au fil Gmail d'origine.</p>
+    <p><strong>Valeur actuelle.</strong> Le tableau récapitulatif retient l'estimation saisie sur
+    la fiche ; à défaut, le prix payé. Un objet reçu en héritage ou en don n'a pas de prix
+    d'achat : tant qu'aucune valeur n'est saisie, il ne compte pas dans les totaux. Les montants
+    en devise étrangère sont exclus des sommes en euros.</p>
+    <p><strong>Documents.</strong> Chaque fiche renvoie au dossier Google Drive de l'objet et à
+    ses pièces — factures, bordereaux, rapports. Le jeu de données est dans le dépôt, sous
+    <code>art-collection/</code>.</p>
   </footer>
 </div>
 
@@ -299,8 +335,32 @@ footer p { margin: 0 0 8px; }
     return {
       location: canPublish ? (i.location || "") : (o.location != null ? o.location : (i.location || "")),
       notes: canPublish ? (i.notes || "") : (o.notes != null ? o.notes : (i.notes || "")),
-      photo: canPublish ? (i.photo || "") : (o.photo || i.photo || "")
+      photo: canPublish ? (i.photo || "") : (o.photo || i.photo || ""),
+      value: canPublish ? (i.value != null ? i.value : "") : (o.value != null ? o.value : (i.value != null ? i.value : "")),
+      valueSource: canPublish ? (i.valueSource || "") : (o.valueSource != null ? o.valueSource : (i.valueSource || "")),
+      valueDate: canPublish ? (i.valueDate || "") : (o.valueDate != null ? o.valueDate : (i.valueDate || ""))
     };
+  }
+
+  var ACQ = { achat: "Achat", heritage: "Héritage", don: "Don" };
+  function acqOf(i) { return i.acquisition || "achat"; }
+
+  // Valeur retenue : l'estimation saisie si elle existe, sinon le prix payé.
+  function currentValue(i, v) {
+    var raw = v.value;
+    if (raw !== "" && raw != null && !isNaN(Number(raw))) {
+      return { amount: Number(raw), currency: "EUR", basis: "estimation",
+               source: v.valueSource || "", date: v.valueDate || "" };
+    }
+    if (i.price != null) {
+      return { amount: i.price, currency: i.currency || "EUR", basis: "achat",
+               source: "prix d'adjudication", date: i.saleDate || "" };
+    }
+    return { amount: null, currency: null, basis: null, source: "", date: "" };
+  }
+  function fmtMoney(amount, currency) {
+    if (amount == null) return "—";
+    return amount.toLocaleString("fr-FR") + (currency === "GBP" ? " £" : " €");
   }
   function money(i) {
     if (i.price == null) return { main: "—", sub: "" };
@@ -422,20 +482,24 @@ footer p { margin: 0 0 8px; }
   }
 
   function renderStats() {
-    var spent = 0, rooms = {}, nRooms = 0, todo = 0, photos = 0;
+    var spent = 0, valeur = 0, estimes = 0, rooms = {}, nRooms = 0, todo = 0, photos = 0;
     ITEMS.forEach(function (i) {
       if (i.price != null && i.currency === "EUR") spent += i.price;
       var v = view(i);
+      var cur = currentValue(i, v);
+      if (cur.amount != null && (cur.currency || "EUR") === "EUR") valeur += cur.amount;
+      if (cur.basis === "estimation") estimes++;
       if (v.location && !rooms[v.location]) { rooms[v.location] = 1; nRooms++; }
       if (i.confidence === "a_verifier") todo++;
       if (v.photo) photos++;
     });
     var box = document.getElementById("stats");
     box.innerHTML = "";
-    [[ITEMS.length, "entrées au bordereau"],
-     [unique(function (i) { return i.house; }).length, "maisons de vente"],
-     [spent.toLocaleString("fr-FR") + " €", "montants relevés (hors lots sans prix)"],
-     [photos, photos > 1 ? "photos ajoutées" : "photo ajoutée"],
+    [[ITEMS.length, "objets à l'inventaire"],
+     [spent.toLocaleString("fr-FR") + " €", "prix d'acquisition relevés"],
+     [valeur.toLocaleString("fr-FR") + " €", "valeur actuelle retenue"],
+     [estimes, estimes > 1 ? "valeurs estimées saisies" : "valeur estimée saisie"],
+     [photos, photos > 1 ? "photos" : "photo"],
      [todo, "fiches à compléter"]
     ].forEach(function (pair) {
       var s = el("div", "stat");
@@ -451,6 +515,8 @@ footer p { margin: 0 0 8px; }
     var house = document.getElementById("house").value;
     var category = document.getElementById("category").value;
     var year = document.getElementById("year").value;
+    var acq = document.getElementById("acq").value;
+    var viewMode = document.getElementById("viewMode").value;
     var groupBy = document.getElementById("groupBy").value;
 
     var rows = ITEMS.filter(function (i) {
@@ -458,11 +524,19 @@ footer p { margin: 0 0 8px; }
       if (house && i.house !== house) return false;
       if (category && i.category !== category) return false;
       if (year && yearOf(i) !== year) return false;
+      if (acq && acqOf(i) !== acq) return false;
       if (!q) return true;
-      var hay = [stripTags(i.title), i.house, i.sale, i.lot, i.origin, i.invoiceRef, v.location, v.notes]
+      var hay = [stripTags(i.title), i.house, i.sale, i.lot, i.origin, i.invoiceRef,
+                 v.location, v.notes, v.valueSource, ACQ[acqOf(i)]]
         .filter(Boolean).join(" ").toLowerCase();
       return hay.indexOf(q) !== -1;
     }).sort(function (a, b) { return (b.saleDate || "").localeCompare(a.saleDate || ""); });
+
+    if (viewMode === "table") {
+      renderTable(rows);
+      document.getElementById("empty").hidden = rows.length > 0;
+      return;
+    }
 
     var groups = {}, order = [];
     rows.forEach(function (i) {
@@ -492,12 +566,94 @@ footer p { margin: 0 0 8px; }
     document.getElementById("empty").hidden = rows.length > 0;
   }
 
+  function renderTable(rows) {
+    var list = document.getElementById("list");
+    list.innerHTML = "";
+    var wrap = el("div", "table-wrap");
+    var t = document.createElement("table");
+    t.className = "recap";
+
+    var head = document.createElement("thead");
+    var hr = document.createElement("tr");
+    ["Objet", "Origine", "Maison / provenance", "Date", "Prix d'achat",
+     "Valeur actuelle", "Source de la valeur", "Emplacement"].forEach(function (h, k) {
+      var th = el("th", k >= 4 && k <= 5 ? "num" : null, h);
+      hr.appendChild(th);
+    });
+    head.appendChild(hr);
+    t.appendChild(head);
+
+    var body = document.createElement("tbody");
+    var totalAchat = 0, totalValeur = 0, horsEuro = 0;
+    rows.forEach(function (i) {
+      var v = view(i);
+      var cur = currentValue(i, v);
+      var tr = document.createElement("tr");
+
+      var tdTitle = document.createElement("td");
+      var a = el("button", "linklike");
+      a.type = "button";
+      a.innerHTML = i.title;
+      a.addEventListener("click", function () {
+        document.getElementById("viewMode").value = "cards";
+        openId = i.id;
+        render();
+        var node = document.querySelector('[data-id="' + i.id + '"]');
+        if (node) node.scrollIntoView({ block: "center" });
+      });
+      tdTitle.appendChild(a);
+      tr.appendChild(tdTitle);
+
+      var acq = acqOf(i);
+      var tdAcq = document.createElement("td");
+      tdAcq.appendChild(el("span", "chip acq acq-" + acq, ACQ[acq]));
+      tr.appendChild(tdAcq);
+
+      tr.appendChild(el("td", null, i.house + (i.city ? " · " + i.city : "")));
+      tr.appendChild(el("td", null, frDate(i.saleDate)));
+      tr.appendChild(el("td", "num", i.price != null ? fmtMoney(i.price, i.currency) : "—"));
+
+      var tdVal = el("td", "num" + (cur.basis === "estimation" ? " estim" : ""),
+                     fmtMoney(cur.amount, cur.currency));
+      tr.appendChild(tdVal);
+      tr.appendChild(el("td", "src", cur.basis === "estimation"
+        ? (cur.source || "source non renseignée") + (cur.date ? " · " + cur.date : "")
+        : (cur.basis ? "prix d'adjudication" : "à estimer")));
+      tr.appendChild(el("td", null, v.location || "—"));
+
+      if (i.price != null && (i.currency || "EUR") === "EUR") totalAchat += i.price;
+      if (cur.amount != null) {
+        if ((cur.currency || "EUR") === "EUR") totalValeur += cur.amount;
+        else horsEuro++;
+      }
+      body.appendChild(tr);
+    });
+    t.appendChild(body);
+
+    var foot = document.createElement("tfoot");
+    var fr = document.createElement("tr");
+    fr.appendChild(el("td", null, rows.length + " objet" + (rows.length > 1 ? "s" : "")));
+    fr.appendChild(el("td", null, ""));
+    fr.appendChild(el("td", null, ""));
+    fr.appendChild(el("td", null, "Totaux en euros"));
+    fr.appendChild(el("td", "num", fmtMoney(totalAchat, "EUR")));
+    fr.appendChild(el("td", "num", fmtMoney(totalValeur, "EUR")));
+    fr.appendChild(el("td", "src", horsEuro ? horsEuro + " objet(s) en devise étrangère exclus" : ""));
+    fr.appendChild(el("td", null, ""));
+    foot.appendChild(fr);
+    t.appendChild(foot);
+
+    wrap.appendChild(t);
+    list.appendChild(wrap);
+  }
+
   function itemNode(i) {
     var v = view(i);
     var wrap = el("article", "item");
     var row = el("button", "row");
     row.type = "button";
     row.setAttribute("aria-expanded", openId === i.id ? "true" : "false");
+    wrap.setAttribute("data-id", i.id);
 
     var thumb = el("div", "thumb");
     if (v.photo) {
@@ -516,13 +672,19 @@ footer p { margin: 0 0 8px; }
     mid.appendChild(el("p", "line", i.house + " · " + i.city + " · " + frDate(i.saleDate)));
     var chips = el("div", "chips");
     chips.appendChild(el("span", "chip", i.category));
+    var acqKey = acqOf(i);
+    if (acqKey !== "achat") chips.appendChild(el("span", "chip acq acq-" + acqKey, ACQ[acqKey]));
     if (v.location) chips.appendChild(el("span", "chip room", v.location));
     if (i.confidence === "a_verifier") chips.appendChild(el("span", "chip todo", "à compléter"));
     mid.appendChild(chips);
 
     var m = money(i);
+    var cur = currentValue(i, v);
     var price = el("div", "price", m.main);
     if (m.sub) price.appendChild(el("small", null, m.sub));
+    if (cur.basis === "estimation") {
+      price.appendChild(el("small", "estim", "valeur " + fmtMoney(cur.amount, cur.currency)));
+    }
 
     row.appendChild(thumb);
     row.appendChild(mid);
@@ -538,6 +700,7 @@ footer p { margin: 0 0 8px; }
 
   function detailNode(i) {
     var v = view(i);
+    var cur = currentValue(i, v);
     var d = el("div", "detail");
 
     if (v.photo) {
@@ -555,7 +718,8 @@ footer p { margin: 0 0 8px; }
     }
 
     var dl = document.createElement("dl");
-    [["Vente", i.sale], ["Date", frDate(i.saleDate)], ["Lot", i.lot],
+    [["Origine", ACQ[acqOf(i)] + (i.acquisitionNote ? " — " + i.acquisitionNote : "")],
+     ["Vente", i.sale], ["Date", frDate(i.saleDate)], ["Lot", i.lot],
      ["Prix", money(i).main], ["Détail du prix", i.priceNote], ["Facture", i.invoiceRef],
      ["Note de facture", i.invoiceNote],
      ["Description", i.origin && i.origin !== "—" ? i.origin : null],
@@ -655,6 +819,44 @@ footer p { margin: 0 0 8px; }
     loc.addEventListener("change", function () { commit(i.id, { location: loc.value.trim() }); });
     note.addEventListener("change", function () { commit(i.id, { notes: note.value.trim() }); });
 
+    var val = el("div", "fields valuation");
+    function field(id, label, type, value, placeholder) {
+      var w = el("div");
+      var l = el("label", null, label);
+      l.setAttribute("for", id + "-" + i.id);
+      var input = document.createElement("input");
+      input.type = type;
+      input.id = id + "-" + i.id;
+      input.value = value;
+      if (placeholder) input.placeholder = placeholder;
+      if (type === "number") { input.min = "0"; input.step = "50"; }
+      w.appendChild(l);
+      w.appendChild(input);
+      val.appendChild(w);
+      return input;
+    }
+    var vAmount = field("val", "Valeur actuelle (€)", "number", v.value,
+                        i.price != null ? String(i.price) : "à estimer");
+    var vSource = field("src", "Source de cette valeur", "text", v.valueSource,
+                        "Estimation Artcurial, assurance, comparable en vente…");
+    var vDate = field("vdate", "Date de la valeur", "text", v.valueDate, "03/2026");
+    d.appendChild(val);
+
+    var basis = el("p", "hint");
+    basis.textContent = cur.basis === "estimation"
+      ? "Valeur retenue : votre estimation. Sans elle, le prix payé serait repris."
+      : (cur.basis === "achat"
+         ? "Aucune estimation saisie : le récapitulatif retient le prix d'achat."
+         : "Ni prix d'achat ni estimation : cet objet ne compte pas dans les totaux.");
+    d.appendChild(basis);
+
+    vAmount.addEventListener("change", function () {
+      var raw = vAmount.value.trim();
+      commit(i.id, { value: raw === "" ? "" : Number(raw) });
+    });
+    vSource.addEventListener("change", function () { commit(i.id, { valueSource: vSource.value.trim() }); });
+    vDate.addEventListener("change", function () { commit(i.id, { valueDate: vDate.value.trim() }); });
+
     var photoRow = el("div", "photo-row");
     var file = document.createElement("input");
     file.type = "file";
@@ -709,8 +911,10 @@ footer p { margin: 0 0 8px; }
       var v = view(i);
       return {
         id: i.id, titre: stripTags(i.title), maison: i.house, vente: i.sale, date: i.saleDate,
-        lot: i.lot || "", prix: i.price, devise: i.currency, facture: i.invoiceRef || "",
-        emplacement: v.location, notes: v.notes
+        lot: i.lot || "", origine: ACQ[acqOf(i)], prix: i.price, devise: i.currency,
+        valeurActuelle: currentValue(i, v).amount, baseValeur: currentValue(i, v).basis,
+        sourceValeur: v.valueSource || "", dateValeur: v.valueDate || "",
+        facture: i.invoiceRef || "", emplacement: v.location, notes: v.notes
       };
     });
     downloads.save({
@@ -726,7 +930,7 @@ footer p { margin: 0 0 8px; }
   fillSelect("house", unique(function (i) { return i.house; }));
   fillSelect("category", unique(function (i) { return i.category; }));
   fillSelect("year", unique(yearOf).sort().reverse());
-  ["q", "house", "category", "year", "groupBy"].forEach(function (id) {
+  ["q", "house", "category", "year", "acq", "viewMode", "groupBy"].forEach(function (id) {
     document.getElementById(id).addEventListener("input", render);
   });
   setMode();

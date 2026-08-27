@@ -22,7 +22,7 @@ ROOT = Path(__file__).resolve().parent.parent
 KEYS = ["id", "title", "category", "origin", "house", "city", "sale", "saleDate", "lot",
         "price", "currency", "priceNote", "invoiceRef", "invoiceNote", "delivery",
         "confidence", "todo", "lotUrl", "notice", "photoSource", "science",
-        "driveUrl", "driveDocs", "reportUrl"]
+        "driveUrl", "driveDocs", "reportUrl", "acquisition", "valuation"]
 
 # Budgets. La limite dure de la plateforme est de 16 Mo ; le gabarit refuse de
 # se réenregistrer au-delà de 12 Mo. On vise nettement en dessous pour laisser
