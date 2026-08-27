@@ -631,13 +631,16 @@
       "invoiceRef": "Paiement confirmé le 19/03/2024",
       "gmailThreadId": "18e536207f74e137",
       "location": "",
-      "photos": [],
+      "photos": [
+        "2024-eve-486.jpg"
+      ],
       "confidence": "confirme",
       "notice": "Molaire de mammouth laineux (Mammuthus primigenius, ancien Elephas primigenius), Quaternaire supérieur, environ 20 000 ans, 27 cm de long. La dent est un objet d'ingénierie : des lamelles d'émail parallèles, cimentées entre elles, forment une râpe qui s'use plus lentement que la dentine environnante et reste toujours coupante — l'adaptation qui a permis aux mammouths de brouter les graminées dures de la steppe froide. Chaque animal n'utilisait que quatre molaires à la fois, remplacées six fois au cours de la vie, la dernière devant durer jusqu'à la fin. Il s'agit ici de la troisième molaire supérieure gauche. Enchère de 500 € le 18 mars 2024 chez Eve, à Drouot, paiement confirmé le lendemain.",
       "driveFolderId": "10GvMEkaZ8mZS9R9CXGQJk4px7zoKe2PM",
       "driveFolderName": "16 - 2024-03 Eve lot 486 - Molaire de mammouth",
       "driveUrl": "https://drive.google.com/drive/folders/10GvMEkaZ8mZS9R9CXGQJk4px7zoKe2PM",
-      "acquisition": "achat"
+      "acquisition": "achat",
+      "photoSource": "Google Drive — dossier de l'objet, « molaire mammouth.png ». Photo de catalogue sur fond blanc, bandes noires recadrées."
     },
     {
       "id": "2023-millon-202",
@@ -1222,7 +1225,9 @@
       "invoiceFile": "2013-aguttes-bordereau-acheteur.pdf",
       "gmailThreadId": "13cd90aa3b179b48",
       "location": "",
-      "photos": [],
+      "photos": [
+        "2013-aguttes-141.jpg"
+      ],
       "confidence": "confirme",
       "notice": "Paul Jouve est le maître de l'animalier Art déco — le bordereau Aguttes le dit né en 1880, il l'est en réalité en 1878, à Marlotte, et meurt à Paris en 1973. Formé au Jardin des Plantes, marqué par un séjour en Algérie puis par l'Indochine, il impose une panthère devenue emblématique : silhouette découpée, noir profond, aucun effet de fourrure inutile. La lithographie occupe une place à part dans son œuvre, où le noir d'encre rend le lustre du pelage mieux que la peinture. Il s'agit ici d'une rare lithographie originale, tirage à l'encre noire sur papier crème, signée en bas à droite « P. Jouve — épreuve d'artiste » et frappée du cachet à sec à la tête de panthère, vers 1930, 97 × 64 cm à vue. Une épreuve d'artiste est un tirage hors commerce réservé à l'artiste, généralement plus rare que le tirage numéroté. Adjugée 13 000 € le 13 février 2013 chez Aguttes, vente Art Déco, 16 575 € frais compris.",
       "driveFolderId": "12fRwGvNYWb3chkBHHgDD349Wik1Pi5Qn",
@@ -1233,9 +1238,15 @@
           "label": "2013-aguttes-bordereau-acheteur.pdf",
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1oguDbB1RGMmMpSRkXJFpxCiuFaB7NGxg/view"
+        },
+        {
+          "label": "Jouve Panthère.pdf — fiche du lot",
+          "kind": "Notice",
+          "url": "https://drive.google.com/file/d/0B594Pkvzb_oweE9ydjlGaWdVZEE/view"
         }
       ],
-      "acquisition": "achat"
+      "acquisition": "achat",
+      "photoSource": "Image extraite de « Jouve Panthère.pdf », conservé dans le dossier Drive de l'objet depuis février 2013 — la fiche de lot Aguttes."
     },
     {
       "id": "2009-artcurial-56",
