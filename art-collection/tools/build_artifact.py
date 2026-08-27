@@ -86,6 +86,13 @@ def main():
         item["photo"] = photos.get(first, "") if first else ""
         pages = src.get("reportPages") or []
         item["reportPages"] = [page_data_uri(p) for p in pages]
+        # Une estimation documentée alimente la valeur actuelle, que la page peut ensuite
+        # corriger ; les trois champs sont ceux que le gabarit lit et réenregistre.
+        val = src.get("valuation") or {}
+        if val.get("value") is not None:
+            item["value"] = val["value"]
+            item["valueSource"] = val.get("source", "")
+            item["valueDate"] = val.get("date", "")
         items.append(item)
 
     state = {"version": 1, "updated": data["meta"]["generated"], "items": items}

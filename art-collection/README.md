@@ -90,7 +90,7 @@ dessous :
   au-delà de `WARN_LIMIT` (8 Mo). Chaque construction annonce la marge restante
   en nombre de photos.
 
-Au 27 août 2026 : 48 entrées, 4,8 Mo, 26 photos, 69 documents liés.
+Au 27 août 2026 : 48 entrées, 4,8 Mo, 27 photos, 72 documents liés.
 
 Les objets sortis de la collection — offerts, revendus, acquis pour un tiers —
 ne sont pas détruits : leur dossier Drive est déplacé sous « ZZ - Hors collection »,
@@ -111,3 +111,8 @@ Le tableau récapitulatif retient, pour chaque objet, l'estimation saisie ; à d
 le prix payé ; à défaut, rien. Les totaux ne somment que les euros — un achat en
 livres sterling est signalé et exclu. Un objet sans prix ni estimation ne fausse
 donc pas le total, il est simplement absent.
+
+Une estimation documentée se saisit dans `valuation` (`value`, `currency`, `source`,
+`date`). Le script de construction la reporte dans les champs `value`,
+`valueSource` et `valueDate` que la page lit : elle alimente donc la colonne
+« valeur actuelle » du récapitulatif, et reste corrigeable dans la fiche.
