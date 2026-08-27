@@ -758,7 +758,9 @@
       "invoiceFile": "2018-tajan-facture-acquittee.pdf",
       "gmailThreadId": "1674f7dc8a4a5b97",
       "location": "",
-      "photos": [],
+      "photos": [
+        "2018-tajan-69.jpg"
+      ],
       "confidence": "confirme",
       "notice": "Charles Artus (Étretat, 1897 - Le Havre, 1978) est un sculpteur animalier formé auprès d'Édouard Navellier puis de François Pompon dans les années 1920 — d'où cette manière de ramasser l'animal en volumes lisses, débarrassés du détail. Il expose au Salon des artistes français dès 1920, y obtient une mention en 1922, une médaille de bronze en 1926, et se consacre surtout aux animaux de son pays de Caux, canards, lièvres, chiens. Ce crabe en bronze poli or patiné est un objet de bureau autant qu'une sculpture : le couvercle mobile découvre un corps évidé formant boîte, 7,8 cm de haut pour 31,5 de long et 22 de profondeur. Attribué à Artus par l'étude, sans signature mentionnée au bordereau. Adjugé 300 € le 23 novembre 2018 dans la vente Intérieur XXe, 375,60 € frais compris.",
       "driveFolderId": "1G8cf_8KrCKEaSZqElcj6MQ3LMSDd9Ypp",
@@ -771,7 +773,8 @@
           "url": "https://drive.google.com/file/d/1fRc63_mPQWEVcjtI99QdKswoSVMaf2MN/view"
         }
       ],
-      "acquisition": "achat"
+      "acquisition": "achat",
+      "photoSource": "Google Drive — image de catalogue de la maison de vente, portant le filigrane de la base d'images. Ce n'est pas une prise de vue de la pièce chez vous."
     },
     {
       "id": "2018-catawiki",
@@ -1126,7 +1129,11 @@
           "url": "https://drive.google.com/file/d/1GzGJ1RsuO5rw-HdX7PR1kUEODgJA0ZYm/view"
         }
       ],
-      "driveFolderName": "2016-06 Art Auction France lot 99 - Paul Jouve - Tigres s'abreuvant"
+      "driveFolderName": "2016-06 Art Auction France lot 99 - Paul Jouve - Tigres s'abreuvant",
+      "photos": [
+        "2016-artauction-99.jpg"
+      ],
+      "photoSource": "Google Drive — image de catalogue de la maison de vente, portant le filigrane de la base d'images. Ce n'est pas une prise de vue de la pièce chez vous. Le fichier déposé était nommé « guyot tigre s'abreuvant » ; il s'agit bien de la lithographie de Jouve."
     },
     {
       "id": "2016-cornette-129",
@@ -1381,7 +1388,9 @@
       "invoiceFile": "2014-artcurial-art-tribal-facture-80062.pdf",
       "gmailThreadId": "146ab31a96d0e301",
       "location": "",
-      "photos": [],
+      "photos": [
+        "2014-artcurial-arttribal-2.jpg"
+      ],
       "confidence": "confirme",
       "notice": "Les armes de main maories ne sont pas seulement des armes : ce sont des taonga, des trésors chargés du mana de ceux qui les ont portées, transmis de génération en génération et parfois nommés individuellement. La famille comprend le patu et le mere, courts et plats, tenus pour frapper d'estoc au menton ou à la tempe, taillés dans le bois, l'os de baleine ou le jade néphrite (pounamu) ; le wahaika à échancrure ; le taiaha, long bâton à lame et à visage sculpté, arme de duel et de harangue. La facture Artcurial dit seulement « bâton de combat, Maori, Nouvelle-Zélande », sans matériau ni type : c'est le premier point à préciser, en photographiant la pièce et sa patine d'usage. Adjugé 4 000 € le 17 juin 2014 à l'Hôtel Marcel Dassault, vente Art Tribal, 5 200 € frais compris.",
       "driveFolderId": "1ObqBycnNAKRifpD8OuvMdkBHi8Q1xgQx",
@@ -1399,7 +1408,8 @@
           "url": "https://drive.google.com/file/d/1YNhPRZouWhYR_886YEpssix9A7eyXeVs/view"
         }
       ],
-      "acquisition": "achat"
+      "acquisition": "achat",
+      "photoSource": "Google Drive — image de catalogue de la maison de vente, portant le filigrane de la base d'images. Ce n'est pas une prise de vue de la pièce chez vous."
     },
     {
       "id": "2014-audap-86",
@@ -1428,7 +1438,11 @@
           "url": "https://drive.google.com/file/d/1AHD21eNPqH95-SZVMAAZNlnWuU9exaqx/view"
         }
       ],
-      "driveFolderName": "2014-06 Audap et Mirabaud lot 86 - Andre Maire - Les Mois depart pour la chasse"
+      "driveFolderName": "2014-06 Audap et Mirabaud lot 86 - Andre Maire - Les Mois depart pour la chasse",
+      "photos": [
+        "2014-audap-86.jpg"
+      ],
+      "photoSource": "Google Drive — image de catalogue de la maison de vente, portant le filigrane de la base d'images. Ce n'est pas une prise de vue de la pièce chez vous."
     },
     {
       "id": "2014-sgl-226",
@@ -1456,7 +1470,11 @@
           "url": "https://drive.google.com/file/d/1nslRY-S5x6f0DXw89XymQM-dB8tCH-Y8/view"
         }
       ],
-      "driveFolderName": "2014-04 Saint Germain en Laye Encheres lot 226 - Andre Maire - Angkor"
+      "driveFolderName": "2014-04 Saint Germain en Laye Encheres lot 226 - Andre Maire - Angkor",
+      "photos": [
+        "2014-sgl-226.jpg"
+      ],
+      "photoSource": "Google Drive — image de catalogue de la maison de vente, portant le filigrane de la base d'images. Ce n'est pas une prise de vue de la pièce chez vous."
     },
     {
       "id": "2013-millon-610",
@@ -1549,14 +1567,15 @@
           "url": "https://drive.google.com/file/d/1hOOFemVVbjCsLrbcYdV0lQml_R3H2CGP/view"
         }
       ],
-      "driveFolderName": "2013-10 Saint Germain en Laye Encheres lots 200 et 237 - Andre Maire - Femmes malgaches et Vision d'Angkor"
+      "driveFolderName": "2013-10 Saint Germain en Laye Encheres lots 200 et 237 - Andre Maire - Femmes malgaches et Vision d'Angkor",
+      "todo": "La photo « andré maire vision d'angkor.jpg » est dans le dossier Drive mais ne pèse que 25 ko : trop peu pour être reprise ici. Redéposer une version en pleine définition, ou l'ajouter directement depuis la fiche."
     },
     {
       "id": "2013-sgl-200",
       "title": "André Maire (1898-1984), « Femmes malgaches »",
       "category": "Tableau",
       "acquisition": "achat",
-      "origin": "Fusain et sanguine signé et daté en haut à droite. 47 × 62 cm",
+      "origin": "Fusain et sanguine signé et daté 1953 en haut à droite. 47 × 62 cm",
       "house": "Saint Germain en Laye Enchères",
       "city": "Saint-Germain-en-Laye — SVV Frédéric Laurent de Rummel",
       "sale": "Vente n° 668, passage 200",
@@ -1567,7 +1586,7 @@
       "priceNote": "Adjugé 2 550 € ; frais 22,126 % (564,21 €) ; 3 114,21 € dus, dans un bordereau de 9 342,64 € réglé par chèque le 20/10/2013.",
       "invoiceRef": "Bordereau d'adjudication A-668-18 — référence 11039-35",
       "confidence": "confirme",
-      "notice": "Fusain et sanguine, 47 × 62 cm, signé et daté en haut à droite. Adjugé 2 550 € à Saint-Germain-en-Laye le 20 octobre 2013.\n\nAndré Maire (1898-1984) est un peintre-voyageur au sens plein : élève et gendre d'Émile Bernard, il passe sa vie entre l'Indochine, Madagascar, l'Inde et l'Égypte, et rapporte de chaque séjour des centaines de dessins. Il enseigne à Saïgon dans les années 1920, revient en Indochine après-guerre, et fait d'Angkor un motif récurrent. Sa manière tient du carnet plus que du tableau : fusain, sanguine, sépia, gouache, exécutés sur le motif, avec une prédilection pour les architectures mangées par la végétation et les figures saisies en quelques traits.\n\nMaire séjourne à Madagascar en 1926-1927, puis y revient longuement en 1955-1957. Le fusain rehaussé de sanguine est sa formule pour la figure : le noir pour la construction, la terre rouge pour la carnation, sur un papier laissé nu qui fait la lumière. La technique vient tout droit de l'enseignement d'Émile Bernard, dont il fut l'élève avant d'en devenir le gendre.\n\nC'est la seule feuille malgache de la collection, les trois autres Maire étant indochinoises.",
+      "notice": "Fusain et sanguine, 47 × 62 cm, signé et daté en haut à droite. Adjugé 2 550 € à Saint-Germain-en-Laye le 20 octobre 2013.\n\nAndré Maire (1898-1984) est un peintre-voyageur au sens plein : élève et gendre d'Émile Bernard, il passe sa vie entre l'Indochine, Madagascar, l'Inde et l'Égypte, et rapporte de chaque séjour des centaines de dessins. Il enseigne à Saïgon dans les années 1920, revient en Indochine après-guerre, et fait d'Angkor un motif récurrent. Sa manière tient du carnet plus que du tableau : fusain, sanguine, sépia, gouache, exécutés sur le motif, avec une prédilection pour les architectures mangées par la végétation et les figures saisies en quelques traits.\n\nLa feuille est datée 1953. Maire a fait de Madagascar l'un de ses terrains de prédilection, avec plusieurs séjours étalés sur trois décennies. Le fusain rehaussé de sanguine est sa formule pour la figure : le noir pour la construction, la terre rouge pour la carnation, sur un papier laissé nu qui fait la lumière. La technique vient tout droit de l'enseignement d'Émile Bernard, dont il fut l'élève avant d'en devenir le gendre.\n\nC'est la seule feuille malgache de la collection, les trois autres Maire étant indochinoises.",
       "driveFolderId": "13c9vIpJgFGG5W2QV_T7WN-IRD2EHvZ6G",
       "driveUrl": "https://drive.google.com/drive/folders/13c9vIpJgFGG5W2QV_T7WN-IRD2EHvZ6G",
       "driveDocs": [
@@ -1577,7 +1596,11 @@
           "url": "https://drive.google.com/file/d/1hOOFemVVbjCsLrbcYdV0lQml_R3H2CGP/view"
         }
       ],
-      "driveFolderName": "2013-10 Saint Germain en Laye Encheres lots 200 et 237 - Andre Maire - Femmes malgaches et Vision d'Angkor"
+      "driveFolderName": "2013-10 Saint Germain en Laye Encheres lots 200 et 237 - Andre Maire - Femmes malgaches et Vision d'Angkor",
+      "photos": [
+        "2013-sgl-200.jpg"
+      ],
+      "photoSource": "Google Drive — image de catalogue de la maison de vente, portant le filigrane de la base d'images. Ce n'est pas une prise de vue de la pièce chez vous."
     },
     {
       "id": "2013-aguttes-141",
