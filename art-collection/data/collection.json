@@ -1323,9 +1323,11 @@
       "gmailThreadId": "149e13ad2027c551",
       "delivery": "Retirée au magasinage Drouot",
       "location": "",
-      "photos": [],
+      "photos": [
+        "2014-aguttes-38.jpg"
+      ],
       "confidence": "confirme",
-      "notice": "André-Vincent Becquerel (1893-1981), formé à l'École nationale supérieure des beaux-arts, appartient à la génération animalière de l'entre-deux-guerres qui fait tenir ensemble l'exactitude anatomique et l'élégance décorative. Les félins forment le cœur de son œuvre — panthère à l'affût, panthère se frottant à un arbre, panthère se léchant la patte — traités en épreuves de bronze aux patines soignées, souvent éditées vers 1930. Celle-ci, en bronze à patine brune, signée « A. Becquerel », est une fonte d'édition ancienne des années 1930 : 33,5 cm de haut, 68 de long, 17 de profondeur. Adjugée 12 000 € le 21 novembre 2014 chez Aguttes, vente Art Déco, 15 300 € frais compris, virement du 28 novembre ; retirée au magasinage de Drouot.\n\nLa facture Aguttes, versée depuis au dossier, précise la pièce : épreuve en bronze à patine brune signée « A. Becquerel », fonte d'édition ancienne vers 1930, 33,5 cm de haut sur 68 de long et 17 de profondeur. La mention « fonte d'édition ancienne » situe le tirage du vivant de l'artiste ou peu après, ce qui la distingue des refontes tardives — distinction qui fait l'essentiel de la valeur d'un bronze animalier.",
+      "notice": "André-Vincent Becquerel (1893-1981), formé à l'École nationale supérieure des beaux-arts, appartient à la génération animalière de l'entre-deux-guerres qui fait tenir ensemble l'exactitude anatomique et l'élégance décorative. Les félins forment le cœur de son œuvre — panthère à l'affût, panthère se frottant à un arbre, panthère se léchant la patte — traités en épreuves de bronze aux patines soignées, souvent éditées vers 1930. Celle-ci, en bronze à patine brune, signée « A. Becquerel », est une fonte d'édition ancienne des années 1930 : 33,5 cm de haut, 68 de long, 17 de profondeur. Adjugée 12 000 € le 21 novembre 2014 chez Aguttes, vente Art Déco, 15 300 € frais compris, virement du 28 novembre ; retirée au magasinage de Drouot.\n\nLa facture Aguttes, versée depuis au dossier, précise la pièce : épreuve en bronze à patine brune signée « A. Becquerel », fonte d'édition ancienne vers 1930, 33,5 cm de haut sur 68 de long et 17 de profondeur. La mention « fonte d'édition ancienne » situe le tirage du vivant de l'artiste ou peu après, ce qui la distingue des refontes tardives — distinction qui fait l'essentiel de la valeur d'un bronze animalier.\n\nLes vues versées au dossier montrent l'épreuve de profil, terrasse rectangulaire moulurée, la patte avant droite levée vers la gueule, et un détail de la tête : oreilles dressées, modelé du crâne et du chanfrein très tenu, patine brune nuancée de reflets dorés sur les reliefs. La signature « A. Becquerel » court sur la terrasse.",
       "driveFolderId": "1ci5Ofpa9cSoc4qc6FOCZMY5PRE6V5UW9",
       "driveFolderName": "2014-11 Aguttes lot 38 - Becquerel - Panthere se lechant",
       "driveUrl": "https://drive.google.com/drive/folders/1ci5Ofpa9cSoc4qc6FOCZMY5PRE6V5UW9",
@@ -1339,10 +1341,25 @@
           "label": "Facture Aguttes BA2-058534 (photo)",
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1Oq1MJn0U0y5lXbxyzLqc6GfjkgPZD7cv/view"
+        },
+        {
+          "label": "Panthère — vue d'ensemble de profil",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/17nSYnLIHWEzvLz-PwJU2b1YJtoxvBSWR/view"
+        },
+        {
+          "label": "Panthère — détail de la tête léchant la patte",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1p0A6edj6yTFIziggd0iagFvnpLnOg1eG/view"
+        },
+        {
+          "label": "Panthère — troisième vue",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1cSybol_HveyXIHvcTqc--Ea9rrA_BVBJ/view"
         }
       ],
       "acquisition": "achat",
-      "todo": "Les trois vues déposées dans le dossier Drive pèsent de 7 à 37 ko, trop peu pour être reprises ici. Redéposer une version en pleine définition, ou ajouter la photo directement depuis la fiche."
+      "photoSource": "Vue d'ensemble de profil versée au dossier Drive de l'objet (becquerel panthère.jpeg)"
     },
     {
       "id": "2014-udb-manta",
