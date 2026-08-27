@@ -60,18 +60,18 @@ Les emplacements et notes saisis dans l'application sont enregistrés dans le
 
 ## Miroir Google Drive
 
-Le dossier Drive **ARTS** porte un sous-dossier par objet, numéroté dans l'ordre
-chronologique inverse (`NN - AAAA-MM Maison lot X - Désignation`). Chacun contient
-une fiche Google Doc, la ou les factures, et les photos.
+Le dossier Drive **ARTS** porte un sous-dossier par objet, nommé
+`AAAA-MM Maison lot X - Désignation`. Chacun contient une fiche Google Doc, la ou
+les factures, et les photos. Quand un même bordereau couvre plusieurs lots, les
+objets partagent un dossier, nommé pour l'ensemble.
 
 `data/collection.json` porte pour chaque entrée `driveFolderId`, `driveFolderName`,
 `driveUrl` et `driveDocs` (la liste des pièces, avec leur lien direct), plus
 `meta.driveRoot` pour la racine.
 
-Les numéros suivent l'ordre chronologique : une date corrigée ou un objet inséré
-oblige à renuméroter les dossiers concernés. Le nom canonique est recalculé par le
-script de construction à partir de `saleDate`, `house`, `lot` et de la désignation
-courte conservée dans `driveFolderName`.
+Le nom commence par la date : Drive les classe donc chronologiquement de lui-même.
+Le schéma antérieur, préfixé d'un numéro d'ordre, obligeait à renuméroter tous les
+dossiers suivants à chaque insertion ou correction de date ; il a été abandonné.
 
 ## Poids de la page publiée
 
@@ -90,7 +90,7 @@ dessous :
   au-delà de `WARN_LIMIT` (8 Mo). Chaque construction annonce la marge restante
   en nombre de photos.
 
-Au 27 août 2026 : 35 entrées, 3,6 Mo, 18 photos, 48 documents liés.
+Au 27 août 2026 : 48 entrées, 3,9 Mo, 20 photos, 69 documents liés.
 
 Les objets sortis de la collection — offerts, revendus, acquis pour un tiers —
 ne sont pas détruits : leur dossier Drive est déplacé sous « ZZ - Hors collection »,
