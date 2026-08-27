@@ -90,4 +90,8 @@ dessous :
   au-delà de `WARN_LIMIT` (8 Mo). Chaque construction annonce la marge restante
   en nombre de photos.
 
-Au 26 août 2026 : 42 entrées, 3,6 Mo, 18 photos, 55 documents liés.
+Au 27 août 2026 : 35 entrées, 3,6 Mo, 18 photos, 48 documents liés.
+
+Les objets sortis de la collection — offerts, revendus, acquis pour un tiers —
+ne sont pas détruits : leur dossier Drive est déplacé sous « ZZ - Hors collection »,
+leurs factures restant des justificatifs d'achat.

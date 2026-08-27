@@ -334,7 +334,7 @@
       "lot": "162",
       "price": 28000,
       "currency": "EUR",
-      "priceNote": "28 000 € + 8 400 € de frais = 36 400 € réglés le 12/12/2024. Transport 1 240 € et assurance 2 %.",
+      "priceNote": "28 000 € + 8 400 € de frais = 36 400 € réglés le 12/12/2024. Transport 1 240 € et assurance 2 %. Transport facturé séparément 1 968 € (facture Zacke 27310 du 06/12/2024), réglés le 12/12/2024.",
       "invoiceRef": "27298",
       "invoiceFile": "2024-zacke-facture-27298.pdf",
       "gmailThreadId": "193a231c1eb0787e",
@@ -370,29 +370,6 @@
       "reportUrl": "https://github.com/artusfrance/notes-2026/blob/claude/art-purchases-inventory-g8eaz3/art-collection/reports/2024-zacke-27298-162-CIRAM-0125-OA-036J-C14-MEB.pdf"
     },
     {
-      "id": "2024-zacke-27310",
-      "title": "Lot complémentaire de la vente Zacke du 6 décembre 2024",
-      "category": "À préciser",
-      "origin": "Japon",
-      "house": "Galerie Zacke",
-      "city": "Vienne",
-      "sale": "Fine Japanese Art (JPN1224)",
-      "saleDate": "2024-12-06",
-      "price": 1968,
-      "currency": "EUR",
-      "priceNote": "1 968 € réglés le 12/12/2024.",
-      "invoiceRef": "27310",
-      "gmailThreadId": "193bac446d8bc4a7",
-      "location": "",
-      "photos": [],
-      "confidence": "a_verifier",
-      "todo": "Facture Zacke accessible uniquement par lien : ouvrir le mail du 10/12/2024.",
-      "notice": "Facture 27310 : 1 968 € réglés le 12 décembre 2024, en même temps que le grand Amida de Muromachi, pour un ou plusieurs lots de la vente Fine Japanese Art du 6 décembre 2024. La Galerie Zacke facture par lien vers son extranet plutôt qu'en pièce jointe : c'est la seule facture Zacke dont le détail manque encore, les autres ayant été retrouvées sur le Drive de la collection.",
-      "driveFolderId": "1YxAIBw8pb04CBDiP3nWmUZIqLLP7qaal",
-      "driveFolderName": "10 - 2024-12 Galerie Zacke - Lot complementaire Zacke",
-      "driveUrl": "https://drive.google.com/drive/folders/1YxAIBw8pb04CBDiP3nWmUZIqLLP7qaal"
-    },
-    {
       "id": "2024-tajan-127",
       "title": "Gogotte dite de Fontainebleau",
       "category": "Histoire naturelle",
@@ -418,7 +395,7 @@
       "notice": "Une gogotte est une concrétion de grès : dans les sables de Fontainebleau, déposés à l'Oligocène il y a 33 à 28 millions d'années, des eaux chargées de silice ont cimenté le sable par endroits, en formes molles, ramifiées, sans arêtes — des sculptures que personne n'a sculptées. Louis XIV en fit garnir les grottes et bassins de Versailles, ce qui leur vaut d'être recherchées depuis le XVIIe siècle ; les plus belles pièces sont aujourd'hui traitées comme des œuvres d'art abstraites. Celle-ci pèse 48,5 kg et repose sur un socle proportionné. Adjugée 26 000 € le 3 juillet 2024 chez Tajan, 34 112 € frais compris — sur une estimation de 10 000 à 20 000 €.",
       "photoSource": "Google Drive — dossier ARTS",
       "driveFolderId": "1utYHS5lf93SFWzuAwIGmgKcGnMUTeTEc",
-      "driveFolderName": "11 - 2024-07 Tajan lot 127 - Gogotte de Fontainebleau",
+      "driveFolderName": "10 - 2024-07 Tajan lot 127 - Gogotte de Fontainebleau",
       "driveUrl": "https://drive.google.com/drive/folders/1utYHS5lf93SFWzuAwIGmgKcGnMUTeTEc",
       "driveDocs": [
         {
@@ -463,7 +440,7 @@
       "notice": "Rosa Bonheur (1822-1899) est la peintre animalière la plus célèbre du XIXe siècle : Le Marché aux chevaux la rend mondialement connue, elle obtient l'autorisation préfectorale de porter le pantalon pour fréquenter abattoirs et foires, et devient la première femme décorée de la Légion d'honneur au titre de son art. Elle a pratiqué la sculpture toute sa vie, d'abord comme étude préparatoire à la peinture — ses bronzes de bovins et d'ovins, édités pour la plupart après sa mort, en gardent la précision anatomique. Ce taureau en bronze à patine brune nuancée est signé « ROSA BONHEUR » sur la terrasse ; il mesure 40 cm de haut, la terrasse 37 × 16 cm. Adjugé 1 800 € le 3 juillet 2024, 2 361,60 € frais compris.",
       "photoSource": "Google Drive — dossier ARTS (vue d'ensemble et détail de la signature)",
       "driveFolderId": "1w7id59XTlHH06L1FPKdg6RDcs_uGQ0eA",
-      "driveFolderName": "12 - 2024-07 Tajan lot 75 - Rosa Bonheur - Taureau",
+      "driveFolderName": "11 - 2024-07 Tajan lot 75 - Rosa Bonheur - Taureau",
       "driveUrl": "https://drive.google.com/drive/folders/1w7id59XTlHH06L1FPKdg6RDcs_uGQ0eA",
       "driveDocs": [
         {
@@ -493,7 +470,7 @@
       "photoSource": "Google Drive — dossier « ammonite »",
       "notice": "Ammonite iridescente Placenticeras sp., coquille fossile d'environ 83,5 millions d'années, 36 × 30 × 4,5 cm. Extraite de la Bearpaw Formation, dans le sud de l'Alberta, aux abords de la St. Mary River. La fiche de la maison de vente précise l'état de conservation : support et surface à 80 %, avec lacunes, parties recomposées, consolidation par résines spéciales et traitement UV. Provenance : marché italien.\n\nLes ammonites sont des céphalopodes à coquille enroulée, cousins des nautiles et des calmars, apparus au Dévonien et éteints avec les dinosaures à la fin du Crétacé, il y a 66 millions d'années. Leur coquille en spirale logarithmique, cloisonnée en loges successives reliées par un siphon, servait de flotteur : c'est cette géométrie qui en a fait, bien avant la paléontologie, des objets de curiosité — les Anglais y voyaient des serpents pétrifiés.\n\nCelle-ci appartient à une catégorie très particulière. Le fossile date du Crétacé supérieur, étage campanien. Sa minéralisation en aragonite iridescente tient aux nombreuses couches de cendre volcanique — la bentonite — que l'on ne trouve que dans la stratification de la Bearpaw Formation. En 1981, la World Jewellery Confederation (CIBJO) et le Gemmological Institute of America ont reconnu à ces ammonites minéralisées, dites ammolites, le statut de gemme : leur poids se mesure en carats, comme celui des diamants. Elles sont pourtant bien plus rares — une tonne de sédiment extrait livre en moyenne 0,6 carat d'ammolite contre 1,5 carat de diamant.\n\nLes couleurs viennent de la réfraction de la lumière sur les différents niveaux du test aragonitique : chaque couche renvoie une teinte, l'ensemble couvrant presque tout le spectre visible. La maison de vente signale la rareté de tels spécimens même en collection publique, et cite le Museo Mineralogico Campano, qui conserve un exemplaire exceptionnel à réfraction bleue.\n\nAdjugée 20 000 € le 29 mai 2024 à la Casa di Vendite Claudia Bonino, sur une estimation de 20 000 à 30 000 € ; 27 232,16 € commissions comprises. L'export a demandé une licence italienne, obtenue après plusieurs mois : pièce reçue le 14 octobre 2024, devis de soclage demandé dans la foulée.",
       "driveFolderId": "1CZi7TOlMn2sktjt6DH2DWOCw-6VmUy9J",
-      "driveFolderName": "13 - 2024-05 Claudia Bonino, Casa di Vendite lot 12 - Ammonite iridescente Placenticeras",
+      "driveFolderName": "12 - 2024-05 Claudia Bonino, Casa di Vendite lot 12 - Ammonite iridescente Placenticeras",
       "driveUrl": "https://drive.google.com/drive/folders/1CZi7TOlMn2sktjt6DH2DWOCw-6VmUy9J",
       "lot": "12",
       "price": 20000,
@@ -535,7 +512,7 @@
       "notice": "Grande tête de Bouddha en bronze, Cambodge, XVIIe siècle, 45 × 18 × 20 cm, donnée pour provenir d'une collection privée de Barcelone constituée avant 1970 — une provenance ancienne qui compte particulièrement pour l'art khmer, la convention de l'UNESCO de 1970 servant de ligne de partage pour la licéité des objets en circulation. La photographie montre un visage aux paupières baissées et au sourire retenu, les cheveux en petites boucles serrées, l'ushnisha surmontée d'une flamme — le rasmi, symbole de l'illumination, propre aux bronzes d'Asie du Sud-Est après Angkor — et de longs lobes d'oreilles distendus, souvenir des lourdes boucles du prince Siddhartha avant son renoncement. La dorure ne subsiste que par plaques sur le front et les joues. Le XVIIe siècle cambodgien appartient à la période post-angkorienne : les grands chantiers de pierre ont cessé, les ateliers travaillent le bronze et le bois pour les monastères theravāda, dans un style plus doux, aux traits arrondis, hérité d'Ayutthaya autant que d'Angkor. Adjugée 6 000 € le 25 avril 2024 chez Templum Fine Art Auctions, à Barcelone (vente n° 38), via Drouot : 1 320 € de commission (22 %), 180 € de commission Drouot (3 %) et 315 € de TVA sur les commissions, soit 7 815 € au total.",
       "photoSource": "Google Drive — dossier « tete de bouddha »",
       "driveFolderId": "1snyqRvIVU4SDxaOgt8YVwTfZ41X0AUfJ",
-      "driveFolderName": "14 - 2024-04 Templum Fine Art Auctions lot 379 - Tete de Bouddha bronze dore",
+      "driveFolderName": "13 - 2024-04 Templum Fine Art Auctions lot 379 - Tete de Bouddha bronze dore",
       "driveUrl": "https://drive.google.com/drive/folders/1snyqRvIVU4SDxaOgt8YVwTfZ41X0AUfJ",
       "invoiceRef": "Reçu du 26/04/2024, vente n° 38 — client n° 26661",
       "invoiceNote": "Facture Templum dans le dossier Drive de l'objet. Le reçu porte la mention « NO PAGADO » à sa date d'émission : le règlement est postérieur.",
@@ -572,7 +549,7 @@
       "notice": "Le lapis-lazuli n'est pas un minéral mais une roche, où la lazurite bleue se mêle à la calcite blanche et aux paillettes dorées de la pyrite — les « étoiles » du ciel nocturne des miniatures persanes. La quasi-totalité du lapis de qualité provient depuis sept mille ans d'un seul gisement, celui de Sar-e-Sang dans le Badakhshan afghan ; broyé, il donnait l'outremer, le pigment le plus cher de la peinture occidentale, réservé au manteau de la Vierge. Cette pièce brute présentée soclée mesure 53 cm de haut sur 25 de large et 8 d'épaisseur, pour 27 kg. Adjugée 3 600 € le 19 avril 2024 chez Millon, dans la vente Histoire Naturelle ; le bordereau, réglé les 23 et 24 avril, totalise 14 610 € avec la lionne, les frais, le magasinage Drouot et la livraison.",
       "photoSource": "Google Drive — dossier ARTS",
       "driveFolderId": "1VSEeWOYeHyN3xGQP0WiEZ0ecLHbU14JP",
-      "driveFolderName": "15 - 2024-04 Millon lot 52 - Lapis-lazuli socle",
+      "driveFolderName": "14 - 2024-04 Millon lot 52 - Lapis-lazuli socle",
       "driveUrl": "https://drive.google.com/drive/folders/1VSEeWOYeHyN3xGQP0WiEZ0ecLHbU14JP",
       "driveDocs": [
         {
@@ -613,7 +590,7 @@
       "notice": "Lionne (Panthera leo) naturalisée en position assise, 1,03 m de haut pour 1 m de long, par Damien Barbary — atelier familial de La Marolle-en-Sologne, trois générations de taxidermistes spécialisés dans la faune africaine. La taxidermie moderne ne conserve de l'animal que la peau, tendue sur un mannequin sculpté d'après des mesures anatomiques : la qualité d'une pièce tient au modelé du corps et à la vérité du regard. Le lion est inscrit à l'annexe II de la CITES (II/B au règlement européen) : le lot est vendu avec son certificat d'importation, document à conserver avec la pièce — il conditionne toute revente ou sortie du territoire. Adjugée 7 200 € le 19 avril 2024. La photographie du catalogue Millon montre l'animal assis bien droit, l'arrière-train posé, les antérieurs tendus, la queue ramenée le long du flanc et terminée par son pinceau noir ; la gueule est entrouverte sur la denture, les yeux de verre ambrés, les oreilles dressées. La robe est fauve uni, sans crinière — c'est bien une femelle — et le montage joue la posture d'attention plutôt que le rugissement de convention, ce qui date le travail d'un atelier contemporain plutôt que d'une taxidermie ancienne.",
       "photoSource": "Google Drive — dossier ARTS (« lionne »)",
       "driveFolderId": "1vUVSHC3FhXphJY6BaBZvokP5RvmWVRlz",
-      "driveFolderName": "16 - 2024-04 Millon lot 267 - Lionne naturalisee",
+      "driveFolderName": "15 - 2024-04 Millon lot 267 - Lionne naturalisee",
       "driveUrl": "https://drive.google.com/drive/folders/1vUVSHC3FhXphJY6BaBZvokP5RvmWVRlz",
       "driveDocs": [
         {
@@ -643,7 +620,7 @@
       "confidence": "confirme",
       "notice": "Molaire de mammouth laineux (Mammuthus primigenius, ancien Elephas primigenius), Quaternaire supérieur, environ 20 000 ans, 27 cm de long. La dent est un objet d'ingénierie : des lamelles d'émail parallèles, cimentées entre elles, forment une râpe qui s'use plus lentement que la dentine environnante et reste toujours coupante — l'adaptation qui a permis aux mammouths de brouter les graminées dures de la steppe froide. Chaque animal n'utilisait que quatre molaires à la fois, remplacées six fois au cours de la vie, la dernière devant durer jusqu'à la fin. Il s'agit ici de la troisième molaire supérieure gauche. Enchère de 500 € le 18 mars 2024 chez Eve, à Drouot, paiement confirmé le lendemain.",
       "driveFolderId": "10GvMEkaZ8mZS9R9CXGQJk4px7zoKe2PM",
-      "driveFolderName": "17 - 2024-03 Eve lot 486 - Molaire de mammouth",
+      "driveFolderName": "16 - 2024-03 Eve lot 486 - Molaire de mammouth",
       "driveUrl": "https://drive.google.com/drive/folders/10GvMEkaZ8mZS9R9CXGQJk4px7zoKe2PM"
     },
     {
@@ -668,7 +645,7 @@
       "confidence": "confirme",
       "notice": "Le bois fossile est un bois silicifié : enfouies à l'abri de l'oxygène, les cellules du tronc ont été remplacées molécule à molécule par de la silice apportée par les eaux souterraines, souvent d'origine volcanique. Le processus est assez fin pour conserver la structure du bois — cernes de croissance, nœuds, parfois l'écorce — tout en la transformant en une pierre dure que les oxydes métalliques colorent en rouge, jaune ou brun. Une tranche polie donne à lire d'un coup l'âge de l'arbre et les saisons qu'il a traversées. Belle tranche présentée sur un socle à deux gradins, 62 cm de haut au total, 38 de large. Adjugée 700 € le 16 mai 2023 chez Millon, 922,60 € frais compris ; stockée au magasinage de Drouot puis rapatriée par ThePackengers.",
       "driveFolderId": "169_vlCEAJAl6RWmmRLxyBmsKrZay18-H",
-      "driveFolderName": "18 - 2023-05 Millon lot 202 - Bois fossile",
+      "driveFolderName": "17 - 2023-05 Millon lot 202 - Bois fossile",
       "driveUrl": "https://drive.google.com/drive/folders/169_vlCEAJAl6RWmmRLxyBmsKrZay18-H",
       "driveDocs": [
         {
@@ -704,7 +681,7 @@
       "photoSource": "Google Drive — dossier de la collection",
       "notice": "Abie Loy Kemarre est née en 1972 à Utopia, à 275 km au nord-est d'Alice Springs, dans le groupe anmatyerre. Elle commence à peindre en 1994 sous la conduite de sa grand-mère Kathleen Petyarre, l'une des grandes figures du désert central ; Gloria Petyarre, sa grand-tante, est celle qui a fixé le motif des Bush Medicine Leaves. Le sujet renvoie aux feuilles de kurrajong dont les femmes tirent un onguent médicinal : les peindre, c'est rendre hommage à l'esprit de la plante et favoriser sa régénération, donc la santé du groupe. Le motif — feuilles menues répétées, tourbillonnantes, prises dans un mouvement de vent — se lit aussi comme une vue aérienne du pays. Acrylique sur toile, 99 × 88 cm, 2007. Adjugée 2 200 € le 18 mars 2023, 2 873,20 € frais compris.",
       "driveFolderId": "1N_dUbr-AXlW4SZvx4tCzF04RMz3I0fRW",
-      "driveFolderName": "19 - 2023-03 Millon lot 138 - Abie Loy Kemarre - Bush Medicine Leaves",
+      "driveFolderName": "18 - 2023-03 Millon lot 138 - Abie Loy Kemarre - Bush Medicine Leaves",
       "driveUrl": "https://drive.google.com/drive/folders/1N_dUbr-AXlW4SZvx4tCzF04RMz3I0fRW",
       "driveDocs": [
         {
@@ -739,7 +716,7 @@
       "todo": "Le bordereau n'a pas été envoyé par mail : le demander à l'étude ou le retrouver sur drouot.com.",
       "notice": "Paiement de 375 € confirmé le 2 juin 2022 pour une vente de l'étude Le Floc'h, à Drouot. Le bordereau n'a jamais été envoyé par courriel : ni le lot, ni la vente, ni l'objet ne sont documentés. À demander à l'étude, ou à retrouver dans l'espace client Drouot.",
       "driveFolderId": "120QduDQKuHlCTwu9tv7PohQoPt5F96A6",
-      "driveFolderName": "20 - 2022-06 Le Floc'h - Lot Le Floc h",
+      "driveFolderName": "19 - 2022-06 Le Floc'h - Lot Le Floc h",
       "driveUrl": "https://drive.google.com/drive/folders/120QduDQKuHlCTwu9tv7PohQoPt5F96A6"
     },
     {
@@ -763,7 +740,7 @@
       "confidence": "confirme",
       "notice": "Charles Artus (Étretat, 1897 - Le Havre, 1978) est un sculpteur animalier formé auprès d'Édouard Navellier puis de François Pompon dans les années 1920 — d'où cette manière de ramasser l'animal en volumes lisses, débarrassés du détail. Il expose au Salon des artistes français dès 1920, y obtient une mention en 1922, une médaille de bronze en 1926, et se consacre surtout aux animaux de son pays de Caux, canards, lièvres, chiens. Ce crabe en bronze poli or patiné est un objet de bureau autant qu'une sculpture : le couvercle mobile découvre un corps évidé formant boîte, 7,8 cm de haut pour 31,5 de long et 22 de profondeur. Attribué à Artus par l'étude, sans signature mentionnée au bordereau. Adjugé 300 € le 23 novembre 2018 dans la vente Intérieur XXe, 375,60 € frais compris.",
       "driveFolderId": "1G8cf_8KrCKEaSZqElcj6MQ3LMSDd9Ypp",
-      "driveFolderName": "21 - 2018-11 Tajan lot 69 - Charles Artus - Crabe en bronze",
+      "driveFolderName": "20 - 2018-11 Tajan lot 69 - Charles Artus - Crabe en bronze",
       "driveUrl": "https://drive.google.com/drive/folders/1G8cf_8KrCKEaSZqElcj6MQ3LMSDd9Ypp",
       "driveDocs": [
         {
@@ -791,7 +768,7 @@
       "todo": "Le mail de Catawiki ne nomme pas l'objet : le retrouver dans l'historique du compte Catawiki.",
       "notice": "Paiement confirmé par Catawiki le 21 février 2018, le vendeur ayant été invité à expédier. Le courriel ne nomme pas l'objet et aucune facture n'a suivi dans la messagerie : l'historique du compte Catawiki est le seul moyen de retrouver ce qui a été acheté.",
       "driveFolderId": "1as53RuM_yREbRZdxWMMqFgzhkGYcvcm8",
-      "driveFolderName": "22 - 2018-02 Catawiki - Achat Catawiki",
+      "driveFolderName": "21 - 2018-02 Catawiki - Achat Catawiki",
       "driveUrl": "https://drive.google.com/drive/folders/1as53RuM_yREbRZdxWMMqFgzhkGYcvcm8"
     },
     {
@@ -815,7 +792,7 @@
       "confidence": "confirme",
       "notice": "Judith Leiber (1921-2018), née à Budapest, seule femme admise avant guerre à la guilde hongroise des maroquiniers, fonde sa maison à New York en 1963. Elle y invente la minaudière moderne : un boîtier de métal doré entièrement pavé de cristaux, en forme d'animal, de fruit ou d'objet, qui tient dans la main et se transmet comme un bijou — les Premières dames américaines en ont fait un accessoire d'investiture. Ce sac du soir en forme de grenouille, cristal vert, date de 1979, l'une des premières années des formes animalières. Christie's le décrit en état 2. Adjugé 1 100 € le 12 décembre 2017 dans la vente Sacs et accessoires, 1 430 € frais compris.",
       "driveFolderId": "1T8Vmf85IOjjwuwl5tVwSZmuQCKP9uGtO",
-      "driveFolderName": "23 - 2017-12 Christie's lot 179 - Judith Leiber - Sac grenouille",
+      "driveFolderName": "22 - 2017-12 Christie's lot 179 - Judith Leiber - Sac grenouille",
       "driveUrl": "https://drive.google.com/drive/folders/1T8Vmf85IOjjwuwl5tVwSZmuQCKP9uGtO",
       "driveDocs": [
         {
@@ -846,7 +823,7 @@
       "confidence": "confirme",
       "notice": "Sections d'ammonites Cleoniceras, soclées, 21 cm de haut sur 23 de large, provenance Madagascar. Les Cleoniceras sont des ammonites de l'Albien, vers 110 millions d'années ; les gisements de la région de Mahajanga, sur la côte ouest malgache, en livrent des spécimens dont la coquille s'est remplie de calcite. Sciées et polies, elles révèlent le dédale des cloisons — les septa aux bords plissés qui compartimentaient la coquille en loges de flottaison — et la chambre d'habitation où logeait l'animal. Achetées 320 € le 26 mars 2017 chez Millon Belgique, vente Chambre des Merveilles III.",
       "driveFolderId": "1XfhHxabGAm8M8O-aRz4DBNisZ37H3LkL",
-      "driveFolderName": "24 - 2017-03 Millon Belgique lot 112 - Ammonites Cleoniceras",
+      "driveFolderName": "23 - 2017-03 Millon Belgique lot 112 - Ammonites Cleoniceras",
       "driveUrl": "https://drive.google.com/drive/folders/1XfhHxabGAm8M8O-aRz4DBNisZ37H3LkL",
       "driveDocs": [
         {
@@ -876,7 +853,7 @@
       "confidence": "confirme",
       "notice": "Ammonite Acanthoceras de 42 × 34 × 19 cm laissant apparaître deux ammonites Acanthoceras sp. — une composition naturelle, ce que les collectionneurs appellent une plaque à individus multiples. Les Acanthoceras, du Cénomanien (environ 95 millions d'années), se reconnaissent à leurs côtes fortes ornées de tubercules épineux, d'où leur nom. Provenance : Ambatolataca, Madagascar. Achetée 700 € le 26 mars 2017 dans la même vente.",
       "driveFolderId": "1fj4ecq6BhN3Ek4nntnG-z7SsQK-S3Fiy",
-      "driveFolderName": "25 - 2017-03 Millon Belgique lot 127 - Ammonite Acanthoceras",
+      "driveFolderName": "24 - 2017-03 Millon Belgique lot 127 - Ammonite Acanthoceras",
       "driveUrl": "https://drive.google.com/drive/folders/1fj4ecq6BhN3Ek4nntnG-z7SsQK-S3Fiy",
       "driveDocs": [
         {
@@ -909,7 +886,7 @@
       "confidence": "confirme",
       "notice": "Le lot le plus important de la vente Chambre des Merveilles III : une défense de mammouth laineux (Elephas primigenius), 170 cm, Quaternaire supérieur, 35 000 ans, provenance Yakoutie sibérienne. C'est le permafrost qui rend ces pièces possibles : le sol gelé en permanence conserve l'ivoire dans un état que ne connaît aucun autre gisement, et le dégel estival des berges de la Léna en libère chaque année. L'ivoire de mammouth, matière fossile d'une espèce éteinte, échappe aux interdictions qui frappent l'ivoire d'éléphant — ce qui en fait, depuis le XIXe siècle, un objet de commerce légal. La courbure et la patine naturelle sont ici décrites comme remarquables. Achetée 7 500 € le 26 mars 2017 ; le relevé d'achat totalise 12 470 € d'adjudications pour sept lots, 15 601,50 € frais compris.",
       "driveFolderId": "1rQr13hC8QSIvpsC0KmLoj-a92H7Q1VvW",
-      "driveFolderName": "26 - 2017-03 Millon Belgique lot 132 - Defense de mammouth",
+      "driveFolderName": "25 - 2017-03 Millon Belgique lot 132 - Defense de mammouth",
       "driveUrl": "https://drive.google.com/drive/folders/1rQr13hC8QSIvpsC0KmLoj-a92H7Q1VvW",
       "photoSource": "Google Drive — dossier « Mammouth ». Défense détourée sur fond noir.",
       "driveDocs": [
@@ -940,7 +917,7 @@
       "confidence": "confirme",
       "notice": "Composition de papillons sous globe, à dominante bleue et blanche, 50 cm de haut. L'entomologie décorative sous globe est un genre du XIXe siècle, hérité des cabinets de curiosités et remis à la mode par les intérieurs contemporains : les insectes sont détendus, étalés puis montés en envolée sur des tiges invisibles, le globe de verre les protégeant de la poussière et de la lumière. La dominante bleue suggère des morphos, dont la couleur ne vient d'aucun pigment mais de la diffraction de la lumière sur les écailles de leurs ailes. Achetée 550 € le 26 mars 2017.",
       "driveFolderId": "11jN1cjI3KyZ2AdUkDzi_tDQiLvMR8l54",
-      "driveFolderName": "27 - 2017-03 Millon Belgique lot 143 - Envolee de papillons sous globe",
+      "driveFolderName": "26 - 2017-03 Millon Belgique lot 143 - Envolee de papillons sous globe",
       "driveUrl": "https://drive.google.com/drive/folders/11jN1cjI3KyZ2AdUkDzi_tDQiLvMR8l54",
       "driveDocs": [
         {
@@ -970,73 +947,13 @@
       "confidence": "confirme",
       "notice": "Cacatoès à huppe rouge (Cacatua moluccensis) naturalisé sur branche et socle. L'espèce est endémique de Seram, dans les Moluques, et son commerce est parmi les plus étroitement encadrés qui soient : inscrite à l'annexe I de la CITES (I/A au règlement européen), elle ne peut circuler qu'avec un certificat intracommunautaire. Le bordereau précise que le spécimen est né et élevé en captivité, bagué, et couvert par un CIC délivré par la DRIEE Île-de-France le 10 juillet 2014 — document indispensable, à garder avec l'oiseau. Acheté 3 000 € le 26 mars 2017.",
       "driveFolderId": "1sgw83fUD6qXJfxmEtTcbBmsmnWJkfM4a",
-      "driveFolderName": "28 - 2017-03 Millon Belgique lot 171 - Cacatoes a huppe rouge",
+      "driveFolderName": "27 - 2017-03 Millon Belgique lot 171 - Cacatoes a huppe rouge",
       "driveUrl": "https://drive.google.com/drive/folders/1sgw83fUD6qXJfxmEtTcbBmsmnWJkfM4a",
       "driveDocs": [
         {
           "label": "Relevé Millon Belgique 20097-208",
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1XznuqFtKNtNjPC5KCU47_BfVarCwmqgb/view"
-        }
-      ]
-    },
-    {
-      "id": "2017-millon-belgique-194",
-      "title": "Morpho Rhetenor, tirage Kroma sur aluminium, 4/30",
-      "category": "Photographie",
-      "origin": "50 × 50 cm",
-      "house": "Millon Belgique",
-      "city": "Bruxelles",
-      "sale": "Chambre des Merveilles III",
-      "saleDate": "2017-03-26",
-      "lot": "194",
-      "price": 200,
-      "currency": "EUR",
-      "invoiceRef": "Relevé d'achat 20097-208",
-      "invoiceFile": "2017-millon-belgique-bordereau-20097-208.pdf",
-      "gmailThreadId": "15b0b9845a7f02e5",
-      "location": "",
-      "photos": [],
-      "confidence": "confirme",
-      "notice": "Morpho rhetenor, tirage Kroma sur plaque d'aluminium, numéroté 4/30, 50 × 50 cm. Le procédé Kroma imprime l'image sous une couche de résine sur aluminium, qui lui donne une profondeur et un éclat adaptés à ce sujet : le bleu du morpho n'est pas une couleur mais une structure, des lamelles microscopiques qui interfèrent avec la lumière et renvoient un bleu métallique que nul pigment ne reproduit. Acheté 200 € le 26 mars 2017.",
-      "driveFolderId": "19deJC1Z08NXO9oXxJezVWwYKiIRkjrjx",
-      "driveFolderName": "29 - 2017-03 Millon Belgique lot 194 - Morpho Rhetenor",
-      "driveUrl": "https://drive.google.com/drive/folders/19deJC1Z08NXO9oXxJezVWwYKiIRkjrjx",
-      "driveDocs": [
-        {
-          "label": "Relevé Millon Belgique 20097-208",
-          "kind": "Facture",
-          "url": "https://drive.google.com/file/d/1SpWpf81z0j4scIfgE4QH7QGWFwgFyBDE/view"
-        }
-      ]
-    },
-    {
-      "id": "2017-millon-belgique-218",
-      "title": "Morpho Cypris, tirage Kroma sur aluminium, 3/30",
-      "category": "Photographie",
-      "origin": "50 × 50 cm",
-      "house": "Millon Belgique",
-      "city": "Bruxelles",
-      "sale": "Chambre des Merveilles III",
-      "saleDate": "2017-03-26",
-      "lot": "218",
-      "price": 200,
-      "currency": "EUR",
-      "invoiceRef": "Relevé d'achat 20097-208",
-      "invoiceFile": "2017-millon-belgique-bordereau-20097-208.pdf",
-      "gmailThreadId": "15b0b9845a7f02e5",
-      "location": "",
-      "photos": [],
-      "confidence": "confirme",
-      "notice": "Morpho cypris, tirage Kroma sur plaque d'aluminium, numéroté 3/30, 50 × 50 cm — pendant du Morpho rhetenor acheté dans la même vente. Le cypris, d'Amérique centrale et de Colombie, porte une large bande blanche en travers de l'aile bleue. Acheté 200 € le 26 mars 2017.",
-      "driveFolderId": "1g1KaIce1tRWxOUDWsHo95u7YOD-YCWfO",
-      "driveFolderName": "30 - 2017-03 Millon Belgique lot 218 - Morpho Cypris",
-      "driveUrl": "https://drive.google.com/drive/folders/1g1KaIce1tRWxOUDWsHo95u7YOD-YCWfO",
-      "driveDocs": [
-        {
-          "label": "Relevé Millon Belgique 20097-208",
-          "kind": "Facture",
-          "url": "https://drive.google.com/file/d/1yD8ugI0Icm64gNHgNwaCoGNG6-HHdisv/view"
         }
       ]
     },
@@ -1065,7 +982,7 @@
       "notice": "La « dent » de narval (Monodon monoceros) est en réalité une canine gauche, qui perce la lèvre supérieure du mâle et croît en spirale sénestre jusqu'à trois mètres ; sa surface est criblée de terminaisons nerveuses, ce qui en fait aussi un organe sensoriel. Rapportées d'Islande et du Groenland par les marchands scandinaves, ces défenses ont nourri pendant tout le Moyen Âge la légende de la licorne : vendues au prix de plusieurs fois leur poids d'or, réputées déceler le poison, elles figuraient parmi les pièces les plus précieuses des cabinets de curiosités princiers — le trône du Danemark en est fait. Celle-ci mesure 193 cm et repose sur un socle en métal patiné noir. Le narval est inscrit à l'annexe II de la CITES : la facture précise que le spécimen est autorisé à la vente dans l'Union européenne par le ministère de l'Environnement. Adjugée 5 500 € le 20 mars 2017 chez Artcurial, vente Minéraux, Fossiles, Histoire Naturelle, Pêche, 7 018 € frais compris ; livrée avenue de Messine par les Corsaires pour 140 €.",
       "photoSource": "Google Drive — dossier ARTS (« narval »)",
       "driveFolderId": "1kKXfavMXm1oorNdqqL3FgsVD5_dVg6aU",
-      "driveFolderName": "31 - 2017-03 Artcurial lot 338 - Dent de narval",
+      "driveFolderName": "28 - 2017-03 Artcurial lot 338 - Dent de narval",
       "driveUrl": "https://drive.google.com/drive/folders/1kKXfavMXm1oorNdqqL3FgsVD5_dVg6aU",
       "driveDocs": [
         {
@@ -1100,7 +1017,7 @@
       "notice": "Georges-Lucien Guyot (1885-1973) passait ses journées à dessiner les fauves du Jardin des Plantes et de la ménagerie du cirque : c'est de cette observation directe que vient la justesse de ses félins, dont il disait qu'il fallait les saisir au moment où ils cessent de poser. Proche de Pompon et de Jouve, il occupe avec eux le premier rang de la sculpture animalière Art déco ; ses bronzes ont surtout été édités par Susse Frères. La « Panthère humant » — tête levée, naseaux ouverts, l'animal prend un vent — est l'un de ses modèles les plus recherchés, créé vers 1930. Christie's date cette épreuve d'avant 1953. Adjugée 18 000 € le 22 novembre 2016 dans la vente Design du soir, 24 120 € frais compris, droit de suite inclus ; retirée chez Monin en décembre. La photographie montre l'épreuve de profil : la panthère marche, l'échine basse et souple, la tête relevée vers l'arrière-droite, gueule entrouverte — le mouvement du fauve qui prend un vent, et non une pose. La patine brune est nuancée de vert, la terrasse ovale est martelée et porte la signature au revers du bord.",
       "photoSource": "Google Drive — dossier ARTS (« guyot panthère », cinq vues disponibles)",
       "driveFolderId": "1qcb-oXONidEkRMSCFwDBdPrGFrpvvSZL",
-      "driveFolderName": "32 - 2016-11 Christie's lot 113 - Georges Guyot - Panthere humant",
+      "driveFolderName": "29 - 2016-11 Christie's lot 113 - Georges Guyot - Panthere humant",
       "driveUrl": "https://drive.google.com/drive/folders/1qcb-oXONidEkRMSCFwDBdPrGFrpvvSZL",
       "driveDocs": [
         {
@@ -1126,134 +1043,6 @@
       ]
     },
     {
-      "id": "2016-tajan-74",
-      "title": "Cartier Tank Basculante, série de 2001",
-      "category": "Horlogerie",
-      "origin": "Boîtier basculant acier, cadran blanc à chiffres romains, mouvement quartz, bracelet cuir à boucle déployante — signée et numérotée 75167PB2405, 35 × 23 mm",
-      "house": "Tajan",
-      "city": "Paris",
-      "sale": "Montres",
-      "saleDate": "2016-06-21",
-      "lot": "74",
-      "price": 1400,
-      "currency": "EUR",
-      "priceNote": "Adjugée 1 400 € ; 1 820 € frais compris.",
-      "invoiceRef": "ET00062138 — client 7005641",
-      "invoiceFile": "2016-tajan-facture.pdf",
-      "gmailThreadId": "1557c4513e0917f7",
-      "location": "",
-      "photos": [],
-      "confidence": "confirme",
-      "notice": "La Tank Basculante naît en 1932 sous le nom de Tank Réversible : un boîtier monté sur un berceau, que l'on tire puis fait pivoter pour présenter un dos plein de métal — la montre protège son cadran, invention destinée aux joueurs de polo et aux sportifs des années trente, avant que Jaeger-LeCoultre n'impose la Reverso sur le même principe. Cartier a relancé le modèle par séries limitées dans les années 1990 et 2000. Celle-ci appartient à la série de 2001 : boîtier acier, cadran blanc à chiffres romains peints, chemin de fer, aiguilles glaive en acier bleui, mouvement à quartz, bracelet cuir à boucle déployante Cartier, 35 × 23 mm, signée et numérotée 75167PB2405 — la terminaison 2405 est la référence des Basculante acier à quartz. Adjugée 1 400 € le 21 juin 2016 chez Tajan, 1 820 € frais compris.",
-      "driveFolderId": "1YsF-v2c-eauk0q-JFG8rOv37SbD7Ql4M",
-      "driveFolderName": "33 - 2016-06 Tajan lot 74 - Cartier Tank Basculante",
-      "driveUrl": "https://drive.google.com/drive/folders/1YsF-v2c-eauk0q-JFG8rOv37SbD7Ql4M",
-      "driveDocs": [
-        {
-          "label": "2016-tajan-facture-acquittee.pdf",
-          "kind": "Facture",
-          "url": "https://drive.google.com/file/d/1wpVNWCCkjfl9Z6TK_jBzg8CeiZugulR3/view"
-        },
-        {
-          "label": "2016-tajan-facture.pdf",
-          "kind": "Facture",
-          "url": "https://drive.google.com/file/d/1iX8g1JOsmePH5QjbYPOgpNnRRkpNwMh9/view"
-        }
-      ]
-    },
-    {
-      "id": "2015-artcurial-293",
-      "title": "Hermès, bracelet « Chaîne d'Ancre » en argent",
-      "category": "Bijou",
-      "origin": "12 maillons chaîne d'ancre, signé « Hermès Paris » — poids 71,24 g",
-      "house": "Artcurial",
-      "city": "Paris",
-      "sale": "Hermès Vintage",
-      "saleDate": "2015-11-03",
-      "lot": "293",
-      "price": 380,
-      "currency": "EUR",
-      "priceNote": "Facture 91483 : 980 € adjugés pour les deux bracelets, 1 274 € frais compris.",
-      "invoiceRef": "AC00091483",
-      "invoiceFile": "2015-artcurial-hermes-facture-91483.pdf",
-      "gmailThreadId": "150d6fb64b5a8507",
-      "location": "",
-      "photos": [],
-      "confidence": "confirme",
-      "notice": "Le maillon Chaîne d'Ancre est le motif fondateur du bijou Hermès : Robert Dumas, gendre d'Émile Hermès, le dessine en 1938 d'après les chaînes d'ancre des bateaux amarrés à Deauville — un anneau étranglé en son milieu par une barre, forme de marine devenue signature de la maison. Le bracelet décliné en argent massif reste l'un des classiques absolus de la joaillerie du XXe siècle. Celui-ci compte douze maillons, pèse 71,24 g et porte la signature « Hermès Paris ». Adjugé 380 € le 3 novembre 2015 dans la vente Hermès Vintage d'Artcurial ; la facture 91483 totalise 980 € d'adjudications pour les deux bracelets, 1 274 € frais compris.",
-      "driveFolderId": "1Z7tbgHnjcy0mwnPgbEuCpGg0Hq1DKHd5",
-      "driveFolderName": "34 - 2015-11 Artcurial lot 293 - Hermes - Bracelet Chaine d Ancre",
-      "driveUrl": "https://drive.google.com/drive/folders/1Z7tbgHnjcy0mwnPgbEuCpGg0Hq1DKHd5",
-      "driveDocs": [
-        {
-          "label": "2015-artcurial-hermes-facture-91483.pdf",
-          "kind": "Facture",
-          "url": "https://drive.google.com/file/d/1TRFyIt06_lSkQdY18wdeEDNzkHp8ELaW/view"
-        }
-      ]
-    },
-    {
-      "id": "2015-artcurial-299",
-      "title": "Hermès, bracelet « Lancelot » articulé en argent",
-      "category": "Bijou",
-      "origin": "Décor de dix-huit clous et anneaux alternés, signé « Hermès » — poids ~70 g",
-      "house": "Artcurial",
-      "city": "Paris",
-      "sale": "Hermès Vintage",
-      "saleDate": "2015-11-03",
-      "lot": "299",
-      "price": 600,
-      "currency": "EUR",
-      "invoiceRef": "AC00091483",
-      "invoiceFile": "2015-artcurial-hermes-facture-91483.pdf",
-      "gmailThreadId": "150d6fb64b5a8507",
-      "location": "",
-      "photos": [],
-      "confidence": "confirme",
-      "notice": "Le bracelet Lancelot, articulé, décline en argent un vocabulaire médiéval — dix-huit clous et anneaux alternés, comme les rivets d'une armure — dans la lignée des bijoux d'argent qu'Hermès développe à partir des années 1950 aux côtés de la Chaîne d'Ancre. Signé « Hermès », d'un poids voisin de 70 g. Adjugé 600 € le 3 novembre 2015, dans la même vente et sur la même facture que le bracelet Chaîne d'Ancre.",
-      "driveFolderId": "1iWgicWJ-mLIxcu5liIbpAMgj8b-B7r6-",
-      "driveFolderName": "35 - 2015-11 Artcurial lot 299 - Hermes - Bracelet Lancelot",
-      "driveUrl": "https://drive.google.com/drive/folders/1iWgicWJ-mLIxcu5liIbpAMgj8b-B7r6-",
-      "driveDocs": [
-        {
-          "label": "2015-artcurial-hermes-facture-91483.pdf (lots 293 et 299)",
-          "kind": "Facture",
-          "url": "https://drive.google.com/file/d/1m6O8SXNHM_t-29xMtbw_G3_pjmd4efb5/view"
-        }
-      ]
-    },
-    {
-      "id": "2014-artcurial-253",
-      "title": "Hermès, bracelet « Clic H » fin, émail orange",
-      "category": "Bijou",
-      "origin": "Émail orange et métal argenté palladié — diam. 6 cm",
-      "house": "Artcurial",
-      "city": "Paris",
-      "sale": "Hermès Vintage",
-      "saleDate": "2014-12-16",
-      "lot": "253",
-      "price": 300,
-      "currency": "EUR",
-      "priceNote": "Adjugé 300 € ; 390 € frais compris.",
-      "invoiceRef": "AC00084841",
-      "invoiceFile": "2014-artcurial-hermes-facture-84841.pdf",
-      "gmailThreadId": "14a58e3691ad7dae",
-      "location": "",
-      "photos": [],
-      "confidence": "confirme",
-      "notice": "Le Clic H, jonc en métal argenté palladié fermé par un H de laque, est né de la rencontre entre la ferronnerie du harnais et l'émail : le H y sert à la fois de logo et de fermoir, c'est lui qui « clique ». Ce modèle fin est en émail orange — la couleur des boîtes de la maison, adoptée par nécessité pendant la guerre, faute de carton d'une autre teinte. Diamètre 6 cm. Adjugé 300 € le 16 décembre 2014 dans la vente Hermès Vintage d'Artcurial, 390 € frais compris.",
-      "driveFolderId": "15ThvsYLSEmyQw1ANZsmF8u6-06yTq07d",
-      "driveFolderName": "36 - 2014-12 Artcurial lot 253 - Hermes - Bracelet Clic H",
-      "driveUrl": "https://drive.google.com/drive/folders/15ThvsYLSEmyQw1ANZsmF8u6-06yTq07d",
-      "driveDocs": [
-        {
-          "label": "2014-artcurial-hermes-facture-84841.pdf",
-          "kind": "Facture",
-          "url": "https://drive.google.com/file/d/1hoxQ1pWgbNrqgg6anxIDgNKS7Y9onpQ1/view"
-        }
-      ]
-    },
-    {
       "id": "2014-aguttes-38",
       "title": "André Vincent Becquerel (1893-1981), « Panthère se léchant la patte »",
       "category": "Sculpture",
@@ -1275,7 +1064,7 @@
       "confidence": "confirme",
       "notice": "André-Vincent Becquerel (1893-1981), formé à l'École nationale supérieure des beaux-arts, appartient à la génération animalière de l'entre-deux-guerres qui fait tenir ensemble l'exactitude anatomique et l'élégance décorative. Les félins forment le cœur de son œuvre — panthère à l'affût, panthère se frottant à un arbre, panthère se léchant la patte — traités en épreuves de bronze aux patines soignées, souvent éditées vers 1930. Celle-ci, en bronze à patine brune, signée « A. Becquerel », est une fonte d'édition ancienne des années 1930 : 33,5 cm de haut, 68 de long, 17 de profondeur. Adjugée 12 000 € le 21 novembre 2014 chez Aguttes, vente Art Déco, 15 300 € frais compris, virement du 28 novembre ; retirée au magasinage de Drouot.",
       "driveFolderId": "1ci5Ofpa9cSoc4qc6FOCZMY5PRE6V5UW9",
-      "driveFolderName": "37 - 2014-11 Aguttes lot 38 - Becquerel - Panthere se lechant",
+      "driveFolderName": "30 - 2014-11 Aguttes lot 38 - Becquerel - Panthere se lechant",
       "driveUrl": "https://drive.google.com/drive/folders/1ci5Ofpa9cSoc4qc6FOCZMY5PRE6V5UW9",
       "driveDocs": [
         {
@@ -1306,7 +1095,7 @@
       "confidence": "confirme",
       "notice": "Les armes de main maories ne sont pas seulement des armes : ce sont des taonga, des trésors chargés du mana de ceux qui les ont portées, transmis de génération en génération et parfois nommés individuellement. La famille comprend le patu et le mere, courts et plats, tenus pour frapper d'estoc au menton ou à la tempe, taillés dans le bois, l'os de baleine ou le jade néphrite (pounamu) ; le wahaika à échancrure ; le taiaha, long bâton à lame et à visage sculpté, arme de duel et de harangue. La facture Artcurial dit seulement « bâton de combat, Maori, Nouvelle-Zélande », sans matériau ni type : c'est le premier point à préciser, en photographiant la pièce et sa patine d'usage. Adjugé 4 000 € le 17 juin 2014 à l'Hôtel Marcel Dassault, vente Art Tribal, 5 200 € frais compris.",
       "driveFolderId": "1ObqBycnNAKRifpD8OuvMdkBHi8Q1xgQx",
-      "driveFolderName": "38 - 2014-06 Artcurial lot 2 - Baton de combat Maori",
+      "driveFolderName": "31 - 2014-06 Artcurial lot 2 - Baton de combat Maori",
       "driveUrl": "https://drive.google.com/drive/folders/1ObqBycnNAKRifpD8OuvMdkBHi8Q1xgQx",
       "driveDocs": [
         {
@@ -1342,7 +1131,7 @@
       "confidence": "confirme",
       "notice": "Okimono en ivoire marin, Japon, époque Meiji (1868-1912) : un pêcheur debout portant un panier rempli de coquillages, 32 cm, petits manques. L'okimono est la sculpture d'ornement née de la reconversion des maîtres netsuke, quand l'occidentalisation du costume prive le netsuke de son usage ; ces pièces, souvent vouées à l'exportation, montrent des types populaires — pêcheurs, marchands, artisans — traités avec un réalisme minutieux hérité de l'école Kanō pour les visages et les drapés. « Ivoire marin » désigne l'ivoire de morse ou de cétacé, distinct de l'ivoire d'éléphant, ce qui commande un régime réglementaire différent lors d'une revente. Adjugé 600 € le 4 décembre 2013 chez Millon, vente Extrême-Orient et Céramiques, 766,86 € frais compris.",
       "driveFolderId": "10jN9dxBpn9GaSCkrdGks5muJb_ByhNeh",
-      "driveFolderName": "39 - 2013-12 Millon & Associés lot 610 - Okimono pecheur au panier",
+      "driveFolderName": "32 - 2013-12 Millon et Associes lot 610 - Okimono pecheur au panier",
       "driveUrl": "https://drive.google.com/drive/folders/10jN9dxBpn9GaSCkrdGks5muJb_ByhNeh",
       "driveDocs": [
         {
@@ -1373,7 +1162,7 @@
       "confidence": "confirme",
       "notice": "Pendant du précédent, acheté dans la même vente : okimono en ivoire marin, Japon, époque Meiji, un joueur de samisen debout portant une boîte sur laquelle est posé un masque d'Okame, 32 cm, manques. Le samisen, luth à trois cordes venu d'Okinawa au XVIe siècle, accompagne le théâtre et les quartiers de plaisir ; Okame — dit aussi Otafuku — est le masque de la femme joufflue et souriante du théâtre kyōgen, figure de bonne fortune et de fécondité. Adjugé 500 € le 4 décembre 2013, 639,05 € frais compris.",
       "driveFolderId": "1YVLtCAalt9qbcLAFg3RwUpNU4gBSx9VA",
-      "driveFolderName": "40 - 2013-12 Millon & Associés lot 613 - Okimono joueur de samisen",
+      "driveFolderName": "33 - 2013-12 Millon et Associes lot 613 - Okimono joueur de samisen",
       "driveUrl": "https://drive.google.com/drive/folders/1YVLtCAalt9qbcLAFg3RwUpNU4gBSx9VA",
       "driveDocs": [
         {
@@ -1404,7 +1193,7 @@
       "confidence": "confirme",
       "notice": "Paul Jouve est le maître de l'animalier Art déco — le bordereau Aguttes le dit né en 1880, il l'est en réalité en 1878, à Marlotte, et meurt à Paris en 1973. Formé au Jardin des Plantes, marqué par un séjour en Algérie puis par l'Indochine, il impose une panthère devenue emblématique : silhouette découpée, noir profond, aucun effet de fourrure inutile. La lithographie occupe une place à part dans son œuvre, où le noir d'encre rend le lustre du pelage mieux que la peinture. Il s'agit ici d'une rare lithographie originale, tirage à l'encre noire sur papier crème, signée en bas à droite « P. Jouve — épreuve d'artiste » et frappée du cachet à sec à la tête de panthère, vers 1930, 97 × 64 cm à vue. Une épreuve d'artiste est un tirage hors commerce réservé à l'artiste, généralement plus rare que le tirage numéroté. Adjugée 13 000 € le 13 février 2013 chez Aguttes, vente Art Déco, 16 575 € frais compris.",
       "driveFolderId": "12fRwGvNYWb3chkBHHgDD349Wik1Pi5Qn",
-      "driveFolderName": "41 - 2013-02 Aguttes lot 141 - Paul Jouve - Panthere marchant",
+      "driveFolderName": "34 - 2013-02 Aguttes lot 141 - Paul Jouve - Panthere marchant",
       "driveUrl": "https://drive.google.com/drive/folders/12fRwGvNYWb3chkBHHgDD349Wik1Pi5Qn",
       "driveDocs": [
         {
@@ -1433,7 +1222,7 @@
       "todo": "La facture n'a pas été envoyée par mail (échange sur l'adresse professionnelle de l'époque).",
       "notice": "Lot 56 d'une vente Artcurial du 7 avril 2009, acquis après la vente (procès-verbal d'after sale). L'échange s'est fait sur l'adresse professionnelle de l'époque et rien ne subsiste dans cette messagerie : ni la spécialité de la vente, ni la description du lot, ni le montant. La plus ancienne entrée de l'inventaire, et la plus incomplète.",
       "driveFolderId": "1H0VHHxXYWN0f991ePxR4e_0oEt_b1cWJ",
-      "driveFolderName": "42 - 2009-04 Artcurial lot 56 - Artcurial 2009 lot 56",
+      "driveFolderName": "35 - 2009-04 Artcurial lot 56 - Artcurial 2009 lot 56",
       "driveUrl": "https://drive.google.com/drive/folders/1H0VHHxXYWN0f991ePxR4e_0oEt_b1cWJ"
     }
   ],
