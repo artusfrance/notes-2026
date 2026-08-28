@@ -732,17 +732,32 @@
       "invoiceRef": "Paiement confirmé par Catawiki le 21/02/2018",
       "gmailThreadId": "161b7472dd959223",
       "location": "",
-      "photos": [],
+      "photos": [
+        "2018-catawiki.jpg"
+      ],
       "confidence": "confirme",
       "todo": "Récupérer l'annonce Catawiki et une photo depuis l'historique du compte : pièces utiles pour établir l'antériorité de l'ivoire.",
-      "notice": "Okimono en ivoire figurant un guerrier et un dragon, signé, Japon, XIXe siècle, hauteur 36 cm. Adjugé 3 800 € sur Catawiki, paiement confirmé le 21 février 2018 et le vendeur invité à expédier le jour même. Le libellé du lot le donne pour « exceptionnel » — une qualification de vendeur, non d'expert.\n\nL'okimono — littéralement « chose posée » — est un objet d'ornement destiné au tokonoma, l'alcôve d'honneur de la maison japonaise. Le genre s'épanouit à l'ère Meiji (1868-1912) : privés de leur clientèle de samouraïs après l'abolition du port du sabre en 1876, les sculpteurs de netsuke et de fourreaux reconvertissent leur virtuosité vers des pièces de vitrine, souvent destinées à l'exportation et aux expositions universelles. D'où ce goût du morceau de bravoure : sujets en mouvement, drapés fouillés, incrustations, et une signature à l'encre ou en cartouche incrusté.\n\nL'association du guerrier et du dragon renvoie à un répertoire fixé de longue date. Le dragon japonais, ryū, à trois griffes, est une divinité des eaux et de la pluie, non la bête maléfique de l'Occident ; l'affronter est un motif héroïque emprunté aux cycles chinois et aux récits de Susanoo. À 36 cm, la pièce est d'une taille considérable pour un okimono, ce qui suppose une défense de fort calibre et explique en partie le prix.\n\nPoint de vigilance réglementaire, à vérifier avant toute cession ou sortie du territoire : l'ivoire d'éléphant est soumis en France et dans l'Union européenne à un régime restrictif. Le commerce est en principe interdit, avec des dérogations étroites pour les objets travaillés antérieurs au 3 mars 1947, sur justification de l'ancienneté et, selon les cas, déclaration ou certificat. Une pièce du XIXe siècle entre dans cette fenêtre, mais l'antériorité doit pouvoir être établie : conserver l'annonce Catawiki, la confirmation de paiement et toute expertise. Ce rappel est d'ordre général et mérite d'être confirmé auprès de la DREAL ou d'un commissaire-priseur avant toute démarche.",
+      "notice": "Okimono en ivoire figurant un guerrier et un dragon, signé, Japon, XIXe siècle, hauteur 36 cm. Adjugé 3 800 € sur Catawiki, paiement confirmé le 21 février 2018 et le vendeur invité à expédier le jour même. Le libellé du lot le donne pour « exceptionnel » — une qualification de vendeur, non d'expert.\n\nL'okimono — littéralement « chose posée » — est un objet d'ornement destiné au tokonoma, l'alcôve d'honneur de la maison japonaise. Le genre s'épanouit à l'ère Meiji (1868-1912) : privés de leur clientèle de samouraïs après l'abolition du port du sabre en 1876, les sculpteurs de netsuke et de fourreaux reconvertissent leur virtuosité vers des pièces de vitrine, souvent destinées à l'exportation et aux expositions universelles. D'où ce goût du morceau de bravoure : sujets en mouvement, drapés fouillés, incrustations, et une signature à l'encre ou en cartouche incrusté.\n\nL'association du guerrier et du dragon renvoie à un répertoire fixé de longue date. Le dragon japonais, ryū, à trois griffes, est une divinité des eaux et de la pluie, non la bête maléfique de l'Occident ; l'affronter est un motif héroïque emprunté aux cycles chinois et aux récits de Susanoo. À 36 cm, la pièce est d'une taille considérable pour un okimono, ce qui suppose une défense de fort calibre et explique en partie le prix.\n\nPoint de vigilance réglementaire, à vérifier avant toute cession ou sortie du territoire : l'ivoire d'éléphant est soumis en France et dans l'Union européenne à un régime restrictif. Le commerce est en principe interdit, avec des dérogations étroites pour les objets travaillés antérieurs au 3 mars 1947, sur justification de l'ancienneté et, selon les cas, déclaration ou certificat. Une pièce du XIXe siècle entre dans cette fenêtre, mais l'antériorité doit pouvoir être établie : conserver l'annonce Catawiki, la confirmation de paiement et toute expertise. Ce rappel est d'ordre général et mérite d'être confirmé auprès de la DREAL ou d'un commissaire-priseur avant toute démarche.\n\nLes vues versées au dossier confirment le sujet : un guerrier en armure lamellaire, debout sur un socle rocheux, les bras croisés sur la poitrine, tandis qu'un dragon s'enroule autour de son corps depuis l'épaule gauche jusqu'aux pieds. Le visage est traité en méplats larges sous un casque à mentonnière ; l'armure, les lacets et les écailles du dragon sont incisés et encrés avec une minutie remarquable. Une seconde vue donne la signature, gravée sous la base et rehaussée d'un cachet rouge — élément essentiel pour l'attribution, et pièce à joindre à tout dossier de justification de l'antériorité.",
       "driveFolderId": "1as53RuM_yREbRZdxWMMqFgzhkGYcvcm8",
       "driveFolderName": "2018-02 Catawiki - Achat Catawiki",
       "driveUrl": "https://drive.google.com/drive/folders/1as53RuM_yREbRZdxWMMqFgzhkGYcvcm8",
       "acquisition": "achat",
       "price": 3800,
       "priceNote": "3 800 €. Montant communiqué par le collectionneur ; le courriel Catawiki confirme le paiement sans détailler le décompte.",
-      "invoiceNote": "Aucune facture reçue par courriel. Libellé du lot : « Exceptional ivory okimono, warrior and dragon, signed (36 cm) — 19th century »."
+      "invoiceNote": "Aucune facture reçue par courriel. Libellé du lot : « Exceptional ivory okimono, warrior and dragon, signed (36 cm) — 19th century ».",
+      "photoSource": "Vue d'ensemble versée au dossier Drive de l'objet",
+      "driveDocs": [
+        {
+          "label": "Okimono — vue d'ensemble",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1r4Gd8x9zkioFngDt4bRzvY7zrD4D3cac/view"
+        },
+        {
+          "label": "Signature gravée et cachet rouge",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/13jYBImq_U8YUvi8s0CN2Mz8XW-YKagIp/view"
+        }
+      ]
     },
     {
       "id": "2017-millon-belgique-112",
@@ -858,9 +873,11 @@
       "invoiceFile": "2017-millon-belgique-bordereau-20097-208.pdf",
       "gmailThreadId": "15b0b9845a7f02e5",
       "location": "",
-      "photos": [],
+      "photos": [
+        "2017-millon-belgique-171.jpg"
+      ],
       "confidence": "a_verifier",
-      "notice": "Cacatoès à huppe rouge (Cacatua moluccensis) naturalisé sur branche et socle. L'espèce est endémique de Seram, dans les Moluques, et son commerce est parmi les plus étroitement encadrés qui soient : inscrite à l'annexe I de la CITES (I/A au règlement européen), elle ne peut circuler qu'avec un certificat intracommunautaire. Le bordereau précise que le spécimen est né et élevé en captivité, bagué, et couvert par un CIC délivré par la DRIEE Île-de-France le 10 juillet 2014 — document indispensable, à garder avec l'oiseau. Acheté 3 000 € le 26 mars 2017.\n\nLe certificat CITES versé au dossier apporte l'essentiel : certificat d'acquisition légale n° FR1409100028-K, délivré le 10 juillet 2014 par la DRIEE Île-de-France, pour activités commerciales. Il décrit le spécimen — ailes fermées, posé sur branche, tête droite, huppe dressée — et l'identifie par une bague fermée portant le marquage 140 PS NL 11 88679 18. Origine : Pays-Bas, sous permis 11NL114773/20 du 26 juillet 2011, avec la mention « né et élevé en captivité ».\n\nUn point appelle une démarche. Le cacatoès à huppe rouge est inscrit à l'annexe A du règlement européen, le régime le plus strict : toute activité commerciale portant sur un spécimen, même naturalisé, suppose un certificat nominatif. Or celui-ci porte en case 1 le nom d'ANIMAL FX, à Étampes — le taxidermiste ou le vendeur — et le document précise en toutes lettres qu'il n'est « valable que pour le titulaire indiqué dans la case 1 ». Il atteste donc la licéité de l'origine, ce qui est capital, mais il ne vous couvre pas. Un certificat à votre nom se demande auprès de la DRIEE, sur présentation de celui-ci et du bordereau d'achat.",
+      "notice": "Cacatoès à huppe rouge (Cacatua moluccensis) naturalisé sur branche et socle. L'espèce est endémique de Seram, dans les Moluques, et son commerce est parmi les plus étroitement encadrés qui soient : inscrite à l'annexe I de la CITES (I/A au règlement européen), elle ne peut circuler qu'avec un certificat intracommunautaire. Le bordereau précise que le spécimen est né et élevé en captivité, bagué, et couvert par un CIC délivré par la DRIEE Île-de-France le 10 juillet 2014 — document indispensable, à garder avec l'oiseau. Acheté 3 000 € le 26 mars 2017.\n\nLe certificat CITES versé au dossier apporte l'essentiel : certificat d'acquisition légale n° FR1409100028-K, délivré le 10 juillet 2014 par la DRIEE Île-de-France, pour activités commerciales. Il décrit le spécimen — ailes fermées, posé sur branche, tête droite, huppe dressée — et l'identifie par une bague fermée portant le marquage 140 PS NL 11 88679 18. Origine : Pays-Bas, sous permis 11NL114773/20 du 26 juillet 2011, avec la mention « né et élevé en captivité ».\n\nUn point appelle une démarche. Le cacatoès à huppe rouge est inscrit à l'annexe A du règlement européen, le régime le plus strict : toute activité commerciale portant sur un spécimen, même naturalisé, suppose un certificat nominatif. Or celui-ci porte en case 1 le nom d'ANIMAL FX, à Étampes — le taxidermiste ou le vendeur — et le document précise en toutes lettres qu'il n'est « valable que pour le titulaire indiqué dans la case 1 ». Il atteste donc la licéité de l'origine, ce qui est capital, mais il ne vous couvre pas. Un certificat à votre nom se demande auprès de la DRIEE, sur présentation de celui-ci et du bordereau d'achat.\n\nLa vue versée au dossier montre le spécimen monté de profil sur une branche fixée au mur : plumage blanc lavé de rose saumon, plus soutenu sous les ailes et à la queue, huppe repliée en arrière comme au repos — elle ne se déploie en éventail que sous l'effet de l'excitation. Le bec est massif, gris corne, et l'œil sombre cerclé de peau nue bleutée, caractère qui distingue le mâle chez cette espèce.",
       "driveFolderId": "1sgw83fUD6qXJfxmEtTcbBmsmnWJkfM4a",
       "driveFolderName": "2017-03 Millon Belgique lot 171 - Cacatoes a huppe rouge",
       "driveUrl": "https://drive.google.com/drive/folders/1sgw83fUD6qXJfxmEtTcbBmsmnWJkfM4a",
@@ -879,11 +896,17 @@
           "label": "Certificat CITES — seconde vue",
           "kind": "Certificat",
           "url": "https://drive.google.com/file/d/1mzgnaOcOA9M3l8KwslTCwHAqgN-g0mVJ/view"
+        },
+        {
+          "label": "Cacatoès — vue d'ensemble sur sa branche",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1rH7cz8wPOvX_1Y1lXR3wU03qic-N4GF7/view"
         }
       ],
       "acquisition": "achat",
       "science": "Cacatua moluccensis — annexe A du règlement (CE) 338/97. Certificat d'acquisition légale n° FR1409100028-K délivré le 10/07/2014 par la DRIEE Île-de-France, pour activités commerciales. Spécimen naturalisé ailes fermées, posé sur branche, tête droite, huppe dressée, identifié par bague fermée, marquage 140 PS NL 11 88679 18. Origine : Pays-Bas, permis 11NL114773/20 du 26/07/2011. Né et élevé en captivité.",
-      "todo": "Le certificat CITES est établi au nom d'ANIMAL FX, à Étampes, et non au vôtre. Or il n'est valable que pour le titulaire de la case 1. Demander un certificat à votre nom auprès de la DRIEE avant toute cession ou exposition commerciale."
+      "todo": "Le certificat CITES est établi au nom d'ANIMAL FX, à Étampes, et non au vôtre. Or il n'est valable que pour le titulaire de la case 1. Demander un certificat à votre nom auprès de la DRIEE avant toute cession ou exposition commerciale.",
+      "photoSource": "Vue d'ensemble versée au dossier Drive de l'objet"
     },
     {
       "id": "2017-artcurial-338",
@@ -1468,9 +1491,11 @@
       "invoiceFile": "2013-millon-bordereau.pdf",
       "gmailThreadId": "142c2f5377a13d0a",
       "location": "",
-      "photos": [],
+      "photos": [
+        "2013-millon-610.jpg"
+      ],
       "confidence": "confirme",
-      "notice": "Okimono en ivoire marin, Japon, époque Meiji (1868-1912) : un pêcheur debout portant un panier rempli de coquillages, 32 cm, petits manques. L'okimono est la sculpture d'ornement née de la reconversion des maîtres netsuke, quand l'occidentalisation du costume prive le netsuke de son usage ; ces pièces, souvent vouées à l'exportation, montrent des types populaires — pêcheurs, marchands, artisans — traités avec un réalisme minutieux hérité de l'école Kanō pour les visages et les drapés. « Ivoire marin » désigne l'ivoire de morse ou de cétacé, distinct de l'ivoire d'éléphant, ce qui commande un régime réglementaire différent lors d'une revente. Adjugé 600 € le 4 décembre 2013 chez Millon, vente Extrême-Orient et Céramiques, 766,86 € frais compris.",
+      "notice": "Okimono en ivoire marin, Japon, époque Meiji (1868-1912) : un pêcheur debout portant un panier rempli de coquillages, 32 cm, petits manques. L'okimono est la sculpture d'ornement née de la reconversion des maîtres netsuke, quand l'occidentalisation du costume prive le netsuke de son usage ; ces pièces, souvent vouées à l'exportation, montrent des types populaires — pêcheurs, marchands, artisans — traités avec un réalisme minutieux hérité de l'école Kanō pour les visages et les drapés. « Ivoire marin » désigne l'ivoire de morse ou de cétacé, distinct de l'ivoire d'éléphant, ce qui commande un régime réglementaire différent lors d'une revente. Adjugé 600 € le 4 décembre 2013 chez Millon, vente Extrême-Orient et Céramiques, 766,86 € frais compris.\n\nLes vues versées au dossier montrent le pêcheur debout, un grand panier d'osier tressé porté au flanc gauche, la canne tenue haut dans la main droite, le kimono relevé sur les jambes et retenu par une ceinture. Le travail du vannage est repris en creux sur toute la surface du panier, et les motifs du vêtement sont incisés puis rehaussés à l'encre — technique dite du sumi-e sur ivoire, qui donne ce dessin brun sur fond clair. Une seconde vue donne le dessous de la base, où la signature en kanji est gravée et encrée dans un cartouche.",
       "driveFolderId": "10jN9dxBpn9GaSCkrdGks5muJb_ByhNeh",
       "driveFolderName": "2013-12 Millon & Associés lot 610 - Okimono pecheur au panier",
       "driveUrl": "https://drive.google.com/drive/folders/10jN9dxBpn9GaSCkrdGks5muJb_ByhNeh",
@@ -1479,9 +1504,20 @@
           "label": "2013-millon-bordereau.pdf",
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1nvJErQl9247Cd5zg-7hCDzbQXGkDeJcH/view"
+        },
+        {
+          "label": "Okimono — vue d'ensemble",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1toUwsf-HlneWM1e5L8Y4JNZYBpJSA0pV/view"
+        },
+        {
+          "label": "Signature gravée sous la base",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1xAmtmKnr599vOoMOYzmfe4fEdOr9k54G/view"
         }
       ],
-      "acquisition": "achat"
+      "acquisition": "achat",
+      "photoSource": "Vue d'ensemble versée au dossier Drive de l'objet"
     },
     {
       "id": "2013-millon-613",
@@ -1500,9 +1536,11 @@
       "invoiceFile": "2013-millon-bordereau.pdf",
       "gmailThreadId": "142c2f5377a13d0a",
       "location": "",
-      "photos": [],
+      "photos": [
+        "2013-millon-613.jpg"
+      ],
       "confidence": "confirme",
-      "notice": "Pendant du précédent, acheté dans la même vente : okimono en ivoire marin, Japon, époque Meiji, un joueur de samisen debout portant une boîte sur laquelle est posé un masque d'Okame, 32 cm, manques. Le samisen, luth à trois cordes venu d'Okinawa au XVIe siècle, accompagne le théâtre et les quartiers de plaisir ; Okame — dit aussi Otafuku — est le masque de la femme joufflue et souriante du théâtre kyōgen, figure de bonne fortune et de fécondité. Adjugé 500 € le 4 décembre 2013, 639,05 € frais compris.",
+      "notice": "Pendant du précédent, acheté dans la même vente : okimono en ivoire marin, Japon, époque Meiji, un joueur de samisen debout portant une boîte sur laquelle est posé un masque d'Okame, 32 cm, manques. Le samisen, luth à trois cordes venu d'Okinawa au XVIe siècle, accompagne le théâtre et les quartiers de plaisir ; Okame — dit aussi Otafuku — est le masque de la femme joufflue et souriante du théâtre kyōgen, figure de bonne fortune et de fécondité. Adjugé 500 € le 4 décembre 2013, 639,05 € frais compris.\n\nLa vue versée au dossier montre le musicien debout, le samisen tenu en travers du corps, le manche pointant vers le haut et le plectre dans la main droite. Une boîte à musique rectangulaire, ornée de médaillons, pend à son côté ; un petit personnage accroupi occupe la base, aux pieds du joueur. Le kimono est couvert de semis floraux et de résilles incisés à l'encre. Le samisen, luth à trois cordes et caisse tendue de peau, accompagnait le théâtre kabuki et les chansons de rue — l'okimono figure donc un musicien ambulant, sujet de prédilection de l'ivoirerie Meiji destinée à l'exportation.",
       "driveFolderId": "1YVLtCAalt9qbcLAFg3RwUpNU4gBSx9VA",
       "driveFolderName": "2013-12 Millon & Associés lot 613 - Okimono joueur de samisen",
       "driveUrl": "https://drive.google.com/drive/folders/1YVLtCAalt9qbcLAFg3RwUpNU4gBSx9VA",
@@ -1511,9 +1549,15 @@
           "label": "2013-millon-bordereau.pdf (lots 610 et 613)",
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1fESKpk9JEoil0XuRMudNy3xyWtzL7oBx/view"
+        },
+        {
+          "label": "Okimono — vue d'ensemble",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1qC13z0-j0qC0krOo0SjngXGZwV3_Y_IX/view"
         }
       ],
-      "acquisition": "achat"
+      "acquisition": "achat",
+      "photoSource": "Vue d'ensemble versée au dossier Drive de l'objet"
     },
     {
       "id": "2013-sgl-237",

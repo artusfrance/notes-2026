@@ -49,7 +49,7 @@ Les emplacements et notes saisis dans l'application sont enregistrés dans le
   une vérification à mener, non une lacune de description.
 - **Photos** : les sites des maisons de vente restent inaccessibles depuis la session
   (zacke.at, millon.com, tajan.com, auction.de, artcurial.com sont bloqués par la politique
-  réseau). Les 46 photos présentes viennent du Google Drive de la collection ; les autres
+  réseau). Les 50 photos présentes viennent du Google Drive de la collection ; les autres
   pièces attendent une photo dans `photos/<id>.jpg`.
 - Chaque entrée porte une `notice` : période, iconographie, technique et provenance. Le texte
   propre à l'objet vient de la facture ou de la notice de lot ; le contexte historique est
@@ -91,7 +91,7 @@ dessous :
   au-delà de `WARN_LIMIT` (8 Mo). Chaque construction annonce la marge restante
   en nombre de photos.
 
-Au 28 août 2026 : 64 entrées, 6,0 Mo, 46 photos, 135 documents liés. Les photos sont
+Au 28 août 2026 : 64 entrées, 6,3 Mo, 50 photos, 141 documents liés. Les photos sont
 descendues à 1000 px automatiquement pour tenir le budget.
 
 Les objets sortis de la collection — offerts, revendus, acquis pour un tiers —
