@@ -931,7 +931,7 @@
         "2017-artcurial-338.jpg"
       ],
       "confidence": "confirme",
-      "notice": "La « dent » de narval (Monodon monoceros) est en réalité une canine gauche, qui perce la lèvre supérieure du mâle et croît en spirale sénestre jusqu'à trois mètres ; sa surface est criblée de terminaisons nerveuses, ce qui en fait aussi un organe sensoriel. Rapportées d'Islande et du Groenland par les marchands scandinaves, ces défenses ont nourri pendant tout le Moyen Âge la légende de la licorne : vendues au prix de plusieurs fois leur poids d'or, réputées déceler le poison, elles figuraient parmi les pièces les plus précieuses des cabinets de curiosités princiers — le trône du Danemark en est fait. Celle-ci mesure 193 cm et repose sur un socle en métal patiné noir. Le narval est inscrit à l'annexe II de la CITES : la facture précise que le spécimen est autorisé à la vente dans l'Union européenne par le ministère de l'Environnement. Adjugée 5 500 € le 20 mars 2017 chez Artcurial, vente Minéraux, Fossiles, Histoire Naturelle, Pêche, 7 018 € frais compris ; livrée avenue de Messine par les Corsaires pour 140 €.",
+      "notice": "La « dent » de narval (Monodon monoceros) est en réalité une canine gauche, qui perce la lèvre supérieure du mâle et croît en spirale sénestre jusqu'à trois mètres ; sa surface est criblée de terminaisons nerveuses, ce qui en fait aussi un organe sensoriel. Rapportées d'Islande et du Groenland par les marchands scandinaves, ces défenses ont nourri pendant tout le Moyen Âge la légende de la licorne : vendues au prix de plusieurs fois leur poids d'or, réputées déceler le poison, elles figuraient parmi les pièces les plus précieuses des cabinets de curiosités princiers — le trône du Danemark en est fait. Celle-ci mesure 193 cm et repose sur un socle en métal patiné noir. Le narval est inscrit à l'annexe II de la CITES : la facture précise que le spécimen est autorisé à la vente dans l'Union européenne par le ministère de l'Environnement. Adjugée 5 500 € le 20 mars 2017 chez Artcurial, vente Minéraux, Fossiles, Histoire Naturelle, Pêche, 7 018 € frais compris ; livrée avenue de Messine par les Corsaires pour 140 €.\n\nDeux pièces versées au dossier documentent l'amont de cette acquisition : la facture Lauritz.com n° 102394522 du 21 novembre 2016 et la fiche du lot 4475398, qui portait quatre défenses de narval sur socles de granit provenant du Groenland, adjugées 27 000 DKK. Cet achat n'est pas le vôtre — il a été réalisé par un tiers, ce qui explique que la facture soit établie à un autre nom. Elle est conservée ici au seul titre de la preuve d'origine de la défense acquise quatre mois plus tard chez Artcurial, et ne compte donc pas dans l'inventaire ni dans les totaux.",
       "photoSource": "Google Drive — dossier ARTS (« narval »)",
       "driveFolderId": "1kKXfavMXm1oorNdqqL3FgsVD5_dVg6aU",
       "driveFolderName": "2017-03 Artcurial lot 338 - Dent de narval",
@@ -941,6 +941,16 @@
           "label": "2017-artcurial-facture-104944-acquittee.pdf",
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1CiwDqijYJ6GSeOurjtSrJXKaw8aTELC3/view"
+        },
+        {
+          "label": "Provenance — facture Lauritz.com 102394522 du 21/11/2016",
+          "kind": "Provenance",
+          "url": "https://drive.google.com/file/d/10sFuuzBfOyGs7id80OQ73e3fH2whDCa5/view"
+        },
+        {
+          "label": "Provenance — fiche du lot 4475398 Lauritz.com",
+          "kind": "Provenance",
+          "url": "https://drive.google.com/file/d/1dYbEZEYLH-6exVXfwfSqWrTlKtY-3T9K/view"
         }
       ],
       "acquisition": "achat"
@@ -1000,43 +1010,6 @@
         }
       ],
       "acquisition": "achat"
-    },
-    {
-      "id": "2016-lauritz-4475398",
-      "title": "Quatre défenses de narval sur socles de granit, Groenland",
-      "category": "Histoire naturelle",
-      "acquisition": "achat",
-      "origin": "Monodon monoceros — quatre défenses, L. 67 à 193 cm, poids d'environ 338 g à 3 120 g hors socles, avec leurs socles de granit",
-      "house": "Lauritz.com",
-      "city": "Aarhus, Danemark",
-      "sale": "Vente deLuxe en ligne, lot 4475398",
-      "saleDate": "2016-11-21",
-      "lot": "4475398",
-      "price": 27000,
-      "currency": "DKK",
-      "priceNote": "Adjugé 27 000 DKK (soit environ 3 630 € selon la conversion affichée par la maison), 20 % de frais acheteur (5 400 DKK) et 95 DKK de frais d'adjudication : 32 495 DKK au total.",
-      "invoiceRef": "Facture Lauritz.com 102394522 du 21/11/2016 — client 863450",
-      "invoiceNote": "La facture est établie au nom de Jerome Bazzocchi, à Londres, et non au vôtre : à clarifier, il s'agit probablement d'un achat par intermédiaire.",
-      "delivery": "Réglée le 28/11/2016, enlevée le même jour au showroom d'Aarhus",
-      "science": "Permis d'exportation du Grønlands Hjemmestyre de 1995 joint au lot. La maison indique que l'ensemble circule librement dans l'Union européenne sans certificat CITES.",
-      "confidence": "confirme",
-      "todo": "Clarifier pourquoi la facture est au nom de Jerome Bazzocchi. Vérifier aussi que la mesure de 193 cm ne recoupe pas la dent de narval achetée chez Artcurial en 2017 : les deux dossiers étaient mêlés.",
-      "notice": "Quatre défenses de narval du Groenland, longues de 67 à 193 cm, présentées sur des socles de granit, adjugées 27 000 DKK chez Lauritz.com le 21 novembre 2016 et enlevées à Aarhus une semaine plus tard.\n\nLa défense de narval n'est pas une corne mais une canine gauche, qui perce la lèvre supérieure du mâle et pousse en spirale sénestre, toujours dans le même sens, jusqu'à trois mètres. Sa structure est unique chez les mammifères : la dentine est parcourue de millions de terminaisons nerveuses ouvertes sur l'extérieur, ce qui en ferait un organe sensoriel capable de lire la salinité de l'eau. Au Moyen Âge, ces défenses arrivaient en Europe par les comptoirs scandinaves et passaient pour des cornes de licorne : on les vendait au poids de l'or, on en faisait des coupes réputées déceler le poison, et le trône du Danemark, à Rosenborg, en est entièrement fait.\n\nPoint réglementaire important, et favorable ici : le narval est inscrit à l'annexe II de la CITES, mais le lot est accompagné d'un permis d'exportation délivré par le gouvernement autonome du Groenland en 1995. La maison de vente indique sur cette base que l'ensemble peut circuler librement dans l'Union européenne sans certificat supplémentaire. Ce permis de 1995 est la pièce à conserver avant toute autre : c'est lui qui établit l'antériorité et la licéité.\n\nUne réserve à lever : la facture est libellée au nom de Jerome Bazzocchi, à Londres. Il s'agit vraisemblablement d'un achat par intermédiaire, mais le dossier ne le dit pas.",
-      "driveFolderId": "1s2hcSSVo4Hnjl23-fzispx8H_pKRAWhw",
-      "driveUrl": "https://drive.google.com/drive/folders/1s2hcSSVo4Hnjl23-fzispx8H_pKRAWhw",
-      "driveDocs": [
-        {
-          "label": "Facture Lauritz.com 102394522",
-          "kind": "Facture",
-          "url": "https://drive.google.com/file/d/10sFuuzBfOyGs7id80OQ73e3fH2whDCa5/view"
-        },
-        {
-          "label": "Fiche du lot 4475398",
-          "kind": "Facture",
-          "url": "https://drive.google.com/file/d/1dYbEZEYLH-6exVXfwfSqWrTlKtY-3T9K/view"
-        }
-      ],
-      "driveFolderName": "2016-11 Lauritz.com lot 4475398 - Quatre defenses de narval Groenland"
     },
     {
       "id": "2016-artauction-99",
