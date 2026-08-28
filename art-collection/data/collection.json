@@ -643,39 +643,6 @@
       "photoSource": "Google Drive — dossier de l'objet, « molaire mammouth.png ». Photo de catalogue sur fond blanc, bandes noires recadrées."
     },
     {
-      "id": "2023-millon-202",
-      "title": "Bois fossile, belle tranche sur socle à deux gradins",
-      "category": "Histoire naturelle",
-      "origin": "Hauteur totale 62 cm, largeur 38 cm",
-      "house": "Millon",
-      "city": "Paris, Drouot",
-      "sale": "Histoire Naturelle (vente 2808)",
-      "saleDate": "2023-05-16",
-      "lot": "202",
-      "price": 700,
-      "currency": "EUR",
-      "priceNote": "Adjugé 700 € ; 922,60 € frais compris.",
-      "invoiceRef": "Bordereau 2808-52",
-      "invoiceFile": "2023-millon-histoire-naturelle-bordereau.pdf",
-      "gmailThreadId": "188261f9ba1729fd",
-      "delivery": "Magasinage Drouot puis ThePackengers, commande #6872927-FR75",
-      "location": "",
-      "photos": [],
-      "confidence": "confirme",
-      "notice": "Le bois fossile est un bois silicifié : enfouies à l'abri de l'oxygène, les cellules du tronc ont été remplacées molécule à molécule par de la silice apportée par les eaux souterraines, souvent d'origine volcanique. Le processus est assez fin pour conserver la structure du bois — cernes de croissance, nœuds, parfois l'écorce — tout en la transformant en une pierre dure que les oxydes métalliques colorent en rouge, jaune ou brun. Une tranche polie donne à lire d'un coup l'âge de l'arbre et les saisons qu'il a traversées. Belle tranche présentée sur un socle à deux gradins, 62 cm de haut au total, 38 de large. Adjugée 700 € le 16 mai 2023 chez Millon, 922,60 € frais compris ; stockée au magasinage de Drouot puis rapatriée par ThePackengers.",
-      "driveFolderId": "169_vlCEAJAl6RWmmRLxyBmsKrZay18-H",
-      "driveFolderName": "2023-05 Millon lot 202 - Bois fossile",
-      "driveUrl": "https://drive.google.com/drive/folders/169_vlCEAJAl6RWmmRLxyBmsKrZay18-H",
-      "driveDocs": [
-        {
-          "label": "2023-millon-histoire-naturelle-bordereau.pdf",
-          "kind": "Facture",
-          "url": "https://drive.google.com/file/d/1loaDOnFBvXOEM6ESlz-g5F5Tkoya5dad/view"
-        }
-      ],
-      "acquisition": "achat"
-    },
-    {
       "id": "2023-millon-138",
       "title": "Abie Loy Kemarre (1972), « Bush Medicine Leaves », 2007",
       "category": "Tableau",
@@ -895,37 +862,6 @@
           "label": "Relevé Millon Belgique 20097-208",
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1nTXlYbtp4lxOwuVZ-pCbw5Y8cbAringr/view"
-        }
-      ],
-      "acquisition": "achat"
-    },
-    {
-      "id": "2017-millon-belgique-143",
-      "title": "Envolée de papillons sous globe, à dominante bleue et blanche",
-      "category": "Histoire naturelle",
-      "origin": "Sous globe — H. 50 cm",
-      "house": "Millon Belgique",
-      "city": "Bruxelles",
-      "sale": "Chambre des Merveilles III",
-      "saleDate": "2017-03-26",
-      "lot": "143",
-      "price": 550,
-      "currency": "EUR",
-      "invoiceRef": "Relevé d'achat 20097-208",
-      "invoiceFile": "2017-millon-belgique-bordereau-20097-208.pdf",
-      "gmailThreadId": "15b0b9845a7f02e5",
-      "location": "",
-      "photos": [],
-      "confidence": "confirme",
-      "notice": "Composition de papillons sous globe, à dominante bleue et blanche, 50 cm de haut. L'entomologie décorative sous globe est un genre du XIXe siècle, hérité des cabinets de curiosités et remis à la mode par les intérieurs contemporains : les insectes sont détendus, étalés puis montés en envolée sur des tiges invisibles, le globe de verre les protégeant de la poussière et de la lumière. La dominante bleue suggère des morphos, dont la couleur ne vient d'aucun pigment mais de la diffraction de la lumière sur les écailles de leurs ailes. Achetée 550 € le 26 mars 2017.",
-      "driveFolderId": "11jN1cjI3KyZ2AdUkDzi_tDQiLvMR8l54",
-      "driveFolderName": "2017-03 Millon Belgique lot 143 - Envolee de papillons sous globe",
-      "driveUrl": "https://drive.google.com/drive/folders/11jN1cjI3KyZ2AdUkDzi_tDQiLvMR8l54",
-      "driveDocs": [
-        {
-          "label": "Relevé Millon Belgique 20097-208",
-          "kind": "Facture",
-          "url": "https://drive.google.com/file/d/1Pdj3fImS8ZTjh3-qr8Dhfz_wjmBKLdqi/view"
         }
       ],
       "acquisition": "achat"
@@ -1821,7 +1757,7 @@
       "id": "2024-autonautic-amv8",
       "title": "Aston Martin V8 Volante, 1986",
       "category": "Automobile",
-      "origin": "Cabriolet quatre places, carrosserie noire, capote noire, jantes à rayons. Moteur V8 5,3 l à injection, 232 kW, 38 CV fiscaux. Châssis SCFCV81C6GTL15451, première mise en circulation le 15 mai 1986. 67 000 km au compteur à l'achat.",
+      "origin": "Cabriolet quatre places, carrosserie noire, capote noire, jantes à rayons. Sellerie de cuir gris clair, planche de bord et contre-portes en ronce de noyer, transmission automatique. Moteur V8 5,3 l à injection, 232 kW, 38 CV fiscaux. Châssis SCFCV81C6GTL15451, première mise en circulation le 15 mai 1986. 67 000 km au compteur à l'achat.",
       "house": "Auto Nautic Corporation SRL",
       "city": "Lennik (Belgique)",
       "sale": "Achat de gré à gré",
@@ -1837,7 +1773,7 @@
       "photos": [
         "2024-autonautic-amv8.jpg"
       ],
-      "photoSource": "Photos du vendeur (Auto Nautic), copiées depuis le dossier Aston Martin / Belgique du Drive",
+      "photoSource": "Photos du vendeur (Auto Nautic), copiées depuis le dossier Aston Martin / Belgique du Drive. Vue de face.",
       "confidence": "confirme",
       "acquisition": "achat",
       "valuation": {
@@ -1889,10 +1825,20 @@
           "label": "Face avant — calandre et capot",
           "kind": "Photo",
           "url": "https://drive.google.com/file/d/1loBQXEY8vaMngOA7HRrWckNk-OEr2ufJ/view"
+        },
+        {
+          "label": "Intérieur — cuir gris, ronce de noyer, boîte automatique",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1Zie2UujzuwmUbyvYcYOC4nVVVMDf7zAV/view"
+        },
+        {
+          "label": "Carnet d'entretien — Aston Martin Michiels, 10/05/1994",
+          "kind": "Notice",
+          "url": "https://drive.google.com/file/d/1-vnb8qK0-nlbXTcsVDtqgf3Gw9aAZbRA/view"
         }
       ],
       "todo": "Faire trancher la désignation du modèle : la facture dit « V8 Volante EFI », la carte grise et la FFVE disent « V8 Vantage Volante », et les photos montrent une calandre ouverte et un capot plat, c'est-à-dire la configuration V8 Volante et non Vantage. Un certificat d'authenticité d'Aston Martin Works, établi sur le numéro de châssis, lèverait le doute — l'écart de valeur entre les deux versions est considérable.",
-      "notice": "Aston Martin V8 Volante de 1986, cabriolet quatre places à carrosserie noire et capote noire, monté sur jantes à rayons. Moteur V8 de 5 340 cm³ à injection, 232 kW, 38 CV fiscaux. Châssis SCFCV81C6GTL15451, première mise en circulation le 15 mai 1986, 67 000 km au compteur lors de l'achat. Acquise 170 000 € auprès d'Auto Nautic Corporation SRL, à Lennik en Belgique, facture pro forma du 30 octobre 2024, acquisition au 13 novembre 2024. Immatriculée en France le 3 avril 2025 sous le numéro HC-184-WR, avec la mention « véhicule de collection » au titre de l'attestation FFVE AT3352664 délivrée le 14 janvier 2025.\n\nLa V8 Volante est le cabriolet de la série lancée par Aston Martin en 1978, dérivée de la berlinette V8 dessinée par William Towns. Les exemplaires produits à partir de 1986, comme celui-ci, appartiennent à la dernière évolution du modèle : alimentation par injection électronique Weber-Marelli en remplacement des carburateurs, ce que désigne le sigle EFI porté par la facture. La production est restée confidentielle — quelques centaines d'exemplaires par an, assemblés à la main à Newport Pagnell — et la Volante est aujourd'hui recherchée comme le dernier grand cabriolet anglais de conception artisanale.\n\nUn point de désignation reste à trancher. La facture du vendeur décrit le véhicule comme un « V8 Volante EFI ». La carte grise française et l'attestation FFVE portent en revanche « VANTAGE VOLANTE » au champ D.2 et « V8 VANTAGE VOLANTE » au champ D.3. Or les photographies versées au dossier montrent une calandre ouverte à grille traditionnelle, quatre phares apparents et un capot plat : c'est la configuration de la V8 Volante ordinaire, le Vantage se reconnaissant à sa calandre obturée, à sa prise d'air de capot et à ses appendices aérodynamiques. Les cotes de valeur entre les deux versions sont sans commune mesure ; il serait prudent de faire établir un certificat d'authenticité par Aston Martin Works sur le numéro de châssis avant toute cession ou toute réévaluation de l'assurance.\n\nLe carnet d'entretien conserve un tampon d'Aston Martin Michiels, concession et centre Heritage à Anvers, daté du 28 novembre 2005 à 58 090 km. La voiture n'a donc parcouru qu'environ neuf mille kilomètres en dix-neuf ans, ce qui est cohérent avec un usage de collection.\n\nUne réclamation en garantie des vices cachés a été engagée contre le vendeur. Le conseil d'Auto Nautic la conteste par lettre du 29 septembre 2025 : il oppose le contrôle technique avant vente, l'exclusion des pièces d'usure de toute garantie, l'absence de constatations contradictoires avant l'exécution des travaux — chiffrés à 19 215,33 € — et la tardiveté de la demande au regard du « bref délai » du droit belge. Le dossier reste ouvert ; les pièces sont conservées dans le répertoire Aston Martin d'origine, qui n'a pas été modifié."
+      "notice": "Aston Martin V8 Volante de 1986, cabriolet quatre places à carrosserie noire et capote noire, monté sur jantes à rayons. Moteur V8 de 5 340 cm³ à injection, 232 kW, 38 CV fiscaux. Châssis SCFCV81C6GTL15451, première mise en circulation le 15 mai 1986, 67 000 km au compteur lors de l'achat. Acquise 170 000 € auprès d'Auto Nautic Corporation SRL, à Lennik en Belgique, facture pro forma du 30 octobre 2024, acquisition au 13 novembre 2024. Immatriculée en France le 3 avril 2025 sous le numéro HC-184-WR, avec la mention « véhicule de collection » au titre de l'attestation FFVE AT3352664 délivrée le 14 janvier 2025.\n\nLa V8 Volante est le cabriolet de la série lancée par Aston Martin en 1978, dérivée de la berlinette V8 dessinée par William Towns. Les exemplaires produits à partir de 1986, comme celui-ci, appartiennent à la dernière évolution du modèle : alimentation par injection électronique Weber-Marelli en remplacement des carburateurs, ce que désigne le sigle EFI porté par la facture. La production est restée confidentielle — quelques centaines d'exemplaires par an, assemblés à la main à Newport Pagnell — et la Volante est aujourd'hui recherchée comme le dernier grand cabriolet anglais de conception artisanale.\n\nUn point de désignation reste à trancher. La facture du vendeur décrit le véhicule comme un « V8 Volante EFI ». La carte grise française et l'attestation FFVE portent en revanche « VANTAGE VOLANTE » au champ D.2 et « V8 VANTAGE VOLANTE » au champ D.3. Or les photographies versées au dossier montrent une calandre ouverte à grille traditionnelle, quatre phares apparents et un capot plat : c'est la configuration de la V8 Volante ordinaire, le Vantage se reconnaissant à sa calandre obturée, à sa prise d'air de capot et à ses appendices aérodynamiques. Les cotes de valeur entre les deux versions sont sans commune mesure ; il serait prudent de faire établir un certificat d'authenticité par Aston Martin Works sur le numéro de châssis avant toute cession ou toute réévaluation de l'assurance.\n\nLes vues de l'habitacle montrent une sellerie de cuir gris clair, une planche de bord et des contre-portes en ronce de noyer, et un levier de boîte automatique au tunnel central : la voiture n'est donc pas à boîte manuelle, point que la facture ne précisait pas.\n\nLe carnet d'entretien conserve deux tampons d'Aston Martin Michiels, concession et centre Heritage à Anvers : le 10 mai 1994 à 45 080 km, puis le 28 novembre 2005 à 58 090 km. Avec 67 000 km à l'achat, la voiture a donc parcouru environ treize mille kilomètres en trente ans, ce qui est cohérent avec un usage de collection.\n\nUne réclamation en garantie des vices cachés a été engagée contre le vendeur. Le conseil d'Auto Nautic la conteste par lettre du 29 septembre 2025 : il oppose le contrôle technique avant vente, l'exclusion des pièces d'usure de toute garantie, l'absence de constatations contradictoires avant l'exécution des travaux — chiffrés à 19 215,33 € — et la tardiveté de la demande au regard du « bref délai » du droit belge. Le dossier reste ouvert ; les pièces sont conservées dans le répertoire Aston Martin d'origine, qui n'a pas été modifié."
     },
     {
       "id": "2025-asphalt-ferrari412",
