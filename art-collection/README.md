@@ -49,7 +49,7 @@ Les emplacements et notes saisis dans l'application sont enregistrés dans le
   une vérification à mener, non une lacune de description.
 - **Photos** : les sites des maisons de vente restent inaccessibles depuis la session
   (zacke.at, millon.com, tajan.com, auction.de, artcurial.com sont bloqués par la politique
-  réseau). Les 35 photos présentes viennent du Google Drive de la collection ; les autres
+  réseau). Les 40 photos présentes viennent du Google Drive de la collection ; les autres
   pièces attendent une photo dans `photos/<id>.jpg`.
 - Chaque entrée porte une `notice` : période, iconographie, technique et provenance. Le texte
   propre à l'objet vient de la facture ou de la notice de lot ; le contexte historique est
