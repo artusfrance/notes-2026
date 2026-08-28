@@ -43,12 +43,13 @@ Les emplacements et notes saisis dans l'application sont enregistrés dans le
 
 ## Limites connues
 
-- Six entrées restent incomplètes (`confidence: "a_verifier"`, champ `todo`) : la Galerie
-  Zacke facture par lien vers son extranet plutôt qu'en pièce jointe, et Catawiki, Le Floc'h
-  et Bonino n'ont envoyé aucun détail de lot.
+- Deux entrées restent incomplètes (`confidence: "a_verifier"`) : la Galerie Zacke facture
+  par lien vers son extranet plutôt qu'en pièce jointe, et le cacatoès attend un certificat
+  CITES établi au nom du propriétaire. Une dizaine d'autres fiches portent un champ `todo` —
+  une vérification à mener, non une lacune de description.
 - **Photos** : les sites des maisons de vente restent inaccessibles depuis la session
   (zacke.at, millon.com, tajan.com, auction.de, artcurial.com sont bloqués par la politique
-  réseau). Les huit photos présentes viennent du Google Drive de la collection ; les autres
+  réseau). Les 35 photos présentes viennent du Google Drive de la collection ; les autres
   pièces attendent une photo dans `photos/<id>.jpg`.
 - Chaque entrée porte une `notice` : période, iconographie, technique et provenance. Le texte
   propre à l'objet vient de la facture ou de la notice de lot ; le contexte historique est
@@ -90,7 +91,7 @@ dessous :
   au-delà de `WARN_LIMIT` (8 Mo). Chaque construction annonce la marge restante
   en nombre de photos.
 
-Au 27 août 2026 : 48 entrées, 4,8 Mo, 27 photos, 72 documents liés.
+Au 28 août 2026 : 46 entrées, 5,7 Mo, 36 photos, 105 documents liés.
 
 Les objets sortis de la collection — offerts, revendus, acquis pour un tiers —
 ne sont pas détruits : leur dossier Drive est déplacé sous « ZZ - Hors collection »,

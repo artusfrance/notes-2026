@@ -685,30 +685,6 @@
       "acquisition": "achat"
     },
     {
-      "id": "2022-lefloch",
-      "title": "Lot de la vente Le Floc'h",
-      "category": "À préciser",
-      "origin": "—",
-      "house": "Le Floc'h",
-      "city": "Paris, Drouot",
-      "sale": "Vente de 2022",
-      "saleDate": "2022-06-02",
-      "price": 375,
-      "currency": "EUR",
-      "priceNote": "375 € réglés le 02/06/2022.",
-      "invoiceRef": "Bordereau réglé",
-      "gmailThreadId": "181251ec64094fca",
-      "location": "",
-      "photos": [],
-      "confidence": "a_verifier",
-      "todo": "Le bordereau n'a pas été envoyé par mail : le demander à l'étude ou le retrouver sur drouot.com.",
-      "notice": "Paiement de 375 € confirmé le 2 juin 2022 pour une vente de l'étude Le Floc'h, à Drouot. Le bordereau n'a jamais été envoyé par courriel : ni le lot, ni la vente, ni l'objet ne sont documentés. À demander à l'étude, ou à retrouver dans l'espace client Drouot.",
-      "driveFolderId": "120QduDQKuHlCTwu9tv7PohQoPt5F96A6",
-      "driveFolderName": "2022-06 Le Floc'h - Lot Le Floc h",
-      "driveUrl": "https://drive.google.com/drive/folders/120QduDQKuHlCTwu9tv7PohQoPt5F96A6",
-      "acquisition": "achat"
-    },
-    {
       "id": "2018-tajan-69",
       "title": "Charles Artus (attribué à), crabe en bronze formant boîte",
       "category": "Sculpture",
@@ -1705,26 +1681,38 @@
     },
     {
       "id": "2009-artcurial-56",
-      "title": "Lot 56, achat après-vente",
-      "category": "À préciser",
-      "origin": "—",
+      "title": "Maurice Prost (1894-1967), « Panthère noire en marche », 1928",
+      "category": "Sculpture",
+      "origin": "Épreuve en bronze à patine noire, fonte d'édition de Susse Frères, Paris, avec marque d'éditeur. Socle en marbre gris-noir. Signée sur le socle des deux noms. H. 31 cm — socle 64,5 × 10,5 cm.",
       "house": "Artcurial",
       "city": "Paris",
-      "sale": "Vente du 7 avril 2009",
+      "sale": "Vente du 7 avril 2009 — lot invendu, acquis après la vente",
       "saleDate": "2009-04-07",
       "lot": "56",
       "currency": "EUR",
       "invoiceRef": "PV d'after sale",
       "gmailThreadId": "120b8b4eefa9965f",
       "location": "",
-      "photos": [],
-      "confidence": "a_verifier",
-      "todo": "La facture n'a pas été envoyée par mail (échange sur l'adresse professionnelle de l'époque).",
-      "notice": "Lot 56 d'une vente Artcurial du 7 avril 2009, acquis après la vente (procès-verbal d'after sale). L'échange s'est fait sur l'adresse professionnelle de l'époque et rien ne subsiste dans cette messagerie : ni la spécialité de la vente, ni la description du lot, ni le montant. La plus ancienne entrée de l'inventaire, et la plus incomplète.",
+      "photos": [
+        "2009-artcurial-56.jpg"
+      ],
+      "confidence": "confirme",
+      "todo": "La facture n'a jamais transité par cette messagerie : l'échange s'est fait sur l'adresse professionnelle de l'époque. Le procès-verbal d'after sale reste à retrouver et à verser au dossier.",
+      "notice": "Épreuve en bronze à patine noire de la « Panthère noire en marche » de Maurice Prost, modèle de 1928. Fonte d'édition de Susse Frères à Paris, portant la marque d'éditeur ; socle en marbre gris-noir, signée sur le socle des deux noms. Trente et un centimètres de haut, le socle mesurant 64,5 sur 10,5 cm. Présentée au lot 56 de la vente Artcurial du 7 avril 2009 avec une estimation de 10 000 à 12 000 €, elle n'a pas trouvé preneur en salle et a été acquise après la vente pour 8 000 €.\n\nMaurice Prost (1894-1967) est de la génération animalière qui expose entre les deux guerres au Salon des Artistes Français et au Salon d'Automne, aux côtés de Jouve, Guyot, Sandoz et Becquerel. Formé à l'École Boulle, il travaille d'après nature au Jardin des Plantes et cherche moins la description anatomique que la synthèse du mouvement : chez lui, la panthère se réduit à une longue courbe tendue, la tête basse, l'échine presque droite, les pattes réduites à des fuseaux. Ce modèle-ci a été exposé au Salon des Artistes Indépendants de 1928 et figure, référencé et reproduit, page 15 du catalogue « Maurice Prost 1894-1967, sculpteur animalier » publié par Concorde Art International.\n\nLa marque de Susse Frères compte autant que la signature. Fondeur parisien actif depuis 1839, éditeur de Barye, de Bugatti et des animaliers Art déco, Susse tirait à la cire perdue et au sable des épreuves d'édition contrôlées ; sa marque atteste d'une fonte du vivant de l'artiste et distingue l'épreuve des surmoulages tardifs — la même distinction qui fait, pour le Becquerel de la collection, l'essentiel de la valeur.\n\nC'est la plus ancienne acquisition de l'inventaire. Elle est aussi la quatrième panthère de la collection, avec celle de Becquerel qui se lèche la patte, celle de Guyot qui hume l'air et celle de Jouve qui marche de face.",
       "driveFolderId": "1H0VHHxXYWN0f991ePxR4e_0oEt_b1cWJ",
       "driveFolderName": "2009-04 Artcurial lot 56 - Artcurial 2009 lot 56",
       "driveUrl": "https://drive.google.com/drive/folders/1H0VHHxXYWN0f991ePxR4e_0oEt_b1cWJ",
-      "acquisition": "achat"
+      "acquisition": "achat",
+      "price": 8000,
+      "priceNote": "Estimation 10 000 – 12 000 € ; le lot n'a pas trouvé preneur en salle (« passed ») et a été acquis après la vente pour 8 000 €.",
+      "photoSource": "Vue du catalogue Artcurial, versée au dossier Drive de l'objet",
+      "driveDocs": [
+        {
+          "label": "Panthère noire en marche — vue de catalogue",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1bmIwM8vB89AMfn5S5prNpV6qjf48JFdy/view"
+        }
+      ]
     },
     {
       "id": "2024-autonautic-amv8",
