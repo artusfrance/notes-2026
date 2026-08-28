@@ -1816,6 +1816,83 @@
       "driveFolderName": "2009-04 Artcurial lot 56 - Artcurial 2009 lot 56",
       "driveUrl": "https://drive.google.com/drive/folders/1H0VHHxXYWN0f991ePxR4e_0oEt_b1cWJ",
       "acquisition": "achat"
+    },
+    {
+      "id": "2024-autonautic-amv8",
+      "title": "Aston Martin V8 Volante, 1986",
+      "category": "Automobile",
+      "origin": "Cabriolet quatre places, carrosserie noire, capote noire, jantes à rayons. Moteur V8 5,3 l à injection, 232 kW, 38 CV fiscaux. Châssis SCFCV81C6GTL15451, première mise en circulation le 15 mai 1986. 67 000 km au compteur à l'achat.",
+      "house": "Auto Nautic Corporation SRL",
+      "city": "Lennik (Belgique)",
+      "sale": "Achat de gré à gré",
+      "saleDate": "2024-11-13",
+      "lot": "",
+      "price": 170000,
+      "currency": "EUR",
+      "priceNote": "170 000 € — facture pro forma du 30 octobre 2024, acquisition au 13 novembre 2024. Vendue dans l'état, avec une garantie de trois mois sur la boîte, le bloc moteur, les pièces et la main-d'œuvre, hors pièces d'usure, quatre pneus neufs et le dossier de carte grise provisoire.",
+      "invoiceRef": "Facture pro forma Auto Nautic Corporation SRL du 30/10/2024",
+      "invoiceFile": "Facture_FR ASTON MARTIN AMV8.pdf",
+      "delivery": "Importée de Belgique ; immatriculée en France le 3 avril 2025 sous le numéro HC-184-WR, mention « véhicule de collection ».",
+      "location": "",
+      "photos": [
+        "2024-autonautic-amv8.jpg"
+      ],
+      "photoSource": "Photos du vendeur (Auto Nautic), copiées depuis le dossier Aston Martin / Belgique du Drive",
+      "confidence": "confirme",
+      "acquisition": "achat",
+      "valuation": {
+        "value": 170000,
+        "currency": "EUR",
+        "source": "Prix d'acquisition, repris comme valeur assurée au contrat Allianz n° 412666660",
+        "date": "2024-11-13"
+      },
+      "driveFolderId": "1Ytz2LlMsMWRNiSGFel3hOUI_cq3BRAVD",
+      "driveFolderName": "2024-11 Auto Nautic Lennik - Aston Martin V8 Vantage Volante 1986",
+      "driveUrl": "https://drive.google.com/drive/folders/1Ytz2LlMsMWRNiSGFel3hOUI_cq3BRAVD",
+      "driveDocs": [
+        {
+          "label": "Facture Auto Nautic du 30/10/2024",
+          "kind": "Facture",
+          "url": "https://drive.google.com/file/d/16chvDy14-BLALvShDvS7tSYReuviJ9Eq/view"
+        },
+        {
+          "label": "Carte grise française définitive HC-184-WR",
+          "kind": "Papiers",
+          "url": "https://drive.google.com/file/d/1zp7qA3vvePSI70kxTzpRo5_X_QY66rAT/view"
+        },
+        {
+          "label": "Attestation FFVE AT3352664 (véhicule de collection)",
+          "kind": "Papiers",
+          "url": "https://drive.google.com/file/d/1ZkSFL4LHAFikoCmCYYODQMn2A_mW7YIn/view"
+        },
+        {
+          "label": "Carte grise belge d'origine",
+          "kind": "Papiers",
+          "url": "https://drive.google.com/file/d/18ao6BzjtAtW_4Yastzs-vUDcW7kngESG/view"
+        },
+        {
+          "label": "Carnet d'entretien — Aston Martin Michiels, 28/11/2005",
+          "kind": "Notice",
+          "url": "https://drive.google.com/file/d/1JQ-528wGRpwLyShyN3UhiPaEmOeM-FEO/view"
+        },
+        {
+          "label": "Réponse du conseil d'Auto Nautic du 29/09/2025 (vices cachés)",
+          "kind": "Notice",
+          "url": "https://drive.google.com/file/d/18xg0AlENM2hvyB6FWyWo_BuL8kilHB82/view"
+        },
+        {
+          "label": "Vue de trois quarts arrière",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1lFYb29V-c5EmxPdY0_zRi170t_5O8tNZ/view"
+        },
+        {
+          "label": "Face avant — calandre et capot",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1loBQXEY8vaMngOA7HRrWckNk-OEr2ufJ/view"
+        }
+      ],
+      "todo": "Faire trancher la désignation du modèle : la facture dit « V8 Volante EFI », la carte grise et la FFVE disent « V8 Vantage Volante », et les photos montrent une calandre ouverte et un capot plat, c'est-à-dire la configuration V8 Volante et non Vantage. Un certificat d'authenticité d'Aston Martin Works, établi sur le numéro de châssis, lèverait le doute — l'écart de valeur entre les deux versions est considérable.",
+      "notice": "Aston Martin V8 Volante de 1986, cabriolet quatre places à carrosserie noire et capote noire, monté sur jantes à rayons. Moteur V8 de 5 340 cm³ à injection, 232 kW, 38 CV fiscaux. Châssis SCFCV81C6GTL15451, première mise en circulation le 15 mai 1986, 67 000 km au compteur lors de l'achat. Acquise 170 000 € auprès d'Auto Nautic Corporation SRL, à Lennik en Belgique, facture pro forma du 30 octobre 2024, acquisition au 13 novembre 2024. Immatriculée en France le 3 avril 2025 sous le numéro HC-184-WR, avec la mention « véhicule de collection » au titre de l'attestation FFVE AT3352664 délivrée le 14 janvier 2025.\n\nLa V8 Volante est le cabriolet de la série lancée par Aston Martin en 1978, dérivée de la berlinette V8 dessinée par William Towns. Les exemplaires produits à partir de 1986, comme celui-ci, appartiennent à la dernière évolution du modèle : alimentation par injection électronique Weber-Marelli en remplacement des carburateurs, ce que désigne le sigle EFI porté par la facture. La production est restée confidentielle — quelques centaines d'exemplaires par an, assemblés à la main à Newport Pagnell — et la Volante est aujourd'hui recherchée comme le dernier grand cabriolet anglais de conception artisanale.\n\nUn point de désignation reste à trancher. La facture du vendeur décrit le véhicule comme un « V8 Volante EFI ». La carte grise française et l'attestation FFVE portent en revanche « VANTAGE VOLANTE » au champ D.2 et « V8 VANTAGE VOLANTE » au champ D.3. Or les photographies versées au dossier montrent une calandre ouverte à grille traditionnelle, quatre phares apparents et un capot plat : c'est la configuration de la V8 Volante ordinaire, le Vantage se reconnaissant à sa calandre obturée, à sa prise d'air de capot et à ses appendices aérodynamiques. Les cotes de valeur entre les deux versions sont sans commune mesure ; il serait prudent de faire établir un certificat d'authenticité par Aston Martin Works sur le numéro de châssis avant toute cession ou toute réévaluation de l'assurance.\n\nLe carnet d'entretien conserve un tampon d'Aston Martin Michiels, concession et centre Heritage à Anvers, daté du 28 novembre 2005 à 58 090 km. La voiture n'a donc parcouru qu'environ neuf mille kilomètres en dix-neuf ans, ce qui est cohérent avec un usage de collection.\n\nUne réclamation en garantie des vices cachés a été engagée contre le vendeur. Le conseil d'Auto Nautic la conteste par lettre du 29 septembre 2025 : il oppose le contrôle technique avant vente, l'exclusion des pièces d'usure de toute garantie, l'absence de constatations contradictoires avant l'exécution des travaux — chiffrés à 19 215,33 € — et la tardiveté de la demande au regard du « bref délai » du droit belge. Le dossier reste ouvert ; les pièces sont conservées dans le répertoire Aston Martin d'origine, qui n'a pas été modifié."
     }
   ],
   "aVerifier": [
