@@ -1,0 +1,632 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Collection de Messine</title>
+<link rel="stylesheet" href="fonts/fonts.css">
+<style>
+:root {
+  --ground:#edf0ea; --surface:#fff; --surface-2:#f6f8f3; --ink:#171b18; --muted:#5d6a62;
+  --line:#d6ddd4; --accent:#2f6b57; --accent-soft:#e2ece6; --flag:#8d6417;
+  --shadow:0 1px 2px rgba(23,27,24,.06);
+  --safe-t:env(safe-area-inset-top,0px); --safe-b:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#111512; --surface:#191e1b; --surface-2:#1f2521; --ink:#e9eee9; --muted:#99a69d;
+  --line:#2b332e; --accent:#83c1a4; --accent-soft:#22302a; --flag:#cb9c4f;
+  --shadow:0 1px 2px rgba(0,0,0,.4);
+}}
+:root[data-theme="dark"]{
+  --ground:#111512; --surface:#191e1b; --surface-2:#1f2521; --ink:#e9eee9; --muted:#99a69d;
+  --line:#2b332e; --accent:#83c1a4; --accent-soft:#22302a; --flag:#cb9c4f;
+  --shadow:0 1px 2px rgba(0,0,0,.4);
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{overscroll-behavior-y:none}
+body{
+  margin:0;background:var(--ground);color:var(--ink);
+  font-family:"IBM Plex Sans","Helvetica Neue",Arial,sans-serif;
+  font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:760px;margin:0 auto;padding:0 14px calc(28px + var(--safe-b))}
+
+/* ---------- masthead ---------- */
+header.masthead{padding:calc(20px + var(--safe-t)) 0 14px}
+.eyebrow{font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);margin:0 0 6px;font-weight:600}
+h1{font-family:Newsreader,Georgia,serif;font-weight:500;font-size:clamp(27px,7.5vw,38px);
+   line-height:1.06;letter-spacing:-.015em;margin:0;text-wrap:balance}
+.standfirst{margin:8px 0 0;color:var(--muted);font-size:13.5px}
+
+/* ---------- stats ---------- */
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);
+       border:1px solid var(--line);border-radius:10px;overflow:hidden;margin-bottom:14px}
+@media(min-width:560px){.stats{grid-template-columns:repeat(3,1fr)}}
+.stat{background:var(--surface);padding:11px 13px}
+.stat b{display:block;font-family:Newsreader,Georgia,serif;font-size:22px;font-weight:500;
+        font-variant-numeric:tabular-nums;line-height:1.15}
+.stat span{font-size:11.5px;color:var(--muted);display:block;line-height:1.35}
+
+/* ---------- controls ---------- */
+.controls{position:sticky;top:0;z-index:20;background:var(--ground);
+          padding:8px 0 9px;margin-bottom:4px;border-bottom:1px solid var(--line)}
+input[type="search"],select{font:inherit;font-size:16px;color:var(--ink);background:var(--surface);
+  border:1px solid var(--line);border-radius:9px;padding:10px 12px;width:100%;
+  -webkit-appearance:none;appearance:none}
+input[type="search"]:focus,select:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.filters{display:flex;gap:7px;margin-top:7px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+.filters::-webkit-scrollbar{display:none}
+.filters select{width:auto;flex:0 0 auto;font-size:13px;padding:7px 26px 7px 10px;border-radius:999px;
+  background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M3 4.5L6 8l3-3.5' fill='none' stroke='%235d6a62' stroke-width='1.4'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 8px center;background-size:12px}
+.filters select.on{border-color:var(--accent);color:var(--accent);font-weight:600}
+
+/* ---------- groups + cards ---------- */
+.group-head{display:flex;align-items:baseline;gap:9px;margin:20px 0 7px;
+  font-family:Newsreader,Georgia,serif;font-weight:500;font-size:19px}
+.group-head span{font-family:"IBM Plex Sans",sans-serif;font-size:11.5px;color:var(--muted);font-weight:400}
+.list{display:grid;gap:8px}
+.item{background:var(--surface);border:1px solid var(--line);border-radius:11px;
+      box-shadow:var(--shadow);overflow:hidden}
+.row{display:grid;grid-template-columns:58px 1fr auto;gap:11px;align-items:center;
+     width:100%;text-align:left;background:none;border:0;padding:10px;font:inherit;color:inherit;cursor:pointer}
+.row:active{background:var(--surface-2)}
+.thumb{width:58px;height:58px;border-radius:8px;background:var(--surface-2);border:1px solid var(--line);
+  display:grid;place-items:center;overflow:hidden;font-size:10px;color:var(--muted);flex:0 0 auto}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.title{font-family:Newsreader,Georgia,serif;font-weight:500;font-size:16px;line-height:1.25;margin:0}
+.line{margin:2px 0 0;font-size:12px;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px}
+.chip{font-size:10.5px;padding:2px 7px;border-radius:999px;background:var(--surface-2);
+      border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.chip.room{background:var(--accent-soft);border-color:transparent;color:var(--accent)}
+.chip.todo{background:transparent;border-color:var(--flag);color:var(--flag)}
+.chip.acq{background:var(--accent-soft);border-color:transparent;color:var(--accent)}
+.price{text-align:right;font-variant-numeric:tabular-nums;font-weight:600;font-size:14px;white-space:nowrap}
+.price small{display:block;font-weight:400;font-size:10.5px;color:var(--muted)}
+.price small.estim{color:var(--accent)}
+.empty{text-align:center;color:var(--muted);padding:34px 0;font-size:14px}
+
+/* ---------- table ---------- */
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table.recap{border-collapse:collapse;width:100%;font-size:12.5px;min-width:660px}
+table.recap th,table.recap td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+table.recap th{font-size:10.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);
+  font-weight:600;background:var(--surface-2);position:sticky;top:0}
+table.recap td.num,table.recap th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+table.recap td.estim{color:var(--accent);font-weight:600}
+table.recap td.src{color:var(--muted);font-size:11.5px}
+table.recap tfoot td{font-weight:600;border-top:2px solid var(--line);border-bottom:0;background:var(--surface-2)}
+.linklike{background:none;border:0;padding:0;font:inherit;color:var(--ink);text-align:left;
+  text-decoration:underline;text-underline-offset:2px;cursor:pointer}
+
+/* ---------- detail sheet ---------- */
+.sheet{position:fixed;inset:0;z-index:50;background:var(--ground);display:flex;flex-direction:column;
+       transform:translateY(100%);transition:transform .22s ease;visibility:hidden}
+.sheet.open{transform:translateY(0);visibility:visible}
+.sheet-bar{display:flex;align-items:center;gap:10px;padding:calc(8px + var(--safe-t)) 12px 8px;
+  border-bottom:1px solid var(--line);background:var(--surface);flex:0 0 auto}
+.sheet-bar button{background:none;border:0;font:inherit;color:var(--accent);font-size:15px;
+  padding:7px 4px;cursor:pointer;font-weight:600}
+.sheet-bar h2{font-family:Newsreader,Georgia,serif;font-weight:500;font-size:15px;margin:0;
+  flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sheet-body{overflow-y:auto;-webkit-overflow-scrolling:touch;padding:14px 14px calc(34px + var(--safe-b));
+  flex:1 1 auto}
+.big-photo{border-radius:11px;overflow:hidden;border:1px solid var(--line);background:var(--surface-2);margin-bottom:13px}
+.big-photo img{width:100%;display:block}
+.detail-title{font-family:Newsreader,Georgia,serif;font-weight:500;font-size:22px;line-height:1.2;margin:0 0 4px}
+.detail-sub{margin:0 0 12px;color:var(--muted);font-size:13px}
+.notice{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--accent);
+  border-radius:9px;padding:12px 13px;font-size:14px;line-height:1.6;margin:0 0 14px}
+dl{display:grid;grid-template-columns:auto 1fr;gap:5px 12px;margin:0 0 14px;font-size:13.5px}
+dt{color:var(--muted);font-size:11.5px;text-transform:uppercase;letter-spacing:.05em;
+   font-weight:600;padding-top:2px;white-space:nowrap}
+dd{margin:0}
+h4{font-family:Newsreader,Georgia,serif;font-weight:500;font-size:16px;margin:0 0 8px}
+.docs{display:grid;gap:7px;margin-bottom:14px}
+.doc{display:flex;align-items:center;gap:9px;padding:11px 12px;border:1px solid var(--line);
+  border-radius:9px;background:var(--surface);text-decoration:none;color:var(--ink);font-size:13.5px}
+.doc:active{background:var(--surface-2)}
+.doc.primary{border-color:var(--accent);color:var(--accent);font-weight:600}
+.doc .kind{font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;
+  flex:0 0 auto;padding:2px 7px;border:1px solid var(--line);border-radius:999px}
+.doc .label{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.doc .arrow{color:var(--muted);flex:0 0 auto}
+.fields{display:grid;gap:11px;background:var(--surface);border:1px solid var(--line);
+  border-radius:10px;padding:13px;margin-top:4px}
+.fields label{display:block;font-size:11.5px;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--muted);font-weight:600;margin-bottom:4px}
+.fields input,.fields textarea{font:inherit;font-size:16px;width:100%;color:var(--ink);
+  background:var(--surface-2);border:1px solid var(--line);border-radius:8px;padding:9px 11px}
+.fields textarea{min-height:70px;resize:vertical}
+.saved{font-size:11.5px;color:var(--accent);height:14px}
+footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}
+footer p{margin:0 0 8px}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="masthead">
+    <p class="eyebrow">Inventaire · 20 avenue de Messine</p>
+    <h1>Collection de Messine</h1>
+    <p class="standfirst" id="standfirst">Chargement…</p>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="controls">
+    <input type="search" id="q" placeholder="Rechercher : titre, maison, vente, lot…" autocomplete="off">
+    <div class="filters">
+      <select id="house"><option value="">Toutes les maisons</option></select>
+      <select id="category"><option value="">Toutes les catégories</option></select>
+      <select id="year"><option value="">Toutes les années</option></select>
+      <select id="viewMode">
+        <option value="cards">Fiches</option>
+        <option value="table">Tableau</option>
+      </select>
+      <select id="groupBy">
+        <option value="year">Par année</option>
+        <option value="room">Par emplacement</option>
+        <option value="house">Par maison</option>
+      </select>
+    </div>
+  </div>
+
+  <div id="list"></div>
+  <p class="empty" id="empty" hidden>Aucune pièce ne correspond à cette recherche.</p>
+
+  <footer>
+    <p><strong>Valeur actuelle.</strong> L'estimation saisie sur la fiche ; à défaut, le prix payé.
+    Les montants en devise étrangère sont exclus des totaux en euros.</p>
+    <p><strong>Documents.</strong> Chaque fiche renvoie au dossier Google Drive de l'objet et à ses
+    pièces — factures, bordereaux, rapports. Emplacement, notes et valeur saisis ici restent sur ce téléphone.</p>
+  </footer>
+</div>
+
+<div class="sheet" id="sheet" role="dialog" aria-modal="true">
+  <div class="sheet-bar">
+    <button type="button" id="sheetClose">‹ Retour</button>
+    <h2 id="sheetTitle"></h2>
+  </div>
+  <div class="sheet-body" id="sheetBody"></div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var ITEMS = [], LOCAL_KEY = "messine-collection-local", localOnly = {}, openId = null;
+
+  try { localOnly = JSON.parse(localStorage.getItem(LOCAL_KEY)) || {}; } catch (e) { localOnly = {}; }
+  function persist() {
+    try { localStorage.setItem(LOCAL_KEY, JSON.stringify(localOnly)); } catch (e) {}
+  }
+
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+  function stripTags(s) { return String(s == null ? "" : s).replace(/<[^>]+>/g, ""); }
+  function yearOf(i) { return (i.saleDate || "").slice(0, 4); }
+
+  var ACQ = { achat: "Achat", heritage: "Héritage", don: "Don" };
+  function acqOf(i) { return i.acquisition || "achat"; }
+
+  function view(i) {
+    var o = localOnly[i.id] || {};
+    return {
+      location: o.location != null ? o.location : (i.location || ""),
+      notes: o.notes != null ? o.notes : (i.notes || ""),
+      value: o.value != null ? o.value : (i.value != null ? i.value : ""),
+      valueSource: o.valueSource != null ? o.valueSource : (i.valueSource || ""),
+      valueDate: o.valueDate != null ? o.valueDate : (i.valueDate || "")
+    };
+  }
+
+  // Valeur retenue : l'estimation saisie si elle existe, sinon le prix payé.
+  function currentValue(i, v) {
+    var raw = v.value;
+    if (raw !== "" && raw != null && !isNaN(Number(raw))) {
+      return { amount: Number(raw), currency: "EUR", basis: "estimation",
+               source: v.valueSource || "", date: v.valueDate || "" };
+    }
+    if (i.price != null) {
+      return { amount: i.price, currency: i.currency || "EUR", basis: "achat",
+               source: "prix d'adjudication", date: i.saleDate || "" };
+    }
+    return { amount: null, currency: null, basis: null, source: "", date: "" };
+  }
+  function fmtMoney(amount, currency) {
+    if (amount == null) return "—";
+    return amount.toLocaleString("fr-FR") + (currency === "GBP" ? " £" : " €");
+  }
+  function money(i) {
+    if (i.price == null) return { main: "—", sub: "" };
+    var sym = i.currency === "GBP" ? " £" : " €";
+    return { main: i.price.toLocaleString("fr-FR") + sym, sub: i.lot ? "lot " + i.lot : "" };
+  }
+  function frDate(d) {
+    if (!d) return "—";
+    var p = d.split("-");
+    return p.length === 3 ? p[2] + "/" + p[1] + "/" + p[0] : d;
+  }
+
+  function fillSelect(id, values) {
+    var s = document.getElementById(id);
+    values.filter(Boolean).sort(function (a, b) { return a.localeCompare(b, "fr"); })
+      .forEach(function (v) {
+        var o = document.createElement("option");
+        o.value = v; o.textContent = v;
+        s.appendChild(o);
+      });
+  }
+  function unique(fn) {
+    var seen = {}, out = [];
+    ITEMS.forEach(function (i) {
+      var v = fn(i);
+      if (v && !seen[v]) { seen[v] = 1; out.push(v); }
+    });
+    return out;
+  }
+
+  function renderStats() {
+    var spent = 0, valeur = 0, estimes = 0, todo = 0, photos = 0, rooms = {}, nRooms = 0;
+    ITEMS.forEach(function (i) {
+      if (i.price != null && i.currency === "EUR") spent += i.price;
+      var v = view(i), cur = currentValue(i, v);
+      if (cur.amount != null && (cur.currency || "EUR") === "EUR") valeur += cur.amount;
+      if (cur.basis === "estimation") estimes++;
+      if (v.location && !rooms[v.location]) { rooms[v.location] = 1; nRooms++; }
+      if (i.confidence === "a_verifier") todo++;
+      if (i.photo) photos++;
+    });
+    var box = document.getElementById("stats");
+    box.innerHTML = "";
+    [[ITEMS.length, "objets à l'inventaire"],
+     [spent.toLocaleString("fr-FR") + " €", "prix d'acquisition relevés"],
+     [valeur.toLocaleString("fr-FR") + " €", "valeur actuelle retenue"],
+     [estimes, estimes > 1 ? "valeurs estimées saisies" : "valeur estimée saisie"],
+     [photos, photos > 1 ? "photos" : "photo"],
+     [todo, "fiches à compléter"]
+    ].forEach(function (pair) {
+      var s = el("div", "stat");
+      s.appendChild(el("b", null, String(pair[0])));
+      s.appendChild(el("span", null, pair[1]));
+      box.appendChild(s);
+    });
+  }
+
+  function markActive() {
+    ["house", "category", "year"].forEach(function (id) {
+      var s = document.getElementById(id);
+      s.classList.toggle("on", !!s.value);
+    });
+  }
+
+  function render() {
+    renderStats();
+    markActive();
+    var q = document.getElementById("q").value.trim().toLowerCase();
+    var house = document.getElementById("house").value;
+    var category = document.getElementById("category").value;
+    var year = document.getElementById("year").value;
+    var viewMode = document.getElementById("viewMode").value;
+    var groupBy = document.getElementById("groupBy").value;
+    document.getElementById("groupBy").style.display = viewMode === "table" ? "none" : "";
+
+    var rows = ITEMS.filter(function (i) {
+      var v = view(i);
+      if (house && i.house !== house) return false;
+      if (category && i.category !== category) return false;
+      if (year && yearOf(i) !== year) return false;
+      if (!q) return true;
+      var hay = [stripTags(i.title), i.house, i.sale, i.lot, i.origin, i.invoiceRef,
+                 v.location, v.notes, v.valueSource, ACQ[acqOf(i)]]
+        .filter(Boolean).join(" ").toLowerCase();
+      return hay.indexOf(q) !== -1;
+    }).sort(function (a, b) { return (b.saleDate || "").localeCompare(a.saleDate || ""); });
+
+    var list = document.getElementById("list");
+    list.innerHTML = "";
+    document.getElementById("empty").hidden = rows.length > 0;
+    if (viewMode === "table") { renderTable(rows, list); return; }
+
+    var groups = {}, order = [];
+    rows.forEach(function (i) {
+      var key = groupBy === "year" ? (yearOf(i) || "Sans date")
+        : groupBy === "house" ? i.house
+        : (view(i).location || "Sans emplacement");
+      if (!groups[key]) { groups[key] = []; order.push(key); }
+      groups[key].push(i);
+    });
+    if (groupBy === "year") order.sort().reverse();
+    else order.sort(function (a, b) {
+      if (a === "Sans emplacement") return 1;
+      if (b === "Sans emplacement") return -1;
+      return a.localeCompare(b, "fr");
+    });
+
+    order.forEach(function (k) {
+      var head = el("h2", "group-head", k);
+      head.appendChild(el("span", null, groups[k].length + " pièce" + (groups[k].length > 1 ? "s" : "")));
+      list.appendChild(head);
+      var box = el("div", "list");
+      groups[k].forEach(function (i) { box.appendChild(itemNode(i)); });
+      list.appendChild(box);
+    });
+  }
+
+  function renderTable(rows, list) {
+    var wrap = el("div", "table-wrap");
+    var t = document.createElement("table");
+    t.className = "recap";
+    var head = document.createElement("thead"), hr = document.createElement("tr");
+    ["Objet", "Maison / provenance", "Date", "Prix d'achat", "Valeur actuelle",
+     "Source de la valeur", "Emplacement"].forEach(function (h, k) {
+      hr.appendChild(el("th", (k === 3 || k === 4) ? "num" : null, h));
+    });
+    head.appendChild(hr); t.appendChild(head);
+
+    var body = document.createElement("tbody");
+    var totalAchat = 0, totalValeur = 0, horsEuro = 0;
+    rows.forEach(function (i) {
+      var v = view(i), cur = currentValue(i, v), tr = document.createElement("tr");
+      var tdTitle = document.createElement("td");
+      var a = el("button", "linklike", stripTags(i.title));
+      a.type = "button";
+      a.addEventListener("click", function () { openSheet(i); });
+      tdTitle.appendChild(a); tr.appendChild(tdTitle);
+      tr.appendChild(el("td", null, i.house + (i.city ? " · " + i.city : "")));
+      tr.appendChild(el("td", null, frDate(i.saleDate)));
+      tr.appendChild(el("td", "num", i.price != null ? fmtMoney(i.price, i.currency) : "—"));
+      tr.appendChild(el("td", "num" + (cur.basis === "estimation" ? " estim" : ""),
+                        fmtMoney(cur.amount, cur.currency)));
+      tr.appendChild(el("td", "src", cur.basis === "estimation"
+        ? (cur.source || "source non renseignée") + (cur.date ? " · " + cur.date : "")
+        : (cur.basis ? "prix d'adjudication" : "à estimer")));
+      tr.appendChild(el("td", null, v.location || "—"));
+      if (i.price != null && (i.currency || "EUR") === "EUR") totalAchat += i.price;
+      if (cur.amount != null) {
+        if ((cur.currency || "EUR") === "EUR") totalValeur += cur.amount; else horsEuro++;
+      }
+      body.appendChild(tr);
+    });
+    t.appendChild(body);
+
+    var foot = document.createElement("tfoot"), fr = document.createElement("tr");
+    fr.appendChild(el("td", null, rows.length + " objet" + (rows.length > 1 ? "s" : "")));
+    fr.appendChild(el("td", null, ""));
+    fr.appendChild(el("td", null, "Totaux €"));
+    fr.appendChild(el("td", "num", fmtMoney(totalAchat, "EUR")));
+    fr.appendChild(el("td", "num", fmtMoney(totalValeur, "EUR")));
+    fr.appendChild(el("td", "src", horsEuro ? horsEuro + " objet(s) en devise étrangère exclus" : ""));
+    fr.appendChild(el("td", null, ""));
+    foot.appendChild(fr); t.appendChild(foot);
+    wrap.appendChild(t); list.appendChild(wrap);
+  }
+
+  function itemNode(i) {
+    var v = view(i);
+    var wrap = el("article", "item");
+    wrap.setAttribute("data-id", i.id);
+    var row = el("button", "row");
+    row.type = "button";
+
+    var thumb = el("div", "thumb");
+    if (i.photo) {
+      var img = document.createElement("img");
+      img.src = i.photo;
+      img.alt = stripTags(i.title);
+      img.loading = "lazy";
+      thumb.appendChild(img);
+    } else { thumb.textContent = "photo"; }
+
+    var mid = el("div");
+    mid.appendChild(el("h3", "title", stripTags(i.title)));
+    mid.appendChild(el("p", "line", i.house + " · " + i.city + " · " + frDate(i.saleDate)));
+    var chips = el("div", "chips");
+    chips.appendChild(el("span", "chip", i.category));
+    var acqKey = acqOf(i);
+    if (acqKey !== "achat") chips.appendChild(el("span", "chip acq", ACQ[acqKey]));
+    if (v.location) chips.appendChild(el("span", "chip room", v.location));
+    if (i.confidence === "a_verifier") chips.appendChild(el("span", "chip todo", "à compléter"));
+    mid.appendChild(chips);
+
+    var m = money(i), cur = currentValue(i, v);
+    var price = el("div", "price", m.main);
+    if (m.sub) price.appendChild(el("small", null, m.sub));
+    if (cur.basis === "estimation") {
+      price.appendChild(el("small", "estim", "val. " + fmtMoney(cur.amount, cur.currency)));
+    }
+
+    row.appendChild(thumb); row.appendChild(mid); row.appendChild(price);
+    row.addEventListener("click", function () { openSheet(i); });
+    wrap.appendChild(row);
+    return wrap;
+  }
+
+  /* ---------- fiche détaillée ---------- */
+
+  function docLink(href, kind, label, primary) {
+    var a = el("a", "doc" + (primary ? " primary" : ""));
+    a.href = href;
+    a.target = "_blank";
+    a.rel = "noopener";
+    if (kind) a.appendChild(el("span", "kind", kind));
+    a.appendChild(el("span", "label", label));
+    a.appendChild(el("span", "arrow", "→"));
+    return a;
+  }
+
+  function buildDetail(i) {
+    var v = view(i), cur = currentValue(i, v);
+    var d = document.createDocumentFragment();
+
+    if (i.photo) {
+      var box = el("div", "big-photo");
+      var img = document.createElement("img");
+      img.src = i.photo; img.alt = stripTags(i.title);
+      box.appendChild(img); d.appendChild(box);
+    }
+
+    d.appendChild(el("h3", "detail-title", stripTags(i.title)));
+    d.appendChild(el("p", "detail-sub", i.house + " · " + i.city + " · " + frDate(i.saleDate)));
+    if (i.notice) d.appendChild(el("p", "notice", i.notice));
+
+    var dl = document.createElement("dl");
+    [["Origine", ACQ[acqOf(i)] + (i.acquisitionNote ? " — " + i.acquisitionNote : "")],
+     ["Vente", i.sale], ["Date", frDate(i.saleDate)], ["Lot", i.lot],
+     ["Prix", money(i).main], ["Détail du prix", i.priceNote], ["Facture", i.invoiceRef],
+     ["Note de facture", i.invoiceNote],
+     ["Description", i.origin && i.origin !== "—" ? i.origin : null],
+     ["Livraison", i.delivery],
+     ["Analyse scientifique", i.science],
+     ["Valeur retenue", cur.amount != null
+        ? fmtMoney(cur.amount, cur.currency) + (cur.basis === "estimation" ? " (estimation)" : " (prix payé)")
+        : null],
+     ["À faire", i.todo]
+    ].forEach(function (pair) {
+      if (!pair[1] || pair[1] === "—") return;
+      dl.appendChild(el("dt", null, pair[0]));
+      dl.appendChild(el("dd", null, pair[1]));
+    });
+    d.appendChild(dl);
+
+    if (i.driveUrl || (i.driveDocs && i.driveDocs.length) || i.lotUrl || i.thread || i.reportUrl) {
+      d.appendChild(el("h4", null, "Documents"));
+      var docs = el("div", "docs");
+      if (i.driveUrl) docs.appendChild(docLink(i.driveUrl, "Drive", "Dossier de l'objet", true));
+      (i.driveDocs || []).forEach(function (f) {
+        docs.appendChild(docLink(f.url, f.kind || "Doc", f.label || "Document", false));
+      });
+      if (i.reportUrl) docs.appendChild(docLink(i.reportUrl, "PDF", "Rapport scientifique complet", false));
+      if (i.lotUrl) docs.appendChild(docLink(i.lotUrl, "Lot", "Fiche du lot chez la maison de vente", false));
+      if (i.thread) {
+        docs.appendChild(docLink("https://mail.google.com/mail/u/0/#all/" + i.thread,
+                                 "Gmail", "Fil de courriel d'origine", false));
+      }
+      d.appendChild(docs);
+    }
+
+    /* champs personnels, conservés sur le téléphone */
+    var fields = el("div", "fields");
+    var saved = el("div", "saved");
+
+    function bind(node, key, parse) {
+      node.addEventListener("input", function () {
+        var o = localOnly[i.id] || (localOnly[i.id] = {});
+        o[key] = parse ? parse(node.value) : node.value;
+        persist();
+        saved.textContent = "Enregistré sur ce téléphone";
+        clearTimeout(bind._t);
+        bind._t = setTimeout(function () { saved.textContent = ""; }, 1600);
+        renderStats();
+      });
+    }
+
+    var g1 = el("div");
+    var l1 = el("label", null, "Emplacement dans l'appartement");
+    l1.setAttribute("for", "loc-" + i.id);
+    var loc = document.createElement("input");
+    loc.type = "text"; loc.id = "loc-" + i.id; loc.value = v.location;
+    loc.placeholder = "Salon, bureau, entrée…";
+    bind(loc, "location");
+    g1.appendChild(l1); g1.appendChild(loc); fields.appendChild(g1);
+
+    var g2 = el("div");
+    var l2 = el("label", null, "Valeur actuelle estimée (€)");
+    l2.setAttribute("for", "val-" + i.id);
+    var val = document.createElement("input");
+    val.type = "number"; val.inputMode = "decimal"; val.id = "val-" + i.id;
+    val.value = v.value === "" ? "" : v.value;
+    val.placeholder = "à défaut, le prix payé";
+    bind(val, "value", function (s) { return s === "" ? "" : s; });
+    g2.appendChild(l2); g2.appendChild(val); fields.appendChild(g2);
+
+    var g3 = el("div");
+    var l3 = el("label", null, "Source de la valeur");
+    l3.setAttribute("for", "vs-" + i.id);
+    var vs = document.createElement("input");
+    vs.type = "text"; vs.id = "vs-" + i.id; vs.value = v.valueSource;
+    vs.placeholder = "expertise, comparable, assurance…";
+    bind(vs, "valueSource");
+    g3.appendChild(l3); g3.appendChild(vs); fields.appendChild(g3);
+
+    var g4 = el("div");
+    var l4 = el("label", null, "Notes");
+    l4.setAttribute("for", "no-" + i.id);
+    var no = document.createElement("textarea");
+    no.id = "no-" + i.id; no.value = v.notes;
+    no.placeholder = "état, restauration, provenance…";
+    bind(no, "notes");
+    g4.appendChild(l4); g4.appendChild(no); fields.appendChild(g4);
+
+    fields.appendChild(saved);
+    d.appendChild(el("h4", null, "Mes annotations"));
+    d.appendChild(fields);
+    return d;
+  }
+
+  var sheet = document.getElementById("sheet");
+  var sheetBody = document.getElementById("sheetBody");
+  var sheetTitle = document.getElementById("sheetTitle");
+
+  function openSheet(i) {
+    openId = i.id;
+    sheetTitle.textContent = stripTags(i.title);
+    sheetBody.innerHTML = "";
+    sheetBody.appendChild(buildDetail(i));
+    sheetBody.scrollTop = 0;
+    sheet.classList.add("open");
+    document.body.style.overflow = "hidden";
+    if (location.hash !== "#fiche") location.hash = "fiche";
+  }
+  function closeSheet() {
+    if (!sheet.classList.contains("open")) return;
+    openId = null;
+    sheet.classList.remove("open");
+    document.body.style.overflow = "";
+    render();
+    if (location.hash === "#fiche") history.back();
+  }
+  document.getElementById("sheetClose").addEventListener("click", closeSheet);
+  window.addEventListener("hashchange", function () {
+    if (location.hash !== "#fiche" && sheet.classList.contains("open")) {
+      openId = null;
+      sheet.classList.remove("open");
+      document.body.style.overflow = "";
+      render();
+    }
+  });
+  // Le bouton retour d'Android ferme la fiche (voir MainActivity).
+  window.messineCloseSheet = function () {
+    if (sheet.classList.contains("open")) { closeSheet(); return true; }
+    return false;
+  };
+
+  ["q", "house", "category", "year", "viewMode", "groupBy"].forEach(function (id) {
+    document.getElementById(id).addEventListener(id === "q" ? "input" : "change", render);
+  });
+
+  fetch("collection.json")
+    .then(function (r) { return r.json(); })
+    .then(function (state) {
+      ITEMS = state.items || [];
+      document.getElementById("standfirst").textContent =
+        ITEMS.length + " pièces achetées en vente publique ou de gré à gré. "
+        + "Chaque fiche porte sa valeur et renvoie à son dossier Google Drive. "
+        + "Données au " + frDate(state.updated) + ".";
+      fillSelect("house", unique(function (i) { return i.house; }));
+      fillSelect("category", unique(function (i) { return i.category; }));
+      fillSelect("year", unique(yearOf));
+      render();
+    })
+    .catch(function (e) {
+      document.getElementById("standfirst").textContent = "Impossible de charger l'inventaire : " + e;
+    });
+})();
+</script>
+</body>
+</html>

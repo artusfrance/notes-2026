@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ground">#edf0ea</color>
+    <color name="surface">#ffffff</color>
+    <color name="accent">#2f6b57</color>
+    <color name="ic_background">#2f6b57</color>
+</resources>

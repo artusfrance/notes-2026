@@ -1,0 +1,42 @@
+name: APK Collection de Messine
+
+# Produit l'APK installable. Les runners GitHub embarquent le SDK Android.
+on:
+  push:
+    paths:
+      - 'messine-android/**'
+      - '.github/workflows/android.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Installer JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Préparer Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Construire l'APK
+        working-directory: messine-android
+        run: ./gradlew assembleRelease --no-daemon --stacktrace
+
+      - name: Renommer l'APK
+        working-directory: messine-android
+        run: |
+          mkdir -p out
+          cp app/build/outputs/apk/release/app-release.apk \
+             out/collection-de-messine.apk
+
+      - name: Publier l'APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: collection-de-messine-apk
+          path: messine-android/out/collection-de-messine.apk
+          if-no-files-found: error
