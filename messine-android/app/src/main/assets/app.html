@@ -161,6 +161,12 @@ footer p{margin:0 0 8px}
       <select id="house"><option value="">Toutes les maisons</option></select>
       <select id="category"><option value="">Toutes les catégories</option></select>
       <select id="year"><option value="">Toutes les années</option></select>
+      <select id="acq">
+        <option value="">Toutes origines</option>
+        <option value="achat">Achat</option>
+        <option value="heritage">Héritage</option>
+        <option value="don">Don</option>
+      </select>
       <select id="viewMode">
         <option value="cards">Fiches</option>
         <option value="table">Tableau</option>
@@ -178,7 +184,8 @@ footer p{margin:0 0 8px}
 
   <footer>
     <p><strong>Valeur actuelle.</strong> L'estimation saisie sur la fiche ; à défaut, le prix payé.
-    Les montants en devise étrangère sont exclus des totaux en euros.</p>
+    Une pièce reçue en héritage n'a pas de prix d'achat : tant qu'aucune valeur n'est saisie,
+    elle ne compte pas dans les totaux. Les montants en devise étrangère en sont aussi exclus.</p>
     <p><strong>Documents.</strong> Chaque fiche renvoie au dossier Google Drive de l'objet et à ses
     pièces — factures, bordereaux, rapports. Emplacement, notes et valeur saisis ici restent sur ce téléphone.</p>
   </footer>
@@ -299,7 +306,7 @@ footer p{margin:0 0 8px}
   }
 
   function markActive() {
-    ["house", "category", "year"].forEach(function (id) {
+    ["house", "category", "year", "acq"].forEach(function (id) {
       var s = document.getElementById(id);
       s.classList.toggle("on", !!s.value);
     });
@@ -312,6 +319,7 @@ footer p{margin:0 0 8px}
     var house = document.getElementById("house").value;
     var category = document.getElementById("category").value;
     var year = document.getElementById("year").value;
+    var acq = document.getElementById("acq").value;
     var viewMode = document.getElementById("viewMode").value;
     var groupBy = document.getElementById("groupBy").value;
     document.getElementById("groupBy").style.display = viewMode === "table" ? "none" : "";
@@ -321,6 +329,7 @@ footer p{margin:0 0 8px}
       if (house && i.house !== house) return false;
       if (category && i.category !== category) return false;
       if (year && yearOf(i) !== year) return false;
+      if (acq && acqOf(i) !== acq) return false;
       if (!q) return true;
       var hay = [stripTags(i.title), i.house, i.sale, i.lot, i.origin, i.invoiceRef,
                  v.location, v.notes, v.valueSource, ACQ[acqOf(i)]]
@@ -363,9 +372,9 @@ footer p{margin:0 0 8px}
     var t = document.createElement("table");
     t.className = "recap";
     var head = document.createElement("thead"), hr = document.createElement("tr");
-    ["Objet", "Maison / provenance", "Date", "Prix d'achat", "Valeur actuelle",
+    ["Objet", "Origine", "Maison / provenance", "Date", "Prix d'achat", "Valeur actuelle",
      "Source de la valeur", "Emplacement"].forEach(function (h, k) {
-      hr.appendChild(el("th", (k === 3 || k === 4) ? "num" : null, h));
+      hr.appendChild(el("th", (k === 4 || k === 5) ? "num" : null, h));
     });
     head.appendChild(hr); t.appendChild(head);
 
@@ -378,6 +387,9 @@ footer p{margin:0 0 8px}
       a.type = "button";
       a.addEventListener("click", function () { openSheet(i); });
       tdTitle.appendChild(a); tr.appendChild(tdTitle);
+      var tdAcq = document.createElement("td");
+      tdAcq.appendChild(el("span", "chip acq", ACQ[acqOf(i)]));
+      tr.appendChild(tdAcq);
       tr.appendChild(el("td", null, i.house + (i.city ? " · " + i.city : "")));
       tr.appendChild(el("td", null, frDate(i.saleDate)));
       tr.appendChild(el("td", "num", i.price != null ? fmtMoney(i.price, i.currency) : "—"));
@@ -397,6 +409,7 @@ footer p{margin:0 0 8px}
 
     var foot = document.createElement("tfoot"), fr = document.createElement("tr");
     fr.appendChild(el("td", null, rows.length + " objet" + (rows.length > 1 ? "s" : "")));
+    fr.appendChild(el("td", null, ""));
     fr.appendChild(el("td", null, ""));
     fr.appendChild(el("td", null, "Totaux €"));
     fr.appendChild(el("td", "num", fmtMoney(totalAchat, "EUR")));
@@ -606,7 +619,7 @@ footer p{margin:0 0 8px}
     return false;
   };
 
-  ["q", "house", "category", "year", "viewMode", "groupBy"].forEach(function (id) {
+  ["q", "house", "category", "year", "acq", "viewMode", "groupBy"].forEach(function (id) {
     document.getElementById(id).addEventListener(id === "q" ? "input" : "change", render);
   });
 
@@ -615,9 +628,9 @@ footer p{margin:0 0 8px}
     .then(function (state) {
       ITEMS = state.items || [];
       document.getElementById("standfirst").textContent =
-        ITEMS.length + " pièces achetées en vente publique ou de gré à gré. "
-        + "Chaque fiche porte sa valeur et renvoie à son dossier Google Drive. "
-        + "Données au " + frDate(state.updated) + ".";
+        ITEMS.length + " pièces — achetées en vente publique ou de gré à gré, "
+        + "ou reçues en héritage. Chaque fiche porte sa valeur et renvoie à son "
+        + "dossier Google Drive. Données au " + frDate(state.updated) + ".";
       fillSelect("house", unique(function (i) { return i.house; }));
       fillSelect("category", unique(function (i) { return i.category; }));
       fillSelect("year", unique(yearOf));
