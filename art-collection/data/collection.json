@@ -2877,6 +2877,44 @@
       "todo": "Relever les dimensions ; identifier l'oiseau de l'insigne (précise le rang du mari) ; faire examiner les déchirures de la soie par un restaurateur de peintures asiatiques."
     },
     {
+      "id": "2002-h-tibet-thangka",
+      "title": "Tibet — Thangka : divinité blanche en union avec sa parèdre (Vajrasattva ou Samvara blanc)",
+      "category": "Peinture",
+      "origin": "Détrempe sur toile de coton, Tibet, vraisemblablement XVIIIe-XIXe siècle. Grand format, encadrée sous verre.",
+      "house": "Collection familiale",
+      "city": "",
+      "sale": "Reçu en héritage",
+      "saleDate": "2002-01-01",
+      "lot": "",
+      "currency": "EUR",
+      "priceNote": "Reçu en héritage en 2002 : pas de prix d'acquisition. Achat familial non documenté (collection réunie vraisemblablement par Antoinette Boulard ou Maurice Bérard).",
+      "delivery": "",
+      "location": "",
+      "photos": [
+        "2002-h-tibet-thangka.jpg"
+      ],
+      "photoSource": "Photographie du 2 septembre 2026 (vue partielle).",
+      "confidence": "confirme",
+      "acquisition": "heritage",
+      "driveFolderId": "14ahSiZEtfApIsLnoKmkGBP8y4QFMdZ64",
+      "driveFolderName": "2002 Heritage - Tibet - Thangka, divinite blanche en union (Vajrasattva ou Samvara blanc)",
+      "driveUrl": "https://drive.google.com/drive/folders/14ahSiZEtfApIsLnoKmkGBP8y4QFMdZ64",
+      "driveDocs": [
+        {
+          "label": "Fiche de la thangka",
+          "kind": "Notice",
+          "url": "https://docs.google.com/document/d/1j98YBQFbYGZtq_HyxFlJxVEYeHnSqnNI4EgKf0aptY0/view"
+        },
+        {
+          "label": "Thangka — photographie (vue partielle)",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/176Znp39tYt5SYNmwL0QMuLorNmvuDHrl/view"
+        }
+      ],
+      "notice": "Grande peinture bouddhique tibétaine (thangka), à la détrempe sur toile de coton — la trame du tissu est bien visible sous la couche picturale. Au centre, une divinité blanche parée, couronne à cinq fleurons d'or incrustés de bleu et haut chignon noir à joyau, en union rituelle (yab-yum) avec une parèdre rouge qui se presse contre elle et brandit une coupe crânienne (kapala) blanche. Nimbe rose, grande auréole orange à fins rayons dorés, fond bleu à grands feuillages stylisés d'influence chinoise ; au-dessus, une figure secondaire dans une gloire irisée ; en bas, le lotus à pétales roses et blancs.\n\nL'union du couple divin figure l'indissociabilité de la méthode (la compassion, le principe masculin) et de la sagesse (la vacuité, le principe féminin) — le cœur du bouddhisme tantrique. Un couple blanc/rouge de ce type, avec la kapala levée, désigne le plus vraisemblablement Vajrasattva en union avec sa parèdre, ou une forme blanche de Samvara — une pratique de longue vie — avec Vajravārāhī ; les attributs décisifs (vajra et clochette) sont masqués par l'étreinte sur la photographie, l'identification reste donc à confirmer devant l'œuvre.\n\nLe tissage grossier de la toile, la palette (orange, rose, vert amande), les feuillages sinisants et l'usure générale orientent vers le XVIIIe ou le XIXe siècle ; le format, inhabituellement grand, est celui des thangkas de sanctuaire. Ces peintures, roulées et transportées, servaient de support de méditation et de consécration ; beaucoup ont quitté le Tibet au XXe siècle. Contexte historique : datation stylistique sur photographie partielle, à préciser par un examen direct (revers, pigments, montage).",
+      "todo": "Photographier la thangka en entier (la vue actuelle est partielle) ; relever les dimensions ; vérifier les attributs des mains (vajra/clochette) pour trancher entre Vajrasattva et Samvara blanc ; faire dater par un spécialiste."
+    },
+    {
       "id": "2023-udb-carpe",
       "title": "Judith Devaux (née en 1970), « Grande Carpe », 2021",
       "category": "Sculpture",
