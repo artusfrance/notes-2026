@@ -91,7 +91,7 @@ dessous :
   au-delà de `WARN_LIMIT` (8 Mo). Chaque construction annonce la marge restante
   en nombre de photos.
 
-Au 2 septembre 2026 : 75 entrées, 6,6 Mo, 61 photos, 174 documents liés. Les photos sont
+Au 2 septembre 2026 : 76 entrées, 6,7 Mo, 62 photos, 176 documents liés. Les photos sont
 descendues à 900 px automatiquement pour tenir le budget.
 
 Les objets sortis de la collection — offerts, revendus, acquis pour un tiers —

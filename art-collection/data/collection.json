@@ -3001,6 +3001,44 @@
       "todo": "Photographier la vitrine de face, fragment par fragment ; compter et mesurer les fragments ; faire confirmer l'attribution Paracas-Nazca."
     },
     {
+      "id": "2002-h-chancay-bande",
+      "title": "Pérou, Chancay — Bande de tapisserie à créneaux, oiseaux stylisés et frange",
+      "category": "Textile",
+      "origin": "Tapisserie, coton et fibre de camélidé, côte centrale du Pérou, culture Chancay (v. 1100-1470). Montée sur lin, sous verre.",
+      "house": "Collection familiale",
+      "city": "",
+      "sale": "Reçu en héritage",
+      "saleDate": "2002-01-01",
+      "lot": "",
+      "currency": "EUR",
+      "priceNote": "Reçu en héritage en 2002 : pas de prix d'acquisition. Achat familial non documenté (collection réunie vraisemblablement par Antoinette Boulard ou Maurice Bérard).",
+      "delivery": "",
+      "location": "",
+      "photos": [
+        "2002-h-chancay-bande.jpg"
+      ],
+      "photoSource": "Photographie du 2 septembre 2026.",
+      "confidence": "confirme",
+      "acquisition": "heritage",
+      "driveFolderId": "1ABvf67NB2Z2W7mrJ0pLozKIvCuYqvHnH",
+      "driveFolderName": "2002 Heritage - Perou - Bande Chancay a creneaux et frange",
+      "driveUrl": "https://drive.google.com/drive/folders/1ABvf67NB2Z2W7mrJ0pLozKIvCuYqvHnH",
+      "driveDocs": [
+        {
+          "label": "Fiche de la bande Chancay",
+          "kind": "Notice",
+          "url": "https://docs.google.com/document/d/19JH573c8dqo6qxxdFZhXgJSq9ZGcr_sopyuxuXpzfm8/view"
+        },
+        {
+          "label": "Photographie de la bande encadrée",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1N_PKDcogpD3DctyLTEfgFYi1IIM2QKes/view"
+        }
+      ],
+      "notice": "Longue bande tissée en tapisserie — coton et vraisemblablement fibre de camélidé — au bord supérieur découpé en merlons à degrés, chacun portant un petit personnage en réserve ; frise de grecques ; grande frise centrale d'oiseaux marins stylisés au cou recourbé, alternant prune sur crème et crème sur prune ; seconde frise de grecques ; longue frange crème. Montée sur toile de lin, sous verre à pinces — le même encadrement que l'orbicule copte, signe d'une même campagne de présentation de la collection familiale de textiles.\n\nCes bandes à créneaux et à frange bordaient tuniques et tentures funéraires de la culture Chancay, sur la côte centrale du Pérou (Intermédiaire récent, vers 1100-1470) ; déposées dans les sépultures du désert côtier, elles ont gardé leurs couleurs. Le vocabulaire ornemental — créneaux à degrés habités, oiseaux marins, méandres, coloris rose-prune sur crème — est le plus caractéristique de ce style, moins ancien que les broderies Paracas du même héritage d'environ quinze siècles.\n\nContexte historique : datation et attribution stylistiques sur photographie, vraisemblables mais à confirmer par un spécialiste. Manques dans les créneaux et taches au tissu de fond, visibles sur la photo.",
+      "todo": "Relever les dimensions ; vérifier au revers la présence d'une étiquette ancienne ; faire confirmer l'attribution Chancay."
+    },
+    {
       "id": "2023-udb-carpe",
       "title": "Judith Devaux (née en 1970), « Grande Carpe », 2021",
       "category": "Sculpture",
