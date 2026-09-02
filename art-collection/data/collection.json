@@ -2839,6 +2839,44 @@
       "notice": "Six planches de l'album « Shōnen sansui gafu » (松年山水画譜, Album de paysages de Shōnen), gravées sur bois d'après les peintures du maître, présentées en deux cadres de trois feuilles ; les planches 9 et 10 sont numérotées, chacune porte la signature 松年 et un cachet rouge. Branches fleuries au bord de l'eau, cavalier dans la brume, cascades, pins et rochers : la gravure y reproduit le lavis avec ses dégradés d'encre et ses rehauts de couleur, dans la manière des peintres lettrés.\n\nSuzuki Shōnen (1848-1918), fils du peintre Suzuki Hyakunen, fut l'une des figures du paysage à Kyoto sous l'ère Meiji, professeur puis directeur de l'école de peinture de la préfecture — et le maître d'Uemura Shōko. Ces albums gravés, publiés vers 1890, diffusaient ses modèles auprès des amateurs et des élèves ; ils relèvent de l'estampe de reproduction, à distinguer de l'ukiyo-e d'Edo des autres feuilles de l'héritage."
     },
     {
+      "id": "2002-h-chine-portrait-ancetre",
+      "title": "Chine, dynastie Qing — Portrait d'ancêtre : dame de cour à la couronne aux phénix",
+      "category": "Peinture",
+      "origin": "Encre et couleurs sur soie, XVIIIe-XIXe siècle. Montage de brocart bleu conservé, cadre moderne. Grand format.",
+      "house": "Collection familiale",
+      "city": "",
+      "sale": "Reçu en héritage",
+      "saleDate": "2002-01-01",
+      "lot": "",
+      "currency": "EUR",
+      "priceNote": "Reçu en héritage en 2002 : pas de prix d'acquisition. Achat familial non documenté (collection réunie vraisemblablement par Antoinette Boulard ou Maurice Bérard).",
+      "delivery": "",
+      "location": "",
+      "photos": [
+        "2002-h-chine-portrait-ancetre.jpg"
+      ],
+      "photoSource": "Photographie du 2 septembre 2026.",
+      "confidence": "confirme",
+      "acquisition": "heritage",
+      "driveFolderId": "1155GiBUmVNHAVzofIPbIxTZmBj950mbZ",
+      "driveFolderName": "2002 Heritage - Chine - Portrait d'ancetre, dame de cour (Qing)",
+      "driveUrl": "https://drive.google.com/drive/folders/1155GiBUmVNHAVzofIPbIxTZmBj950mbZ",
+      "driveDocs": [
+        {
+          "label": "Fiche du portrait",
+          "kind": "Notice",
+          "url": "https://docs.google.com/document/d/1V4RBFDXIC7C2g7RG5-aC4nYV5BvfL-LVMQuKAf77XgE/view"
+        },
+        {
+          "label": "Portrait d'ancêtre — photographie",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1qQeAyJvzK6iTFvFAbnwR6firhomPUhBW/view"
+        }
+      ],
+      "notice": "Portrait d'ancêtre (zuxianxiang, 祖先像) : une dame âgée de haut rang, assise strictement de face, les mains cachées dans les manches — la convention des effigies destinées au culte familial. Le portrait, souvent posthume, recevait les offrandes au Nouvel An et aux anniversaires de la défunte ; la ressemblance était essentielle, d'où ce visage individualisé, ridé, au regard las, traité avec bien plus de vérité que le costume.\n\nLe costume est l'apparat de style Ming que les portraits d'ancêtres conservent jusque sous les Qing : bandeau frontal noir orné d'un joyau d'or, couronne aux deux phénix d'or et fleurs bleues à pendeloques de perles ; robe bleue bordée de fourrure, semée de médaillons de phénix parmi les nuages d'or ; étole xiapei verte à rinceaux de lotus d'or ; jupe blanche damassée de caractères shou (longévité) ; tablier peint de fleurs et d'oiseaux. Le plastron-insigne (buzi) porte un oiseau au plumage vert et rouge s'élevant au-dessus des flots vers un soleil rouge — un insigne de rang civil : l'épouse portant l'insigne de son mari, la dame est femme ou mère de mandarin. Elle est assise sur un fauteuil couvert d'une peau de léopard, la tête de l'animal pendant sous l'assise — marque supplémentaire de dignité —, les pieds sur un repose-pieds, sur un grand tapis à médaillons.\n\nCes portraits, peints à la détrempe sur soie dans des ateliers spécialisés, quittèrent massivement la Chine au début du XXe siècle, quand les familles appauvries s'en séparèrent ; les collections occidentales s'y sont alors constituées. La soie porte des déchirures et des manques en haut et en bas ; le montage de brocart bleu est conservé sous le cadre moderne. Aucune trace de cet achat dans les inventaires familiaux consultés (34 rue de Penthièvre, Moulin du Bourdonné).",
+      "todo": "Relever les dimensions ; identifier l'oiseau de l'insigne (précise le rang du mari) ; faire examiner les déchirures de la soie par un restaurateur de peintures asiatiques."
+    },
+    {
       "id": "2023-udb-carpe",
       "title": "Judith Devaux (née en 1970), « Grande Carpe », 2021",
       "category": "Sculpture",
