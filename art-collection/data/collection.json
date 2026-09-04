@@ -3132,6 +3132,44 @@
       "todo": "Relever les dimensions ; examiner le revers (filigrane, marques de collection) ; comparer le sens de la composition avec la gravure ; soumettre à un spécialiste des dessins de Fragonard."
     },
     {
+      "id": "2002-h-bali-iderider",
+      "title": "Bali, style de Kamasan — Ider-ider peint : procession de nymphes couronnées",
+      "category": "Textile",
+      "origin": "Pigments naturels sur toile de coton, Bali, Kamasan (Klungkung), fin XIXe - première moitié du XXe siècle. Bande encadrée sous verre.",
+      "house": "Collection familiale",
+      "city": "",
+      "sale": "Reçu en héritage",
+      "saleDate": "2002-01-01",
+      "lot": "",
+      "currency": "EUR",
+      "priceNote": "Reçu en héritage en 2002 : pas de prix d'acquisition. Achat familial non documenté (collection réunie vraisemblablement par Antoinette Boulard ou Maurice Bérard).",
+      "delivery": "",
+      "location": "",
+      "photos": [
+        "2002-h-bali-iderider.jpg"
+      ],
+      "photoSource": "Photographie du 4 septembre 2026 (reflets sur le verre).",
+      "confidence": "confirme",
+      "acquisition": "heritage",
+      "driveFolderId": "1qmyml7uVDGV7n80v8kX5RdmXoBFwZwFo",
+      "driveFolderName": "2002 Heritage - Bali - Ider-ider peint, style de Kamasan, procession de nymphes",
+      "driveUrl": "https://drive.google.com/drive/folders/1qmyml7uVDGV7n80v8kX5RdmXoBFwZwFo",
+      "driveDocs": [
+        {
+          "label": "Fiche de l'ider-ider",
+          "kind": "Notice",
+          "url": "https://docs.google.com/document/d/17KSubxLq12skTujASOS0HO3a93mOEIYwKhnCIF0BTrQ/view"
+        },
+        {
+          "label": "Photographie de la bande encadrée",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/13BngPkBBv8DFoq3-ohy8FFsN0sStSx_W/view"
+        }
+      ],
+      "notice": "Longue bande peinte à pigments naturels sur toile de coton : sept figures féminines couronnées s'avancent en procession, dans le style wayang propre au village de Kamasan — visages de trois quarts aux grands yeux, hautes coiffes à ornements rouges flammés, chevelures noires massives, parures d'or, kain à motifs ; entre elles, un petit personnage courbé vêtu d'un tissu fleuri. Le fond est semé des volutes « en œil » qui servent de remplissage d'espace dans cette tradition, le sol jalonné de rochers flammés rouges, et la bordure pointillée noir et blanc. Entrée dans les photographies familiales comme « tissu thaïlandais », la pièce est en réalité balinaise.\n\nLe format — bande étroite et très longue — est celui de l'ider-ider, la frise que l'on suspend sous l'avant-toit des pavillons de temple lors des fêtes, et qui déroule un récit épisode par épisode. Le cortège de belles couronnées évoque les nymphes célestes (widadari) — peut-être l'épisode de l'Arjunawiwāha où les nymphes sont envoyées séduire Arjuna en méditation, un classique du répertoire ; la bande étant peut-être coupée, l'identification précise de l'épisode reste ouverte.\n\nLe style de Kamasan (Klungkung), hérité de l'iconographie du théâtre d'ombres, est la seule tradition picturale balinaise antérieure aux influences occidentales des années 1930 : peintres anonymes en atelier villageois, pigments naturels — ocres, suie, blanc de calcaire — sur coton apprêté. Datation vraisemblable : fin du XIXe ou première moitié du XXe siècle ; la toile porte des trous et des manques qui plaident pour un âge réel et un usage rituel. Contexte historique : identification et datation stylistiques sur photographie, à confirmer.",
+      "todo": "Relever les dimensions ; photographier de face sans reflets ; identifier l'épisode exact du récit ; examiner les trous de la toile (restaurateur textile)."
+    },
+    {
       "id": "2023-udb-carpe",
       "title": "Judith Devaux (née en 1970), « Grande Carpe », 2021",
       "category": "Sculpture",
