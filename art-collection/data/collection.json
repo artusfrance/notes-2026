@@ -3170,6 +3170,44 @@
       "todo": "Relever les dimensions ; photographier de face sans reflets ; identifier l'épisode exact du récit ; examiner les trous de la toile (restaurateur textile)."
     },
     {
+      "id": "2002-h-bonnard-portrait",
+      "title": "Pierre Bonnard (attribué à), « Portrait d'Antoinette Boulard, née Bérard »",
+      "category": "Dessin",
+      "origin": "Crayon et estompe sur papier, signé « Bonnard » en bas à droite. Années 1940 (coiffure du modèle). Encadré sous verre. Dimensions à relever.",
+      "house": "Collection familiale",
+      "city": "",
+      "sale": "Reçu en héritage",
+      "saleDate": "2002-01-01",
+      "lot": "",
+      "currency": "EUR",
+      "priceNote": "Reçu en héritage en 2002 : pas de prix d'acquisition. Portrait de famille — le modèle est Antoinette Boulard, née Bérard, la grand-mère de l'actuel propriétaire.",
+      "delivery": "",
+      "location": "",
+      "photos": [
+        "2002-h-bonnard-portrait.jpg"
+      ],
+      "photoSource": "Photographie du 4 septembre 2026.",
+      "confidence": "a_verifier",
+      "acquisition": "heritage",
+      "driveFolderId": "1KeYxKKf96CF7QXllSE5E7aq-02ztV2ez",
+      "driveFolderName": "2002 Heritage - Bonnard (attribue) - Portrait d'Antoinette Boulard, nee Berard",
+      "driveUrl": "https://drive.google.com/drive/folders/1KeYxKKf96CF7QXllSE5E7aq-02ztV2ez",
+      "driveDocs": [
+        {
+          "label": "Fiche du portrait",
+          "kind": "Notice",
+          "url": "https://docs.google.com/document/d/1CJZQPPdEM5_58qlWh28ZOkGQ3AfFQWwWcYehbLX4HK8/view"
+        },
+        {
+          "label": "Photographie du portrait encadré",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1fIG765nKkmC0vLpW7_-kqO27glFL25om/view"
+        }
+      ],
+      "notice": "Portrait en buste d'une jeune femme, le regard baissé, cheveux ondulés relevés en rouleaux — la coiffure des années 1940 —, collier à pendentif, le fond esquissé suggérant un intérieur. Crayon au modelé doux, à l'estompe, lignes reprises librement autour des épaules et des mains. Signé « Bonnard » en cursive en bas à droite. La tradition familiale identifie le modèle : Antoinette Boulard, née Bérard, grand-mère de l'actuel propriétaire — celle-là même qui a réuni une partie de la collection (la quittance du bouchon de radiateur Bouraine, en 1996, est à son nom).\n\nL'identification du modèle est l'élément fort du dossier : elle relie l'œuvre à la famille et suggère une commande ou un lien personnel entre les Bérard et l'artiste. La coiffure situe le portrait dans les années 1940 ; Bonnard est mort au Cannet en janvier 1947 — la chronologie est donc compatible avec un portrait de ses dernières années.\n\nAttribution à vérifier : la signature cursive diffère des petites capitales que Bonnard appose habituellement sur ses peintures, et sa manière de dessinateur, nerveuse et elliptique, est ordinairement plus libre que ce modelé à l'estompe — ce qui n'exclut pas un portrait de commande, exercice où l'artiste se fait plus sage. Marche à suivre : examiner le revers, recueillir la mémoire familiale sur la circonstance du portrait, rechercher correspondance ou photographies d'époque, et soumettre aux experts de l'œuvre de Bonnard (fonds Bernheim-Jeune, catalogue Dauberville). Quelle que soit l'attribution finale, l'effigie de la grand-mère collectionneuse garde une valeur familiale de premier ordre.",
+      "todo": "Relever les dimensions ; examiner le revers ; recueillir la mémoire familiale sur la circonstance du portrait ; soumettre aux experts Bonnard (Dauberville / Bernheim-Jeune)."
+    },
+    {
       "id": "2023-udb-carpe",
       "title": "Judith Devaux (née en 1970), « Grande Carpe », 2021",
       "category": "Sculpture",
