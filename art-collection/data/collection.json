@@ -2522,7 +2522,7 @@
       "id": "2002-h-segonzac-bievres",
       "title": "André Dunoyer de Segonzac (1884-1974), « Bièvres », dessin Île-de-France",
       "category": "Dessin",
-      "origin": "Dessin à la plume, 57 × 77 cm. Signature en bas à droite.",
+      "origin": "Dessin à la plume et lavis d'encre, 57 × 77 cm. Inscrit « Bièvres » et signé « A. Dunoyer de Segonzac » en bas au centre.",
       "house": "Galerie du Chêne, Donald Vallotton",
       "city": "Lausanne",
       "sale": "Reçu en héritage",
@@ -2532,8 +2532,10 @@
       "priceNote": "Reçu en héritage en 2002 : pas de prix d'acquisition. Achat d'origine — Acheté le 4 février 1994 par Antoinette Boulart. 18 000 francs suisses.",
       "delivery": "",
       "location": "",
-      "photos": [],
-      "photoSource": "",
+      "photos": [
+        "2002-h-segonzac-bievres.jpg"
+      ],
+      "photoSource": "Photographie du 4 septembre 2026 (encadré, sous verre).",
       "confidence": "confirme",
       "acquisition": "heritage",
       "driveFolderId": "15cfLIPIZ6QfT3YWh32vrh4AF71dMskzR",
@@ -2544,10 +2546,15 @@
           "label": "Facture Galerie du Chêne n° 1994/94287 du 04/02/1994",
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1qcKlY8CVC9is-0_-yTHq_Jr6MFa9Pd2L/view"
+        },
+        {
+          "label": "Photographie du dessin encadré",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1spNiDkasNlrp6h5m7wYd9GL8ZB6lRqUM/view"
         }
       ],
-      "notice": "Dessin à la plume de 57 × 77 cm, signé en bas à droite, acheté 18 000 francs suisses le 4 février 1994 à la Galerie du Chêne, à Lausanne, dirigée par Donald Vallotton, facture n° 1994/94287 acquittée par chèque. C'est de loin l'acquisition la plus chère de la branche suisse de la famille.\n\nDunoyer de Segonzac a passé sa vie à dessiner la vallée de la Bièvre et l'Île-de-France, autour de Chaville et de Saint-Tropez. Sa plume est reconnaissable entre toutes : un réseau de hachures serrées, posées d'un trait rapide et sans repentir, qui construit le volume par la seule densité du noir. Il n'a pratiquement jamais employé le lavis ni le rehaut ; tout tient dans la vitesse du trait.\n\nLe format — près de quatre-vingts centimètres de large — est important pour un dessin à la plume, où l'ampleur oblige à tenir la construction sur toute la feuille sans le secours de la couleur.",
-      "todo": "Photographier l'œuvre : le dossier ne contient aucune reproduction. Vérifier l'orthographe du nom de l'acheteuse — la facture porte « BOULART », que la tradition familiale donne pour « Boulard »."
+      "notice": "Dessin à la plume de 57 × 77 cm, signé en bas à droite, acheté 18 000 francs suisses le 4 février 1994 à la Galerie du Chêne, à Lausanne, dirigée par Donald Vallotton, facture n° 1994/94287 acquittée par chèque. C'est de loin l'acquisition la plus chère de la branche suisse de la famille.\n\nDunoyer de Segonzac a passé sa vie à dessiner la vallée de la Bièvre et l'Île-de-France, autour de Chaville et de Saint-Tropez. Sa plume est reconnaissable entre toutes : un réseau de hachures serrées, posées d'un trait rapide et sans repentir, qui construit le volume par la seule densité du noir. Il n'a pratiquement jamais employé le lavis ni le rehaut ; tout tient dans la vitesse du trait.\n\nLe format — près de quatre-vingts centimètres de large — est important pour un dessin à la plume, où l'ampleur oblige à tenir la construction sur toute la feuille sans le secours de la couleur.\n\nLa photographie du 4 septembre 2026 montre l'œuvre : les champs en sillons montant vers le village de Bièvres et son clocher, deux grands sapins à gauche — la plume nerveuse rehaussée de lavis gris, caractéristique des paysages d'Île-de-France de Segonzac.",
+      "todo": "Vérifier l'orthographe du nom de l'acheteuse — la facture porte « BOULART », que la tradition familiale donne pour « Boulard »."
     },
     {
       "id": "2002-h-bouraine-oiseau",
