@@ -3051,6 +3051,44 @@
       "todo": "Relever les dimensions ; vérifier au revers la présence d'une étiquette ancienne ; faire confirmer l'attribution Chancay."
     },
     {
+      "id": "2002-h-matisse-dessin",
+      "title": "Henri Matisse (1869-1954), « Jeune femme au collier de perles », dessin signé et daté 44",
+      "category": "Dessin",
+      "origin": "Dessin au crayon sur papier, 41,5 × 38,5 cm. Signé et daté « H matisse 44 » en bas à gauche. Encadré sous verre.",
+      "house": "Collection familiale",
+      "city": "",
+      "sale": "Reçu en héritage",
+      "saleDate": "2002-01-01",
+      "lot": "",
+      "currency": "EUR",
+      "priceNote": "Reçu en héritage en 2002 : pas de prix d'acquisition. Achat familial non documenté (collection réunie vraisemblablement par Antoinette Boulard ou Maurice Bérard).",
+      "delivery": "",
+      "location": "",
+      "photos": [
+        "2002-h-matisse-dessin.jpg"
+      ],
+      "photoSource": "Photographie du 4 septembre 2026.",
+      "confidence": "a_verifier",
+      "acquisition": "heritage",
+      "driveFolderId": "1JjWQ-eH6p-OTfVTaKr2KKKiMY4eDlWMY",
+      "driveFolderName": "2002 Heritage - Henri Matisse - Jeune femme au collier de perles, dessin 1944",
+      "driveUrl": "https://drive.google.com/drive/folders/1JjWQ-eH6p-OTfVTaKr2KKKiMY4eDlWMY",
+      "driveDocs": [
+        {
+          "label": "Fiche du dessin",
+          "kind": "Notice",
+          "url": "https://docs.google.com/document/d/1kv3DfhcHlxqSJ5yzs3j4tP9PUivs1jC3bIZ3KFGrWz8/view"
+        },
+        {
+          "label": "Photographie du dessin encadré",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1UWDqopHEstz-H7_VXoMXcCOSKknlxfTv/view"
+        }
+      ],
+      "notice": "Jeune femme à mi-corps, la tête inclinée reposant contre son bras levé, cheveux bouclés, collier de perles, le regard calme tourné vers le spectateur ; un fauteuil est suggéré en quelques lignes. Dessin au trait pur, d'un seul mouvement, sans repentir ni ombre — la manière des grandes séries de dessins de Matisse des années 1940 (période de Vence, dans l'esprit des « Thèmes et variations » de 1941-1942), où le portrait se réduit à une ligne continue qui doit dire à la fois le volume, la lumière et la ressemblance. Signé et daté « H matisse 44 » au crayon en bas à gauche, dans la graphie de l'artiste à cette époque.\n\nAttribution à vérifier : les dessins au trait de Matisse comptent parmi les œuvres les plus copiées du XXe siècle, et une photographie sous verre ne permet pas d'authentifier. Aucun document d'achat retrouvé à ce jour dans les archives familiales. Marche à suivre : examiner le revers du cadre (étiquettes de galerie ou d'exposition), rechercher la facture d'origine dans les papiers familiaux, puis soumettre le dessin aux Archives Henri Matisse, qui délivrent les avis d'authenticité. Si elle est confirmée, il s'agirait de l'œuvre la plus importante de l'héritage.",
+      "todo": "Examiner le revers du cadre (étiquettes) ; rechercher la facture d'origine dans les papiers familiaux ; soumettre aux Archives Henri Matisse pour avis d'authenticité."
+    },
+    {
       "id": "2023-udb-carpe",
       "title": "Judith Devaux (née en 1970), « Grande Carpe », 2021",
       "category": "Sculpture",

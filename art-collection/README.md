@@ -43,9 +43,10 @@ Les emplacements et notes saisis dans l'application sont enregistrés dans le
 
 ## Limites connues
 
-- Deux entrées restent incomplètes (`confidence: "a_verifier"`) : la Galerie Zacke facture
-  par lien vers son extranet plutôt qu'en pièce jointe, et le cacatoès attend un certificat
-  CITES établi au nom du propriétaire. Une dizaine d'autres fiches portent un champ `todo` —
+- Trois entrées restent incomplètes (`confidence: "a_verifier"`) : la Galerie Zacke facture
+  par lien vers son extranet plutôt qu'en pièce jointe, le cacatoès attend un certificat
+  CITES établi au nom du propriétaire, et le dessin signé Matisse attend un avis
+  d'authenticité des Archives Henri Matisse. Une dizaine d'autres fiches portent un champ `todo` —
   une vérification à mener, non une lacune de description.
 - **Photos** : les sites des maisons de vente restent inaccessibles depuis la session
   (zacke.at, millon.com, tajan.com, auction.de, artcurial.com sont bloqués par la politique
@@ -91,7 +92,7 @@ dessous :
   au-delà de `WARN_LIMIT` (8 Mo). Chaque construction annonce la marge restante
   en nombre de photos.
 
-Au 2 septembre 2026 : 76 entrées, 6,7 Mo, 62 photos, 176 documents liés. Les photos sont
+Au 4 septembre 2026 : 77 entrées, 6,9 Mo, 64 photos, 180 documents liés. Les photos sont
 descendues à 900 px automatiquement pour tenir le budget.
 
 Les objets sortis de la collection — offerts, revendus, acquis pour un tiers —
