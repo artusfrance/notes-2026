@@ -1055,6 +1055,44 @@
       "acquisition": "achat"
     },
     {
+      "id": "2016-maire-jonque",
+      "title": "André Maire (1898-1984), « La jonque à la porte de lune », 1953",
+      "category": "Dessin",
+      "origin": "Fusain et sanguine sur papier, signé et daté 1953 en bas à droite. Encadré sous verre. Dimensions à relever.",
+      "house": "Vente non identifiée — facture à retrouver",
+      "city": "",
+      "sale": "Achat en vente publique (date provisoire : 2016)",
+      "saleDate": "2016-01-01",
+      "lot": "",
+      "currency": "EUR",
+      "priceNote": "Facture non retrouvée : date (2016, provisoire), maison de vente et prix à documenter.",
+      "delivery": "",
+      "location": "",
+      "photos": [
+        "2016-maire-jonque.jpg"
+      ],
+      "photoSource": "Photographie du 4 septembre 2026.",
+      "confidence": "a_verifier",
+      "acquisition": "achat",
+      "driveFolderId": "15L1HFyJYB6DokFKsPHJyiQkVjKeQ48xi",
+      "driveFolderName": "2016 - Andre Maire - La jonque a la porte de lune, fusain et sanguine, 1953",
+      "driveUrl": "https://drive.google.com/drive/folders/15L1HFyJYB6DokFKsPHJyiQkVjKeQ48xi",
+      "driveDocs": [
+        {
+          "label": "Fiche du dessin",
+          "kind": "Notice",
+          "url": "https://docs.google.com/document/d/1keoBjEin70O4yQ7CMC15XDDcXlb6udqKBpKLjlqvyNI/view"
+        },
+        {
+          "label": "Photographie du dessin encadré",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1C1UUIaBcb3xFth7dytrZ4GyqjG5Mkq2C/view"
+        }
+      ],
+      "notice": "Vue d'un pavillon extrême-oriental au fusain et à la sanguine : sous le toit aux arêtes relevées, orné de lanternes et d'un tambour, une grande porte de lune ouvre sur une jonque à voiles lattées ; deux personnages assis au premier plan près de paniers et de pots, le dallage fuyant vers l'ouverture. La sanguine réchauffe les rouges de la charpente, le fusain donne les noirs profonds de la jonque — et le cadrage dans le cadrage, la porte ronde dans la feuille rectangulaire, est un procédé favori de l'artiste. Signé et daté 1953 en bas à droite.\n\nEn 1953, André Maire vit à Saïgon (1948-1958) : il enseigne, parcourt le Vietnam, le Cambodge et le Laos, et les jonques comme les portes de lune des pagodes de Cholon comptent parmi ses sujets les plus recherchés. C'est la sixième œuvre de l'artiste dans la collection — après « Angkor », « Vision d'Angkor », « Femmes malgaches », « Les Moïs, départ pour la chasse » et les deux dessins du Mékong de 1951 — un ensemble qui couvre désormais Madagascar, le Cambodge et le Vietnam.\n\nAchat en vente publique dont la facture n'a pas été retrouvée : la date est provisoirement fixée à 2016, à ajuster quand la vente d'origine sera identifiée.",
+      "todo": "Retrouver la facture (date 2016 provisoire) ; identifier la vente d'origine ; relever les dimensions."
+    },
+    {
       "id": "2016-christies-113",
       "title": "Georges Lucien Guyot (1885-1973), « Panthère humant »",
       "category": "Sculpture",

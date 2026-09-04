@@ -43,10 +43,11 @@ Les emplacements et notes saisis dans l'application sont enregistrés dans le
 
 ## Limites connues
 
-- Cinq entrées restent incomplètes (`confidence: "a_verifier"`) : la Galerie Zacke facture
+- Six entrées restent incomplètes (`confidence: "a_verifier"`) : la Galerie Zacke facture
   par lien vers son extranet plutôt qu'en pièce jointe, le cacatoès attend un certificat
-  CITES établi au nom du propriétaire, et les dessins de l'héritage donnés à Matisse,
-  à Fragonard et à Bonnard attendent un avis d'expert. Une dizaine d'autres fiches portent un champ `todo` —
+  CITES établi au nom du propriétaire, les dessins de l'héritage donnés à Matisse,
+  à Fragonard et à Bonnard attendent un avis d'expert, et la « Jonque à la porte de lune »
+  d'André Maire attend que sa facture soit retrouvée. Une dizaine d'autres fiches portent un champ `todo` —
   une vérification à mener, non une lacune de description.
 - **Photos** : les sites des maisons de vente restent inaccessibles depuis la session
   (zacke.at, millon.com, tajan.com, auction.de, artcurial.com sont bloqués par la politique
@@ -92,7 +93,7 @@ dessous :
   au-delà de `WARN_LIMIT` (8 Mo). Chaque construction annonce la marge restante
   en nombre de photos.
 
-Au 4 septembre 2026 : 85 entrées, 7,4 Mo, 72 photos, 201 documents liés. Les photos sont
+Au 4 septembre 2026 : 86 entrées, 7,5 Mo, 73 photos, 203 documents liés. Les photos sont
 descendues à 900 px automatiquement pour tenir le budget.
 
 Les objets sortis de la collection — offerts, revendus, acquis pour un tiers —
