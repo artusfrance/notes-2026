@@ -2290,8 +2290,10 @@
       "priceNote": "Reçu en héritage en 2002 : pas de prix d'acquisition. Achat d'origine — Commandé en 1976 par Maurice Bérard. 8 560 F au devis du 5 août 1976.",
       "delivery": "",
       "location": "",
-      "photos": [],
-      "photoSource": "",
+      "photos": [
+        "2002-h-artus-faucon.jpg"
+      ],
+      "photoSource": "Photographies du 5 septembre 2026 (trois vues au dossier Drive).",
       "confidence": "confirme",
       "acquisition": "heritage",
       "driveFolderId": "1ytzUG1u3oH5aukMh7OAHMWSzfijSIs34",
@@ -2307,10 +2309,25 @@
           "label": "Lettre de commande du 11/08/1976",
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1QJKxwJiDbCn_Bob_cxE_tUM-jvmf49wG/view"
+        },
+        {
+          "label": "Faucon crécerelle — vue 1",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1cL08DdN2k3kjvDULcjRhEYj3jwqE9ig0/view"
+        },
+        {
+          "label": "Faucon crécerelle — vue 2",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1DhoL53vIl3RfHzSe5HJOneFepmzfywnn/view"
+        },
+        {
+          "label": "Faucon crécerelle — vue 3",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/10RgOUH4ZoTE_gFHPTPQD21ntrLn9ubwk/view"
         }
       ],
       "notice": "Bronze commandé à Charles Artus par Maurice Bérard, chiffré 8 560 francs au devis du 5 août 1976. Une annotation manuscrite de l'acheteur, en marge, demande la hauteur du faucon — la réponse ne figure pas au dossier.\n\nLa crécerelle est le petit faucon qui fait le Saint-Esprit : elle se maintient sur place, ailes battantes et tête absolument immobile, pour fondre sur un campagnol. C'est cette immobilité dans l'effort que les animaliers cherchent à saisir, et qui explique que le modèle soit un classique du genre depuis Barye.\n\nCharles Artus (1897-1978) est le dernier des grands animaliers français de tradition, formé auprès de Navellier et de Prouvé, exposant au Salon des Artistes Français dès 1922. Il travaillait d'après nature au Jardin des Plantes et au Muséum, avec une prédilection pour les oiseaux, qu'il traitait en volumes lisses et ramassés, très loin du détail plumage à plumage. Ces trois bronzes ont été commandés directement à l'artiste, alors âgé de soixante-dix-neuf ans, par l'intermédiaire de la galerie Irène Huisse à Rouen : le devis du 5 août 1976 porte cinq modèles, dont trois ont été retenus.\n\nLe devis pose les conditions : prix valables jusqu'au 30 octobre 1976, délai de livraison quatre mois, moitié du prix à la commande à titre d'arrhes, versée au nom de Charles Artus lui-même. La lettre du 11 août confirme la transmission de la commande du merle et d'un chèque de 3 750 F ; une annotation manuscrite mentionne un second envoi de 3 950 F le 27 décembre 1976, soit 7 700 F au total. Ces acomptes ne correspondent pas à la moitié des prix du devis : le détail du règlement final n'est pas documenté.",
-      "todo": "Photographier l'objet ; relever sa hauteur et vérifier la fonderie."
+      "todo": "Relever sa hauteur et vérifier la fonderie."
     },
     {
       "id": "2002-h-artus-vanneau",
@@ -2326,8 +2343,10 @@
       "priceNote": "Reçu en héritage en 2002 : pas de prix d'acquisition. Achat d'origine — Commandé en 1976 par Maurice Bérard. 6 420 F au devis du 5 août 1976.",
       "delivery": "",
       "location": "",
-      "photos": [],
-      "photoSource": "",
+      "photos": [
+        "2002-h-artus-vanneau.jpg"
+      ],
+      "photoSource": "Photographies du 5 septembre 2026 (trois vues au dossier Drive).",
       "confidence": "confirme",
       "acquisition": "heritage",
       "driveFolderId": "1ytzUG1u3oH5aukMh7OAHMWSzfijSIs34",
@@ -2343,10 +2362,25 @@
           "label": "Lettre de commande du 11/08/1976",
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1QJKxwJiDbCn_Bob_cxE_tUM-jvmf49wG/view"
+        },
+        {
+          "label": "Vanneau huppé — vue 1",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1--B6E0XwCw9hYBJ9I94tPhkxmaTbwXAx/view"
+        },
+        {
+          "label": "Vanneau huppé — vue 2",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/18mKgjDuBt1Ccu8eRuBLB8C7RTfAbgSrz/view"
+        },
+        {
+          "label": "Vanneau huppé — vue 3",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1VClpp1xByhfo3wtFaomYr9cOo2v9DUed/view"
         }
       ],
       "notice": "Bronze commandé à Charles Artus par Maurice Bérard, chiffré 6 420 francs au devis du 5 août 1976 — le moins cher des trois retenus.\n\nLe vanneau huppé porte une longue aigrette recourbée qui se dresse à l'arrière du crâne, et un plumage noir à reflets verts et pourpres. Oiseau des labours et des prairies humides, il était encore commun en France dans les années 1970 ; ses effectifs ont chuté depuis. Sa silhouette — corps trapu, huppe fine et ployée — offre au sculpteur un contraste de masses que le bronze rend bien.\n\nCharles Artus (1897-1978) est le dernier des grands animaliers français de tradition, formé auprès de Navellier et de Prouvé, exposant au Salon des Artistes Français dès 1922. Il travaillait d'après nature au Jardin des Plantes et au Muséum, avec une prédilection pour les oiseaux, qu'il traitait en volumes lisses et ramassés, très loin du détail plumage à plumage. Ces trois bronzes ont été commandés directement à l'artiste, alors âgé de soixante-dix-neuf ans, par l'intermédiaire de la galerie Irène Huisse à Rouen : le devis du 5 août 1976 porte cinq modèles, dont trois ont été retenus.\n\nLe devis pose les conditions : prix valables jusqu'au 30 octobre 1976, délai de livraison quatre mois, moitié du prix à la commande à titre d'arrhes, versée au nom de Charles Artus lui-même. La lettre du 11 août confirme la transmission de la commande du merle et d'un chèque de 3 750 F ; une annotation manuscrite mentionne un second envoi de 3 950 F le 27 décembre 1976, soit 7 700 F au total. Ces acomptes ne correspondent pas à la moitié des prix du devis : le détail du règlement final n'est pas documenté.",
-      "todo": "Photographier l'objet ; relever ses dimensions et vérifier la fonderie."
+      "todo": "Relever ses dimensions et vérifier la fonderie."
     },
     {
       "id": "2002-h-bugatti-elephant",
@@ -3488,6 +3522,87 @@
       ],
       "todo": "Relever les dimensions ; photographier sans reflets ; faire dater par un spécialiste de l'art himalayen.",
       "driveUrl": "https://drive.google.com/drive/folders/11OEBTpJDXnVulgie3Iwljf_gVV0FcCvQ"
+    },
+    {
+      "category": "Sculpture",
+      "house": "Collection familiale",
+      "city": "",
+      "sale": "Reçu en héritage",
+      "saleDate": "2002-01-01",
+      "lot": "",
+      "currency": "EUR",
+      "priceNote": "Reçu en héritage en 2002 : pas de prix d'acquisition. Aucun document d'achat au dossier — vraisemblablement acquis par la famille auprès de l'artiste ou de la galerie Irène Huisse, comme les trois bronzes commandés en 1976.",
+      "delivery": "",
+      "location": "",
+      "photoSource": "Photographies du 5 septembre 2026.",
+      "confidence": "confirme",
+      "acquisition": "heritage",
+      "id": "2002-h-artus-ecureuil",
+      "title": "Charles Artus (1897-1978), « Écureuil »",
+      "origin": "Bronze à patine brun sombre, signé « CH. ARTUS » sur la base cylindrique. Dimensions à relever.",
+      "photos": [
+        "2002-h-artus-ecureuil.jpg"
+      ],
+      "notice": "Petit rongeur ramassé, en bronze à patine brun sombre, perché sur un socle cylindrique, la longue queue recourbée descendant sous la base — un jeu d'équilibre typique du goût d'Artus pour la silhouette pleine et le détail réduit à l'essentiel : oreilles rondes, pattes à peine griffées, modelé lisse. Signé « CH. ARTUS » incisé sur la base (photographié).\n\nNote d'identification : la tradition familiale nomme la pièce « écureuil », mais la queue fine et lisse — non en panache — évoque plutôt un rat ou une souris, deux sujets qu'Artus a également traités. À trancher par comparaison avec les modèles référencés dans la monographie citée au devis de 1976 (« Charles Artus, sculpteur animalier », éd. Concorde Art International).",
+      "driveFolderId": "1R5p3ZV1u_6hS8X2psQ-RmSfiMwHHdXwy",
+      "driveFolderName": "2002 Heritage - Charles Artus - Ecureuil",
+      "driveDocs": [
+        {
+          "label": "Fiche de l'écureuil",
+          "kind": "Notice",
+          "url": "https://docs.google.com/document/d/104we-l2tWBW71jJZm_j3MM21_bIlLoiTzKeXzC0MjA8/view"
+        },
+        {
+          "label": "Vue d'ensemble",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1mLPP9pC_u0uuOtYoiQN0KrOf1F4BOsL0/view"
+        },
+        {
+          "label": "Signature CH. ARTUS",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1rJYNbxyxFuZuB_VjIoUc8g9s8fKmmQbB/view"
+        }
+      ],
+      "todo": "Relever les dimensions et la marque de fonderie ; trancher écureuil / rat par comparaison bibliographique.",
+      "driveUrl": "https://drive.google.com/drive/folders/1R5p3ZV1u_6hS8X2psQ-RmSfiMwHHdXwy"
+    },
+    {
+      "category": "Sculpture",
+      "house": "Collection familiale",
+      "city": "",
+      "sale": "Reçu en héritage",
+      "saleDate": "2002-01-01",
+      "lot": "",
+      "currency": "EUR",
+      "priceNote": "Reçu en héritage en 2002 : pas de prix d'acquisition. Aucun document d'achat au dossier — vraisemblablement acquis par la famille auprès de l'artiste ou de la galerie Irène Huisse, comme les trois bronzes commandés en 1976.",
+      "delivery": "",
+      "location": "",
+      "photoSource": "Photographies du 5 septembre 2026.",
+      "confidence": "confirme",
+      "acquisition": "heritage",
+      "id": "2002-h-artus-poussin",
+      "title": "Charles Artus (1897-1978), « Poussin »",
+      "origin": "Bronze à patine brun sombre, base circulaire. Signature à vérifier. Dimensions à relever.",
+      "photos": [
+        "2002-h-artus-poussin.jpg"
+      ],
+      "notice": "Oisillon en bronze à patine brun sombre, debout sur ses pattes palmées, le corps en boule, la tête ronde au large bec légèrement penchée. La palmure et le bec aplati suggèrent un caneton plutôt qu'un poussin de poule — la tradition familiale dit « poussin ». Tout Artus est là : le volume ramassé, la surface lisse qui accroche la lumière, l'attitude juste saisie sans anecdote.\n\nSignature et marque de fonderie à vérifier sur la pièce ; aucun document d'achat au dossier.",
+      "driveFolderId": "1NPWcPlOeaM_Ml68tCvMFn-LtyvQwclrG",
+      "driveFolderName": "2002 Heritage - Charles Artus - Poussin",
+      "driveDocs": [
+        {
+          "label": "Fiche du poussin",
+          "kind": "Notice",
+          "url": "https://docs.google.com/document/d/1am4F3oee0byCWWYwpuxPve-qg5423rC5sOHCVWAeXxI/view"
+        },
+        {
+          "label": "Vue d'ensemble",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/15F3Z2563H2W2D2DL6BI6Hzh5ZfoX_s-D/view"
+        }
+      ],
+      "todo": "Relever les dimensions ; vérifier signature et marque de fonderie ; trancher poussin / caneton.",
+      "driveUrl": "https://drive.google.com/drive/folders/1NPWcPlOeaM_Ml68tCvMFn-LtyvQwclrG"
     },
     {
       "id": "2023-udb-carpe",
