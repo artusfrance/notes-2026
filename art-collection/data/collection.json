@@ -2352,7 +2352,7 @@
       "id": "2002-h-bugatti-elephant",
       "title": "Rembrandt Bugatti (1884-1916), « Éléphant », fonte Hébrard",
       "category": "Sculpture",
-      "origin": "Bronze, fonte Hébrard.",
+      "origin": "Bronze, fonte à la cire perdue A.A. Hébrard — cachet « CIRE PERDUE A.A. HÉBRARD » et signature « R. Bugatti » incisée sur la terrasse, photographiés le 05/09/2026.",
       "house": "Spicilège, 203 boulevard Saint-Germain",
       "city": "Paris",
       "sale": "Reçu en héritage",
@@ -2362,8 +2362,10 @@
       "priceNote": "Reçu en héritage en 2002 : pas de prix d'acquisition. Achat d'origine — Acheté le 16 décembre 1977 par Maurice Bérard. 15 000 F, réglés par chèque sur la Banque de Paris et des Pays-Bas.",
       "delivery": "",
       "location": "",
-      "photos": [],
-      "photoSource": "",
+      "photos": [
+        "2002-h-bugatti-elephant.jpg"
+      ],
+      "photoSource": "Photographies du 5 septembre 2026 (vue d'ensemble et marques de la terrasse).",
       "confidence": "confirme",
       "acquisition": "heritage",
       "driveFolderId": "1Rm5OiMUS8Dh1CjrHHy-izvu4xguwHSBf",
@@ -2374,10 +2376,20 @@
           "label": "Facture Spicilège du 16/12/1977",
           "kind": "Facture",
           "url": "https://drive.google.com/file/d/1RDVe9NED8Vyr8XW2mT5dM7Ohp1pbgzB3/view"
+        },
+        {
+          "label": "Vue d'ensemble du bronze",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/166qIGnQWpeGB6qjj9jN8XQuIeBN4uhO_/view"
+        },
+        {
+          "label": "Signature R. Bugatti et cachet CIRE PERDUE A.A. HÉBRARD",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1fDxjfESDAQ9HG6E24-VuUUW5OpQOjLGT/view"
         }
       ],
-      "notice": "Bronze acheté 15 000 francs le 16 décembre 1977 chez Spicilège, 203 boulevard Saint-Germain, par Maurice Bérard, réglé par chèque sur la Banque de Paris et des Pays-Bas. La facture porte la seule mention « Éléphant — fonte Hébrard ».\n\nRembrandt Bugatti, frère du constructeur automobile, est le plus singulier des animaliers du début du siècle. Il travaillait directement devant les cages, aux zoos d'Anvers et de Paris, modelant la terre sur le motif en quelques séances, sans esquisse ni retouche d'atelier. Sa touche reste visible dans le bronze : des plans larges, laissés bruts, où l'on lit le passage du pouce. Il s'est donné la mort à trente et un ans, en 1916, après que les animaux du zoo d'Anvers eurent été abattus faute de pouvoir les nourrir pendant la guerre.\n\nLa mention « fonte Hébrard » est décisive. A.-A. Hébrard fut le fondeur et le marchand exclusif de Bugatti de 1904 à sa mort, et ses fontes à la cire perdue, tirées en éditions numérotées et estampillées, constituent le corpus de référence. Un Bugatti sans marque Hébrard appelle la plus grande prudence ; avec elle, l'épreuve appartient à l'édition originale.",
-      "todo": "Photographier l'objet. Relever le numéro d'édition, le cachet Hébrard et les dimensions : la facture de 1977 ne les mentionne pas, et ce sont les éléments qui déterminent aujourd'hui la valeur.",
+      "notice": "Bronze acheté 15 000 francs le 16 décembre 1977 chez Spicilège, 203 boulevard Saint-Germain, par Maurice Bérard, réglé par chèque sur la Banque de Paris et des Pays-Bas. La facture porte la seule mention « Éléphant — fonte Hébrard ».\n\nRembrandt Bugatti, frère du constructeur automobile, est le plus singulier des animaliers du début du siècle. Il travaillait directement devant les cages, aux zoos d'Anvers et de Paris, modelant la terre sur le motif en quelques séances, sans esquisse ni retouche d'atelier. Sa touche reste visible dans le bronze : des plans larges, laissés bruts, où l'on lit le passage du pouce. Il s'est donné la mort à trente et un ans, en 1916, après que les animaux du zoo d'Anvers eurent été abattus faute de pouvoir les nourrir pendant la guerre.\n\nLa mention « fonte Hébrard » est décisive. A.-A. Hébrard fut le fondeur et le marchand exclusif de Bugatti de 1904 à sa mort, et ses fontes à la cire perdue, tirées en éditions numérotées et estampillées, constituent le corpus de référence. Un Bugatti sans marque Hébrard appelle la plus grande prudence ; avec elle, l'épreuve appartient à l'édition originale.\n\nLes photographies du 5 septembre 2026 confirment ce que la facture de 1977 se contentait d'énoncer : la terrasse porte le cachet en creux « CIRE PERDUE A.A. HÉBRARD » et la signature incisée « R. Bugatti ». Le jeune éléphant s'avance trompe tendue, les plans du modelage laissés vifs. Reste à relever le numéro d'édition, dernier élément du pedigree d'une fonte Hébrard.",
+      "todo": "Relever le numéro d'édition (à chercher près de la signature ou sous la base) et les dimensions.",
       "valuation": {
         "value": 120000,
         "currency": "EUR",
