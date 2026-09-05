@@ -43,15 +43,17 @@ Les emplacements et notes saisis dans l'application sont enregistrés dans le
 
 ## Limites connues
 
-- Six entrées restent incomplètes (`confidence: "a_verifier"`) : la Galerie Zacke facture
+- Dix entrées restent incomplètes (`confidence: "a_verifier"`) : la Galerie Zacke facture
   par lien vers son extranet plutôt qu'en pièce jointe, le cacatoès attend un certificat
   CITES établi au nom du propriétaire, les dessins de l'héritage donnés à Matisse,
-  à Fragonard et à Bonnard attendent un avis d'expert, et la « Jonque à la porte de lune »
-  d'André Maire attend que sa facture soit retrouvée. Une dizaine d'autres fiches portent un champ `todo` —
+  à Fragonard et à Bonnard attendent un avis d'expert, la « Jonque à la porte de lune »
+  d'André Maire attend que sa facture soit retrouvée, les deux bronzes « Kaperski » attendent
+  la lecture de leur signature, et la tête en grès rouge comme le relief au héron attendent
+  qu'un spécialiste se prononce sur leur authenticité. Une dizaine d'autres fiches portent un champ `todo` —
   une vérification à mener, non une lacune de description.
 - **Photos** : les sites des maisons de vente restent inaccessibles depuis la session
   (zacke.at, millon.com, tajan.com, auction.de, artcurial.com sont bloqués par la politique
-  réseau). Les 51 photos présentes viennent du Google Drive de la collection ; les autres
+  réseau). Les photos présentes viennent du Google Drive de la collection ; les autres
   pièces attendent une photo dans `photos/<id>.jpg`.
 - Chaque entrée porte une `notice` : période, iconographie, technique et provenance. Le texte
   propre à l'objet vient de la facture ou de la notice de lot ; le contexte historique est
@@ -93,8 +95,8 @@ dessous :
   au-delà de `WARN_LIMIT` (8 Mo). Chaque construction annonce la marge restante
   en nombre de photos.
 
-Au 5 septembre 2026 : 88 entrées, 7,8 Mo, 79 photos, 227 documents liés. Les photos sont
-descendues à 900 px automatiquement pour tenir le budget.
+Au 5 septembre 2026 : 99 entrées, 7,1 Mo, 90 photos, 264 documents liés. Les photos sont
+descendues à 800 px automatiquement pour tenir le budget.
 
 Les objets sortis de la collection — offerts, revendus, acquis pour un tiers —
 ne sont pas détruits : leur dossier Drive est déplacé sous « ZZ - Hors collection »,
