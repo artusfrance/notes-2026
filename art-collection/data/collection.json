@@ -4208,6 +4208,93 @@
         }
       ],
       "todo": "Faire examiner par un égyptologue (authenticité) ; relever les dimensions ; chercher une facture ou un certificat dans les papiers familiaux."
+    },
+    {
+      "category": "Sculpture",
+      "house": "Hôtel des Ventes Giraudeau",
+      "city": "Tours",
+      "sale": "Belle vente mobilière",
+      "saleDate": "2022-05-21",
+      "lot": "329",
+      "price": 24000,
+      "currency": "EUR",
+      "priceNote": "Adjugé 24 000 € ; honoraires 5 760 € (24 %) ; total réglé 29 760 € par virement le 25 mai 2022 (bordereau acquéreur n° 134757).",
+      "delivery": "",
+      "location": "",
+      "photoSource": "Reproduction de la base Artprice (filigranée) versée au dossier — à remplacer par une photographie de l'objet.",
+      "confidence": "confirme",
+      "acquisition": "achat",
+      "id": "2022-giraudeau-329-hierholtz",
+      "title": "Gustav Adolphe Hierholtz (1877-1948), « Éléphant arrachant une souche »",
+      "origin": "Sculpture en bronze à la cire perdue, patine verte, cachet de fondeur Susse Frères Éditeurs, marquée « Bronze 3 ». 37 × 41 × 18 cm.",
+      "photos": [
+        "2022-giraudeau-329-hierholtz.jpg"
+      ],
+      "notice": "Éléphant d'Asie, tête baissée, les défenses engagées sous une souche qu'il enserre de sa trompe : un motif directement issu du séjour indochinois de l'artiste — les éléphants de trait employés au débardage et dans les plantations. Le modelé vibrant, travaillé par touches, porte la leçon de Rodin appliquée à l'animal.\n\nGustave Adolphe Hierholtz, né à Lausanne en 1877 de parents français, se forme dans l'atelier de Rodin et expose au Salon dès 1907. Pensionnaire de la villa Abd-el-Tif à Alger en 1912, il part après la Grande Guerre pour l'Indochine, où il dirige de 1919 à 1930 l'école des arts appliqués de Hanoï tout en poursuivant son œuvre animalière.\n\nL'épreuve, fondue à la cire perdue par Susse Frères — l'une des deux grandes fonderies d'édition parisiennes avec Hébrard —, porte le numéro 3 ; une autre épreuve du modèle, numérotée 4, est passée en vente publique. En regard dans la collection : l'éléphant de Rembrandt Bugatti (fonte Hébrard) et la jonque d'André Maire, autre artiste d'Indochine.",
+      "driveFolderId": "1j0KWCmrTBa6gIvzpnoBgqx0BEn_LZ808",
+      "driveFolderName": "2022-05 Giraudeau lot 329 - Hierholtz - Elephant arrachant une souche",
+      "driveUrl": "https://drive.google.com/drive/folders/1j0KWCmrTBa6gIvzpnoBgqx0BEn_LZ808",
+      "driveDocs": [
+        {
+          "label": "Fiche de l'éléphant",
+          "kind": "Notice",
+          "url": "https://docs.google.com/document/d/1v9Mtx5wwJrTZilCH3TJ4R1MfCrWmEhXWDL9cl9X8ADQ/view"
+        },
+        {
+          "label": "Bordereau acquéreur n° 134757",
+          "kind": "Facture",
+          "url": "https://drive.google.com/file/d/1KbguzSYWoJ_sHHykPJMqHfE2OX9OFDXy/view"
+        },
+        {
+          "label": "Photographie (base Artprice)",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/11vXGPCK4BAkr3DgMLE8kPHLVI9x22N3T/view"
+        }
+      ],
+      "todo": "Remplacer la photographie filigranée par une photographie de l'objet en situation."
+    },
+    {
+      "category": "Sculpture",
+      "house": "Collection familiale",
+      "city": "",
+      "sale": "Reçu en héritage",
+      "saleDate": "2026-06-01",
+      "lot": "",
+      "currency": "EUR",
+      "priceNote": "Reçu en héritage en juin 2026 d'Huguette Catherine Laudenbach, née du Vivier : pas de prix d'acquisition.",
+      "delivery": "",
+      "location": "",
+      "photoSource": "Photographies du 5 septembre 2026 (profil, dessous inscrit).",
+      "confidence": "confirme",
+      "acquisition": "heritage",
+      "id": "2026-h-barye-elephant",
+      "title": "Antoine-Louis Barye (1795-1875), « Éléphant du Sénégal », fonte Barbedienne",
+      "origin": "Bronze à patine brun-noir, fonte d'édition F. Barbedienne (« F. BARBEDIENNE FONDEUR » sur la terrasse). Sous la base : inscription « J.R. 1890. », monogramme incisé, numéro sur la barrette. Dimensions à relever.",
+      "photos": [
+        "2026-h-barye-elephant.jpg"
+      ],
+      "notice": "Éléphant lancé au trot, trompe recourbée, oreilles déployées, queue au vent : l'« Éléphant du Sénégal » est la dernière, la plus dynamique et la plus populaire des quatre études d'éléphants de Barye, conçue en pendant de l'« Éléphant de Cochinchine ». Barye, fondateur de l'école animalière française, dessinait au Jardin des Plantes ; le mouvement saisi ici annonce Bugatti.\n\nÀ la vente de l'atelier Barye (Drouot, février 1876), la maison Barbedienne acquit les droits d'édition des modèles et édita l'« Éléphant du Sénégal » avec un immense succès, en plusieurs tailles. L'inscription « J.R. 1890. » peinte sous la base — vraisemblablement une marque de propriétaire datée — est cohérente avec une fonte Barbedienne des années 1876-1890, la belle période de l'édition.\n\nProvenance : collection d'Huguette Catherine Laudenbach, née du Vivier ; transmis par héritage en juin 2026. Avec l'éléphant de Bugatti (fonte Hébrard) et celui de Hierholtz (fonte Susse), les trois grandes fonderies d'édition parisiennes sont réunies dans la collection autour du même animal.",
+      "driveFolderId": "1VN1D_866yIXCZ9d6k1X2I7C0l6ObkUra",
+      "driveFolderName": "2026-06 Heritage Laudenbach - Barye - Elephant du Senegal",
+      "driveUrl": "https://drive.google.com/drive/folders/1VN1D_866yIXCZ9d6k1X2I7C0l6ObkUra",
+      "driveDocs": [
+        {
+          "label": "Fiche de l'éléphant",
+          "kind": "Notice",
+          "url": "https://docs.google.com/document/d/1kRZ58KcKra9kMUruSQpPA3jtwYIAe4w1pozF9n-K0Bs/view"
+        },
+        {
+          "label": "Vue de profil",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1Dx5VXDy0UmNsIbS4lDQITiMHEFUyH2Ge/view"
+        },
+        {
+          "label": "Dessous inscrit « J.R. 1890 »",
+          "kind": "Photo",
+          "url": "https://drive.google.com/file/d/1vNII55cHzeng2Wi7riGJOwfLJwoN5-6q/view"
+        }
+      ],
+      "todo": "Relever les dimensions (grand modèle ou réduction) ; photographier la signature « BARYE » sur la terrasse ; identifier le monogramme sous la base."
     }
   ],
   "aVerifier": [
