@@ -47,8 +47,8 @@ Les emplacements et notes saisis dans l'application sont enregistrés dans le
   par lien vers son extranet plutôt qu'en pièce jointe, le cacatoès attend un certificat
   CITES établi au nom du propriétaire, les dessins de l'héritage donnés à Matisse,
   à Fragonard et à Bonnard attendent un avis d'expert, la « Jonque à la porte de lune »
-  d'André Maire attend que sa facture soit retrouvée, les deux bronzes « Kaperski » attendent
-  la lecture de leur signature, et la tête en grès rouge comme le relief au héron attendent
+  d'André Maire attend que sa facture soit retrouvée, les deux bronzes attribués à Carpeaux attendent
+  la confirmation de leur signature, et la tête en grès rouge comme le relief au héron attendent
   qu'un spécialiste se prononce sur leur authenticité. Une dizaine d'autres fiches portent un champ `todo` —
   une vérification à mener, non une lacune de description.
 - **Photos** : les sites des maisons de vente restent inaccessibles depuis la session
