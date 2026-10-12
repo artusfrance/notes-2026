@@ -10,6 +10,7 @@ def walk(folder, path):
         try: m = folder.get_sub_message(i)
         except Exception: continue
         n += 1
+        if n % 2000 == 0: print("...", n, "messages lus,", len(hits), "trouvés", flush=True)
         subj = m.subject or ""; 
         try: body = m.plain_text_body
         except Exception: body = None
@@ -35,5 +36,5 @@ def walk(folder, path):
         sf = folder.get_sub_folder(j); walk(sf, path + "/" + (sf.name or ""))
 walk(root, "")
 hits.sort(key=lambda h: h["date"] or "")
-json.dump(hits, open(out, "w"), ensure_ascii=False, indent=1)
+json.dump(hits, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print("messages scanned:", n, "hits:", len(hits))
